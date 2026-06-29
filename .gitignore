@@ -1,0 +1,12 @@
+﻿# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Output intermedio
+output/drafts/*.tmp
+
+# Credenciais
+*.env
+secrets.ps1
+api-key.txt
