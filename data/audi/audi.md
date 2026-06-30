@@ -289,3 +289,31 @@ Baseado no indice da query Audi (marca): range 60-95, comparavel em magnitude ao
 
 ### Proximos passos
 Modulo 1 - Volkswagen, mesma estrutura de 4 queries
+
+## Módulo 2 — CP1 — Findability a partir da homepage
+
+Marca: Audi
+Data da observação: 30/06/2026
+Hora de início: 15:46
+
+Resultado: Bom
+Caminho percorrido: Homepage > clique no logo Audi no carousel de marcas (1ª posição no momento da observação) > /gama/audi/
+Número de cliques: 1
+Nota metodológica: o carousel de marcas é automático/rotativo — a posição da Audi não é fixa, esteve visível por coincidência de timing no carregamento da página. Esta nota revê a suposição inicial feita no registo da BMW (3ª posição), que não deve ser lida como posição estrutural fixa.
+Screenshot: assets/audi/funnel/cp1-pagina-gama-audi.png
+Observação: Página dedicada com URL própria (/gama/audi/), preços "Desde X€" visíveis no listing sem clique adicional, segmentação por modelo incluindo várias variantes e-tron (A6 e-tron, e-tron GT, Q6 e-tron). Modelos em destaque são todos de gama alta (RS5 Limousine, RS5 Avant, S6 Sportback e-tron) — não inclui o A3, modelo identificado como query principal no Módulo 1.
+
+
+## Módulo 2 — CP2 — Página de modelo ou listing de stock
+
+Marca: Audi
+Data da observação: 30/06/2026
+Hora de início: 16:15
+
+Resultado: Aceitável
+URL da página de marca/modelo encontrada: /carros-audi/audi-rs-5-limousine/
+Stock real visível: não
+Número aproximado de unidades listadas: 0 (ficha de modelo genérica)
+Screenshot: assets/audi/funnel/cp2-ficha-modelo-rs5.png, assets/audi/funnel/cp2-formulario-pedir-info.png
+Observação: Página "Audi RS 5 Limousine" sem stock concreto — sem VIN, matrícula real, quilometragem ou cor específica. Secção "Motorizações" lista uma única versão (Híbrido PHEV, 2.9 TFSI Quattro Tiptronic, 639 CV). Texto descreve "autonomia totalmente eléctrica" de 84 km apesar de ser híbrido plug-in, não eléctrico puro — risco de confusão terminológica relevante para CP10. Galeria de imagens alojada em domínio externo (assets.maxterauto.com), confirma conteúdo de catálogo de terceiros. Dois mecanismos de contacto reais na página, ambos levando ao mesmo objectivo: (1) CTA "Quero experimentar" no topo, abre modal de pedido de test-drive — mesmo componente observado na BMW (Nome, Apelidos, Telefone, E-mail obrigatórios, Concelho opcional, reCAPTCHA); (2) link "Solicitar oferta" junto à motorização e formulário inline "Pedir informação" no fundo da página apontam para a mesma secção/formulário (Nome/Apelidos/E-mail/Telefone/Concelho obrigatórios + Comentários opcional, sem reCAPTCHA visível). Nenhum dos dois pede unidade, cor ou versão específica — confirma ausência de ligação a stock real.
+

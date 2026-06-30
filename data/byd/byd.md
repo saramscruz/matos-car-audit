@@ -311,3 +311,30 @@ A BYD representa a oportunidade de procura mais robusta e mais homogenea geograf
 
 ### Proximos passos
 Modulo 1 - Citroen, ultima marca do conjunto de 5. Mesma estrutura de 4 queries.
+
+## Módulo 2 — CP1 — Findability a partir da homepage
+
+Marca: BYD
+Data da observação: 30/06/2026
+Hora de início: 16:01
+
+Resultado: Bom
+Caminho percorrido: Homepage > carousel de marcas > clique no logo BYD (4ª posição, visível directamente sem cliques de seta) > /gama/byd/
+Número de cliques: 1
+Screenshot: assets/byd/funnel/cp1-pagina-gama-byd.png
+Observação: Página dedicada com URL própria (/gama/byd/), preços "Desde X€" visíveis no listing, segmentação por modelo (Atto 3, Dolphin, Atto 2, Seal, Seal U, Sealion 7, Tang, Han, Seal 6). Imagem de hero mostra o Atto 2, mas os três modelos em destaque no listing (Seal 6 DM-i Touring 44.925€, Seal 6 DM-i 42.125€, Atto 3 Evo 41.425€) não incluem o Atto 2. Dois dos três destaques são variantes "DM-i" (híbrido plug-in BYD), não eléctrico puro — a distinção entre EV puro e híbrido não está visualmente marcada nos cards de destaque.
+
+
+## Módulo 2 — CP2 — Página de modelo ou listing de stock
+
+Marca: BYD
+Data da observação: 30/06/2026
+Hora de início: 16:27
+
+Resultado: Aceitável
+URL da página de marca/modelo encontrada: /carros-byd/byd-novo-seal-6-dm-i-touring/
+Stock real visível: não
+Número aproximado de unidades listadas: 0 (ficha de modelo genérica)
+Screenshot: assets/byd/funnel/cp2-ficha-modelo-seal6.png, assets/byd/funnel/cp2-motorizacoes.png, assets/byd/funnel/cp2-formulario-pedir-info.png
+Observação: Página "BYD Novo Seal 6 DM-i Touring" sem stock concreto — sem VIN, matrícula real, quilometragem ou cor específica. Secção "Motorizações" lista 2 variantes (Híbrido Sem Chumbo Comfort, 212 CV; Híbrido Sem Chumbo Comfort Lite, 212 CV), ambas correctamente etiquetadas como "Híbrido" — ao contrário da Audi, não há confusão terminológica entre eléctrico puro e híbrido. Secção de garantia visível antes do formulário: 8 anos/150.000 km garantia de fabricante, 8 anos/200.000 km garantia da bateria — diferencial não observado nas outras 3 marcas, consistente com estratégia típica de marcas chinesas a construir confiança em mercados novos. CTA "Quero experimentar" e formulário "Pedir informação" seguem o mesmo padrão das restantes marcas (Nome/Apelidos/E-mail/Telefone/Concelho obrigatórios + Comentários opcional).
+

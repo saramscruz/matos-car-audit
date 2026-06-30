@@ -299,3 +299,30 @@ A Citroen, e especialmente o C3, representa a oportunidade de procura organica m
 
 ### Proximos passos
 Modulo 1 esta completo - 5 marcas, 20 queries no total, fieldwork de Google Trends concluido. Seguir para Modulo 2 conforme definido no PRD.
+
+## Módulo 2 — CP1 — Findability a partir da homepage
+
+Marca: Citroën
+Data da observação: 30/06/2026
+Hora de início: 16:03
+
+Resultado: Bom
+Caminho percorrido: Homepage > carousel de marcas > clique no logo Citroën (5ª posição, visível directamente sem cliques de seta) > /gama/citroen/
+Número de cliques: 1
+Screenshot: assets/citroen/funnel/cp1-pagina-gama-citroen.png
+Observação: Página dedicada com URL própria (/gama/citroen/), preços "Desde X€" visíveis no listing, segmentação por modelo (Ami, C3, C4, C5, Berlingo, Spacetourer). Os três modelos em destaque são todos eléctricos puros com prefixo "ë-" (ë-C5 Aircross 40.690€, ë-SpaceTourer 47.601€, ë-Berlingo 36.302€) — a Citroën é, das 5 marcas observadas, a única com destaque EV exclusivo na página de gama. O C3, modelo central no Módulo 1 (único caso onde a query de modelo iguala a força geográfica da marca), está disponível como filtro mas não aparece nos cards de destaque.
+
+
+## Módulo 2 — CP2 — Página de modelo ou listing de stock
+
+Marca: Citroën
+Data da observação: 30/06/2026
+Hora de início: 16:30
+
+Resultado: Aceitável
+URL da página de marca/modelo encontrada: /carros-citroen/citroen-novo-e-c5-aircross/
+Stock real visível: não
+Número aproximado de unidades listadas: 0 (ficha de modelo genérica)
+Screenshot: assets/citroen/funnel/cp2-ficha-modelo-ec5aircross.png, assets/citroen/funnel/cp2-motorizacoes.png, assets/citroen/funnel/cp2-formulario-pedir-info.png
+Observação: Página "Citroen Novo ë-C5 Aircross" sem stock concreto — sem VIN, matrícula real, quilometragem ou cor específica. Secção "Motorizações" lista 5 variantes, todas correctamente etiquetadas "Eléctrico" (230cv Autonomia Alargada Auto MAX; 210cv Autonomia Longa Auto MAX; 230cv Autonomia Alargada Auto PLUS; 210cv Autonomia Longa Auto PLUS; 230cv Autonomia Alargada Auto BUSINESS) — consistência terminológica mantida, sem ambiguidade eléctrico/híbrido. DEFEITO DE QUALIDADE identificado: nomes das variantes aparecem truncados/cortados ("Elétri 230cv...", "Elétr 230cv...", "Elé 230cv...") — provável limite de caracteres mal configurado no sistema de catálogo, afecta legibilidade e credibilidade. O bloco de texto promocional genérico (presente em todas as marcas observadas, conteúdo variável conforme fornecido pelo fabricante/distribuidor) aqui aborda sustentabilidade (bancos com tecidos reciclados) — conteúdo equivalente ao que noutras marcas abordou design ou funcionalidades práticas. CTA "Quero experimentar" e formulário "Pedir informação" seguem o padrão consistente das restantes marcas.
+

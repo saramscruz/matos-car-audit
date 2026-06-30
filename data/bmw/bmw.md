@@ -261,3 +261,36 @@ Topicos relacionados - Top:
 
 FINDING: "BMW concessionario" nao e uma query usada em Portugal. Procura local por BMW faz-se por outras formas ("BMW portugal", "BMW [cidade]"). Confirma que visibilidade local deve ser medida via pesquisas directas por distrito (Modulo 3), nao via Google Trends.
 Screenshot: bmw-concessionario.png
+
+## Módulo 2 — CP1 — Findability a partir da homepage
+
+Marca: BMW
+Data da observação: 30/06/2026
+Hora de início: 15:35
+
+Resultado: Bom
+Caminho percorrido: Homepage > clique no logo BMW no carousel de marcas (3ª posição) > /gama/bmw/
+Número de cliques: 1
+Caminho alternativo identificado: dropdown "Marca:" no widget "Encontre o seu carro" > seleção BMW > /carros-usados/ (filtrado)
+Screenshot: assets/bmw/funnel/cp1-pagina-gama-bmw.png, assets/bmw/funnel/cp1-rota-alternativa-dropdown.png
+Observação: Existe página dedicada por marca com URL própria (/gama/bmw/), preços "Desde X€" visíveis no listing, segmentação por série (1, 2, 3, 4, 5, 7, 8, X, X7, Z, M, i, iX, Híbrido Plug-In). Acesso em 1 clique via carousel de logos na homepage.
+
+
+## Nota de correção — CP1 BMW (adicionada após observação da Audi)
+
+O registo original do CP1 BMW refere a BMW como estando na "3ª posição" do carousel de marcas. Esta referência foi feita assumindo posição fixa. A observação subsequente do CP1 Audi revelou que o carousel é automático/rotativo, pelo que a posição de qualquer marca no momento da observação é circunstancial, não estrutural. O resultado do CP1 BMW (Bom, 1 clique, /gama/bmw/) mantém-se válido — apenas a referência de posição deve ser lida como "posição observada no momento", não como hierarquia fixa do site.
+
+
+## Módulo 2 — CP2 — Página de modelo ou listing de stock
+
+Marca: BMW
+Data da observação: 30/06/2026
+Hora de início: 16:08
+
+Resultado: Aceitável
+URL da página de marca/modelo encontrada: /carros-bmw/bmw-novo-i3/
+Stock real visível: não
+Número aproximado de unidades listadas: 0 (ficha de modelo genérica, não unidade concreta)
+Screenshot: assets/bmw/funnel/cp2-ficha-modelo-i3.png, assets/bmw/funnel/cp2-modal-test-drive.png
+Observação: Página de modelo "Novo i3" sem stock concreto — sem VIN, matrícula real, quilometragem, ano ou cor específica. Conteúdo é texto promocional do fabricante (autonomia WLTP, descrição de design), galeria de fotos e vídeo. CTA "Quero experimentar" abre modal de pedido de test-drive (não Reservar/compra): campos Nome, Apelidos, Telefone, E-mail obrigatórios, Concelho opcional, checkboxes de privacidade e marketing, protegido por reCAPTCHA. Formulário não pede unidade, cor ou versão específica — confirma ausência de ligação a stock real. Página permanece no domínio amatoscar.pt, sem redirecção externa.
+

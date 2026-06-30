@@ -306,3 +306,34 @@ Baseado no indice da query Volkswagen (marca): range 50-90, padrao estavel sem p
 
 ### Proximos passos
 Modulo 1 - BYD, mesma estrutura. Esta marca e particularmente relevante dado que apareceu como concorrente associado em todas as 3 marcas analisadas ate agora (BMW, Audi via ausencia, VW) - vamos poder testar a procura organica da propria BYD em comparacao com a procura que esta a "roubar" as marcas alemas
+
+## Módulo 2 — CP1 — Findability a partir da homepage
+
+Marca: Volkswagen
+Data da observação: 30/06/2026
+Hora de início: 15:56
+
+Resultado: Bom
+Caminho percorrido: Homepage > carousel de marcas > clique no logo Volkswagen > /gama/volkswagen/
+Número de cliques (critério oficial, clique de selecção): 1
+Screenshot: assets/volkswagen/funnel/cp1-pagina-gama-volkswagen.png
+Observação: Página dedicada com URL própria (/gama/volkswagen/), preços "Desde X€" visíveis no listing, segmentação por modelo (Polo, T-Cross, Taigo, T-Roc, Golf, ID.3, ID.4, ID.5, ID.7, Tiguan, Tayron, Passat). Modelos em destaque: Tayron 47.633€, ID.7 Tourer 56.458€, ID.5 50.700€ — dois dos três em destaque são eléctricos (ID.7, ID.5), ao contrário da Audi e BMW onde os destaques eram modelos a combustão/híbridos de gama alta.
+
+## Achado separado — fricção de descoberta no carousel rotativo
+
+Apesar do resultado "Bom" pelo critério oficial (1 clique de selecção), a observação prática revelou fricção significativa: foram necessários 12 cliques na seta '>' do carousel até a Volkswagen ficar visível, antes do clique final de selecção (13 cliques no total). Isto contrasta com BMW e Audi, ambas visíveis sem interacção com a seta. A Volkswagen é identificada no PRD como "marca de maior volume histórico, âncora do portfólio" — esta fricção de descoberta no carousel da homepage está em tensão directa com esse posicionamento. Nota metodológica: o critério oficial de cliques do protocolo mede apenas o caminho de selecção final, não a fricção de descoberta num carousel rotativo; este achado é registado à parte para não distorcer a comparabilidade do scorecard entre marcas, mas deve ser referido na secção de findings transversais do relatório.
+
+
+## Módulo 2 — CP2 — Página de modelo ou listing de stock
+
+Marca: Volkswagen
+Data da observação: 30/06/2026
+Hora de início: 16:22
+
+Resultado: Aceitável
+URL da página de marca/modelo encontrada: /carros-volkswagen/volkswagen-tayron/
+Stock real visível: não
+Número aproximado de unidades listadas: 0 (ficha de modelo genérica)
+Screenshot: assets/volkswagen/funnel/cp2-ficha-modelo-tayron.png, assets/volkswagen/funnel/cp2-motorizacoes.png, assets/volkswagen/funnel/cp2-formulario-pedir-info.png
+Observação: Página "Volkswagen Tayron" sem stock concreto — sem VIN, matrícula real, quilometragem ou cor específica. Secção "Motorizações" presente e mais detalhada do que nas outras marcas observadas até agora: 5 variantes listadas (Sem Chumbo 1.5 eTSI 150cv URBAN; Híbrido PHEV 1.5 TSI 204cv URBAN; Diesel 2.0 TDI 150cv URBAN; Híbrido PHEV 1.5 TSI 204cv R-LINE; Híbrido PHEV 1.5 TSI 272cv R-LINE), cada uma com link próprio "Solicitar oferta" (aponta para formulário "Pedir informação" no fundo da página, mesmo padrão da Audi). CTA "Quero experimentar" no topo abre o mesmo modal de test-drive observado em BMW e Audi. Inconsistência de profundidade de conteúdo entre marcas confirmada: BMW i3 não tem secção Motorizações (só galeria+vídeo), Audi RS5 tem 1 motorização listada, VW Tayron tem 5 — sugere desigualdade na actualização/disponibilidade de dados por ficha de modelo, não apenas por marca.
+
