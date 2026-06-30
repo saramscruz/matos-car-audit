@@ -75,3 +75,217 @@
 
 > Uma frase. Vai directamente para a pagina da AUDI no PDF.
 
+
+## Query: Audi (marca)
+Data: 2026-06-30
+Janela: Ultimos 12 meses | Portugal
+
+### Volume
+- Range: ~60-95
+- Pico mais alto: finais de fevereiro 2026 (~95)
+- Tendencia: queda acentuada final maio/inicio junho 2026 (cai para ~50)
+- Padrao volatil, sem sazonalidade clara identificavel (dentes de serra), distinto da estabilidade observada no BMW marca
+
+### Top 5 nacional (sub-regiao)
+1. Viseu - 100
+2. Braga - 99
+3. Guarda - 98
+4. Braganca - 91
+5. Aveiro - 91
+Nenhum distrito MatosCar no top 5.
+
+### Distritos MatosCar (posicao nacional de 20)
+- Portalegre: posicao 9, indice 82
+- Santarem: posicao 10, indice 81
+- Castelo Branco: posicao 15, indice 71
+- Setubal: posicao 16, indice 70
+- Evora: posicao 17, indice 66
+
+NOTA: padrao distinto do BMW marca. Aqui os distritos MatosCar ocupam posicoes medias (9-17 de 20), nao concentradas na cauda inferior. Portalegre e Santarem entram no top 10 nacional. Hipotese a testar nos proximos modulos: procura por Audi mais distribuida geograficamente do que BMW, ou efeito de menor volume absoluto a "esticar" indices relativos em distritos pequenos.
+
+### Consultas relacionadas - Principais
+1. a3 audi - 100
+2. audi a4 - 97
+3. audi de - 93
+4. audi a6 - 39
+5. audi a5 - 30
+Dominio claro do A3 e A4, com queda abrupta a partir da 3a posicao (cauda longa).
+
+### Consultas relacionadas - Em ascensao
+1. audi a5 avant e-hybrid - Aumento (breakout)
+2. audi q3 2026 - +1150%
+3. audi nuvolari - +800%
+4. audi f1 team - +250%
+5. audi q3 2025 - +170%
+
+### Topicos relacionados - Em ascensao
+1. Stratified charge engine - Topico - +850%
+2. Limusine - Classe automotiva - +350%
+3. Audi Q4 e-tron - SUV - +60%
+4. Audi Q3 - SUV - +60%
+
+NOTA sobre Stratified charge engine: associacao tecnica legitima, nao ruido. E a tecnologia por tras do motor TFSI da Audi (Turbo Fuel Stratified Injection), em producao desde 2004 (estreou no A3, depois A4 e A6). Fonte: Grokipedia / SAE / Audi Downtown Toronto. O Google Trends agrupa por topico semantico, nao por pesquisa literal - o +850% reflecte associacao tematica crescente, nao confirma volume de pesquisas reais com este termo exato em Portugal. Baixa prioridade para o produto final, mas relevante para nao descartar como erro.
+
+### Screenshot
+assets\audi\trends\audi-marca-00-grafico-top5.png
+assets\audi\trends\audi-marca-01-subregiao-11a15-topicos-principais.png
+assets\audi\trends\audi-marca-02-subregiao-16a20-topicos-consultas6a10.png
+assets\audi\trends\audi-marca-03-subregiao-6a10-consultas-ascensao.png
+
+## Query: Audi A3
+Data: 2026-06-30
+Janela: Ultimos 12 meses | Portugal
+
+### Volume
+- Range: ~65-95
+- Pico mais alto: fevereiro/marco 2026 (dois picos proximos, ~95-97)
+- Tendencia: queda acentuada final do periodo (junho 2026, cai para ~50)
+- Padrao volatil, semelhante ao da marca Audi - sem sazonalidade clara
+
+### Top 5 nacional (sub-regiao)
+1. Viseu - 100
+2. Viana do Castelo - 98
+3. Vila Real - 94
+4. Guarda - 88
+5. Braganca - 85
+Nenhum distrito MatosCar no top 5.
+
+### Distritos MatosCar (posicao nacional de 20)
+- Castelo Branco: posicao 12, indice 69
+- Santarem: posicao 13, indice 69
+- Portalegre: posicao 14, indice 68
+- Evora: posicao 16, indice 54
+- Setubal: posicao 17, indice 53
+
+NOTA - comparacao com Audi marca: padrao DIFERENTE do observado na query da marca. Na marca, Portalegre (9) e Santarem (10) entravam no top 10 nacional. No A3 isolado, todos os 5 distritos MatosCar descem para posicoes 12-17, mais agrupados entre si e mais baixo na tabela geral. A hipotese de "procura por Audi mais distribuida geograficamente" nao se confirma quando se isola o modelo mais popular (A3). Possivel explicacao a validar em modulos seguintes: procura pela marca nestes distritos pode ser puxada por outros modelos, por usados, ou por contexto de concessionario/oficina, nao pelo A3 especificamente. Tratar como hipotese, nao como facto.
+
+### Consultas relacionadas - Principais (1-10)
+1. audi a3 tdi - 100
+2. audi a3 8l - 85
+3. audi a3 sportback - 79
+4. audi a3 8p - 70
+5. audi a3 2.0 - 44
+6. audi a3 1.9 - 38
+7. a3 8v - 35
+8. audi a3 2.0 tdi - 34
+9. audi a3 8v - 34
+10. audi a3 1.9 tdi - 34
+
+FINDING FORTE: 6 das 10 consultas principais referem-se a geracoes antigas do A3 (8L: 1996-2003, 8P: 2003-2012, 8V: 2012-2020) e motorizacoes diesel TDI especificas, incluindo 1.9 TDI, motor descontinuado ha mais de uma decada. Isto nao reflete procura por carro novo - indica procura por pecas, manutencao, ou compra de usado de geracoes antigas. Relevante para o desenho do produto: o publico que pesquisa "Audi A3" em Portugal parece estar maioritariamente no universo do usado/manutencao, nao no funil de compra de novo.
+
+### Consultas relacionadas - Em ascensao
+1. audi a3 2025 preco - Aumento (breakout)
+2. mercedes a200 - Aumento (breakout)
+3. audi a3 2026 - +4950%
+4. audi a3 p8 - +200%
+5. audi a3 review - +190%
+
+NOTA: aqui ja aparece procura por modelo novo (2025/2026) e um concorrente direto (Mercedes A200) como termo associado em ascensao - sinal de comparacao ativa entre Audi A3 e Mercedes Classe A no momento de decisao de compra. Util para perceber contra quem a Audi compete no segmento premium-compacto em Portugal.
+
+### Topicos relacionados - Em ascensao
+1. Audi A3 Sportback Chrome Side Door Trims - Aumento (breakout)
+2. Stratified charge engine - Topico - +1150%
+3. Limusine - Classe automotiva - +650%
+4. Audi - Empresa - +110%
+5. Audi - Topico - +80%
+
+NOTA: Stratified charge engine reaparece com percentagem ainda mais alta do que na query da marca (+1150% vs +850%). Confirma associacao estrutural ao motor TFSI, do qual o A3 foi o primeiro modelo de producao em 2004. Nao e ruido, e termo tecnico ligado ao historico do proprio modelo.
+
+### Screenshot
+assets\audi\trends\audi-a3-00-grafico-top5.png
+assets\audi\trends\audi-a3-01-subregiao-6a10-consultas-ascensao.png
+assets\audi\trends\audi-a3-02-subregiao-11a15-consultas-principais1a5.png
+assets\audi\trends\audi-a3-03-subregiao-16a20-consultas-principais6a10.png
+
+## Query: Audi eletrico
+Data: 2026-06-30
+Janela: Ultimos 12 meses | Portugal
+
+### Volume
+- Volume quase todo a zero ou perto disso ao longo dos 12 meses
+- Dois picos isolados e estreitos: ~100 por volta de fevereiro 2026, ~75 pouco depois
+- Subida sustentada apenas no final do periodo (final maio/inicio junho 2026), a crescer ate ~60
+- Padrao de eventos pontuais (provavel lancamento de produto ou noticia especifica), nao procura organica continua - consistente com o padrao ja observado no BMW eletrico
+
+### Sub-regioes com dados (apenas 6 em todo o pais, de 20 possiveis)
+1. Braga - 100
+2. Aveiro - 79
+3. Leiria - 57
+4. Setubal - 55
+5. Porto - 52
+6. Lisboa - [indice nao confirmado, pedir se necessario]
+
+### Distritos MatosCar
+- Setubal: unico distrito MatosCar com dados, posicao 4 de 6, indice 55
+- Evora, Santarem, Portalegre, Castelo Branco: SEM DADOS - volume insuficiente para registo no Google Trends
+
+NOTA: confirma o padrao do BMW eletrico - volume demasiado baixo nos distritos MatosCar para gerar leitura fiavel. Apenas Setubal (distrito mais proximo da area metropolitana de Lisboa) atinge volume minimo. Reforca o argumento de que procura organica por veiculos eletricos de marcas premium nestes distritos e, para ja, marginal.
+
+### Topicos relacionados - Em ascensao (mostrando 5 de 11)
+1. Tesla, Inc. - Empresa de veiculo eletrico - Aumento (breakout)
+2. Audi Q6 e-tron - SUV - Aumento (breakout)
+3. 2022 - Topico - Aumento (breakout)
+4. Veiculo - Topico - Aumento (breakout)
+5. Eletrico - Tipo de servico de transito - +110%
+
+### Consultas relacionadas - Em ascensao
+1. veiculo eletrico - Aumento (breakout)
+2. audi q3 - +200%
+3. audi q4 - +50%
+
+FINDING: Tesla aparece como termo associado em ascensao, nao BYD. Padrao distinto do BMW eletrico, onde a BYD surgia como comparacao. Hipotese: quem procura Audi eletrico em Portugal posiciona mentalmente a marca contra a Tesla (concorrencia premium estabelecida), enquanto quem procura BMW eletrico associa mais a BYD (entrada/preco). Sinal fraco dado o volume residual da amostra - nao tratar como conclusao, mas reter para cruzar com Volkswagen e BYD nos proximos modulos.
+
+### Screenshot
+assets\audi\trends\audi-eletrico-00-grafico-subregiao-topicos.png
+
+### Demand tier preliminar
+Audi eletrico: Low / Irregular - consistente com BMW eletrico
+
+## Query: Audi concessionario
+Data: 2026-06-30
+Janela: Ultimos 12 meses | Portugal
+
+### Volume
+- Volume zero ao longo de quase todo o periodo
+- Unico pico isolado (~100) perto do final de maio/inicio junho 2026
+- Padrao de evento pontual (campanha, noticia ou promocao especifica), nao procura estrutural
+
+### Interesse por sub-regiao
+SEM DADOS SUFICIENTES em nenhum distrito do pais, incluindo os 5 distritos MatosCar. Padrao mais extremo que o BMW concessionario, que pelo menos tinha volume residual nalgumas regioes.
+
+### Consultas relacionadas
+SEM DADOS SUFICIENTES - nao ha consultas associadas com volume minimo para registo.
+
+### Topicos relacionados - Em ascensao
+1. Concessionaria de automoveis - Topico - +100%
+Unica entrada, termo generico do Trends, nao especifico da Audi.
+
+### CONCLUSAO DA QUERY
+Confirma o padrao identificado no BMW concessionario: "[marca] concessionario" nao e um termo de pesquisa usado pelos portugueses para encontrar pontos de venda. O resultado e ainda mais extremo na Audi do que na BMW (BMW tinha pelo menos volume residual nalgumas regioes; Audi nao tem dados em nenhuma). 
+
+FINDING CONSOLIDADO (2 marcas premium alemãs): a procura por marca+concessionario nao e um canal de descoberta real em Portugal via pesquisa Google. Hipoteses para o comportamento real do consumidor: (1) pesquisa direta pelo nome do concessionario que ja conhece, (2) pesquisa "[marca] + localidade" sem o termo concessionario, (3) uso direto de Google Maps sem passar por pesquisa textual, (4) acesso direto ao site institucional da marca. Confirma a decisao metodologica de que a visibilidade local dos concessionarios MatosCar deve ser medida no Modulo 3 (auditoria de presenca local / Google Business Profile / SEO local), nao via Google Trends.
+
+### Screenshot
+assets\audi\trends\audi-concessionario-00-grafico-semdados.png
+
+## RESUMO MODULO 1 - AUDI
+Data: 2026-06-30
+
+### Demand Tier: High
+Baseado no indice da query Audi (marca): range 60-95, comparavel em magnitude ao BMW (75-85), ainda que mais volatil e com queda acentuada no final do periodo analisado (maio/junho 2026 - a confirmar se e sazonal ou tendencia, nos proximos modulos ou em janela temporal mais longa).
+
+### Findings principais
+1. Audi marca: distritos MatosCar em posicoes medias nacionais (9-17 de 20), nao concentrados na cauda inferior como a BMW
+2. Audi A3: modelo mais procurado, mas dominado por geracoes antigas (8L, 8P) e motorizacoes TDI descontinuadas - sinal de procura por usado/manutencao, nao por carro novo
+3. Audi eletrico: volume residual e irregular, identico ao padrao BMW eletrico. Termo associado e Tesla, nao BYD (distinto do padrao BMW) - hipotese de posicionamento competitivo diferente, a validar
+4. Audi concessionario: sem procura mensuravel em qualquer distrito - confirma e reforca o finding do BMW de que visibilidade local nao se mede via Trends, mas no Modulo 3
+
+### Comparacao com BMW (Modulo 1 anterior)
+- Demand tier: ambos High
+- Volatilidade: Audi mais instavel que BMW ao longo do tempo
+- Distribuicao geografica nos distritos MatosCar: Audi mais distribuida na marca, mas concentra-se de forma semelhante a BMW quando se isola o modelo principal
+- Eletrico: ambas com procura residual, mas concorrencia percebida diferente (BMW-BYD vs Audi-Tesla)
+- Concessionario: ambas sem sinal relevante, Audi ainda mais extremo
+
+### Proximos passos
+Modulo 1 - Volkswagen, mesma estrutura de 4 queries
