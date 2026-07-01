@@ -424,3 +424,32 @@ Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
 Screenshot: beja-bmw-1.png, beja-bmw-2.png, beja-bmw-3.png, beja-bmw-4.png
 
 Observação livre (uma frase — só se houver algo inesperado): Primeira vez que o Knowledge Panel aparece como perfil de grupo ("Grupo A MAtosCar") em vez de perfil específico da marca BMW, e aparecia Fechado no momento da captura — diferente do padrão de Castelo Branco e Évora.
+## Modulo 3 - Pesquisa 16 - BMW Portalegre
+Query: bmw portalegre
+Distrito / cidade: Portalegre
+Data: 01/07/2026  Hora: 14:01
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+Resultado 1: BMW A MatosCar - bmw.amatoscar.pt
+Resultado 2: PRcar - BMW Usados e Seminovos Premium - Portalegre - prcar.pt
+Resultado 3: BMW Portugal - Concessionarios BMW - bmw.pt
+
+MatosCar aparece nos primeiros 3 organicos: sim, posicao 1
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack: sim
+MatosCar aparece no Local Pack: sim, em duas posicoes (A e C)
+Outros dealers no Local Pack:
+  1. PRcar - Automoveis Pedro Ru... (posicao B), Zona Industrial, Av. Francisco Fino
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. PRcar (prcar.pt) - tambem presente em Evora
+  2. Standvirtual e OLX Portugal - agregadores, mostram stock da PRcar
+
+Screenshot: portalegre-bmw-1.png a portalegre-bmw-4.png
+
+Observacao livre: Duas entradas MatosCar no Local Pack com moradas diferentes na mesma avenida (Industrial 17 vs Industrial 35) - possivel duplicacao de entidade GBP, mesmo padrao do caso Garrido & Camacho em Beja. PRcar e concorrente multi-distrito (Evora + Portalegre), como a Irmaos Luzias em Beja.

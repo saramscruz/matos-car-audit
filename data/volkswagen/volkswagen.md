@@ -1,4 +1,4 @@
-﻿# VOLKSWAGEN - Registo de Fieldwork
+# VOLKSWAGEN - Registo de Fieldwork
 **MatosCar Regional Demand Audit - 2026**
 
 ---
@@ -431,3 +431,32 @@ Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
 Screenshot: beja-vw-1.png, beja-vw-2.png, beja-vw-3.png, beja-vw-4.png
 
 Observação livre (uma frase — só se houver algo inesperado): FINDING ACCIONÁVEL — segunda pesquisa consecutiva em Beja com visibilidade zero da MatosCar (após Audi); Irmãos Luzias confirma-se como dealer multimarca estabelecido (Mazda+Skoda+VW) em Beja, dominando totalmente a SERP para ambas as marcas onde a MatosCar está ausente.
+## Modulo 3 - Pesquisa 18 - Volkswagen Portalegre
+Query: Volkswagen Portalegre
+Distrito / cidade: Portalegre
+Data: 01/07/2026  Hora: 14:14
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+SERP abre com Knowledge Panel de entidade unica: Volkswagen - Car W - A MatosCar, 2,3 estrelas (3 avaliacoes), R. Alexandre Herculano 102-104, Portalegre.
+Resultado 1 (organico de pagina): PRcar - VOLKSWAGEN - Portalegre - prcar.pt
+Resultado 2: OLX Portugal - Volkswagen - VW - Carros Portalegre - olx.pt
+Resultado 3: autonews.pt - Evoracar Portalegre, Concessionario Auto Volkswagen em Distrito de...
+
+MatosCar aparece nos primeiros 3 organicos de pagina: nao
+Aparece noutro ponto visivel sem scroll: sim - Knowledge Panel dominante no topo, antes de todos os resultados organicos
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack classico: nao (substituido por Knowledge Panel de entidade unica)
+MatosCar aparece: sim, posicao dominante unica
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. PRcar (prcar.pt) - terceiro distrito consecutivo (Evora, Portalegre)
+  2. Evoracar - Av. Francisco Fino Industrial 30, Portalegre - mesma zona industrial da MatosCar/PRcar; ja identificado em Evora como concorrente Audi+VW
+
+Screenshot: portalegre-vw-1.png a portalegre-vw-4.png
+
+Observacao livre: Padrao Knowledge Panel de entidade unica (ja visto em BMW Castelo Branco) repete-se para VW em Portalegre - dominancia total do espaco de resultados, mas com avaliacao baixa (2,3 estrelas, so 3 reviews) comparada a pagina Facebook A MatosCar (4,0 estrelas, 81 reviews) que aparece mais abaixo na mesma SERP - possivel perfil GBP secundario ou mal gerido. Evoracar confirma-se como concorrente multi-distrito (Evora + Portalegre), tal como a PRcar - ambos fisicamente na mesma zona industrial da MatosCar em Portalegre.

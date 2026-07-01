@@ -59,11 +59,11 @@ Preencher uma linha por pesquisa, à medida que avanças. Os detalhes completos 
 | 13 | Baixo Alentejo | Beja | Volkswagen | `Volkswagen Beja` | ✗ | ✗ | ✗ | ✗ | Irmãos Luzias domina toda a SERP | beja-vw-1.png, beja-vw-2.png, beja-vw-3.png, beja-vw-4.png |
 | 14 | Baixo Alentejo | Beja | BYD | `BYD Beja` | ✓ (pos 3) | ✗ | ✗ | ✗ | Spoticar (Motorpor), M. & Costas | beja-byd-1.png, beja-byd-2.png, beja-byd-3.png, beja-byd-4.png |
 | 15 | Baixo Alentejo | Beja | Citroën | `Citroën Beja` | ✓ (pos 1) | ✓ (Knowledge Panel próprio, Fechado) | ✗ | ✗ | nenhum (Garrido & Camacho = mesma entidade, a confirmar) | beja-citroen-1.png, beja-citroen-2.png, beja-citroen-3.png, beja-citroen-4.png |
-| 16 | Alto Alentejo | Portalegre | BMW | `BMW Portalegre` | | | | | | |
-| 17 | Alto Alentejo | Portalegre | Audi | `Audi Portalegre` | | | | | | |
-| 18 | Alto Alentejo | Portalegre | Volkswagen | `Volkswagen Portalegre` | | | | | | |
-| 19 | Alto Alentejo | Portalegre | BYD | `BYD Portalegre` | | | | | | |
-| 20 | Alto Alentejo | Portalegre | Citroën | `Citroën Portalegre` | | | | | | |
+| 16 | Alto Alentejo | Portalegre | BMW | `BMW Portalegre` | ✓ (pos 1) | ✓ (2 entradas MatosCar - possível duplicação GBP) | ✗ | ✗ | PRcar (também em Évora) | portalegre-bmw-1.png, portalegre-bmw-2.png, portalegre-bmw-3.png, portalegre-bmw-4.png |
+| 17 | Alto Alentejo | Portalegre | Audi | `Audi Portalegre` | ✗ | ✗ (Local Pack devolve MatosCar sob marca VW, nao Audi) | ✓ | ✗ | Unicar Lda / Caetano (concessionário oficial) | portalegre-audi-1.png, portalegre-audi-2.png, portalegre-audi-3.png, portalegre-audi-4.png |
+| 18 | Alto Alentejo | Portalegre | Volkswagen | `Volkswagen Portalegre` | ✗ (Knowledge Panel, não orgânico de página) | ✓ (Knowledge Panel entidade única, 2,3★/3 reviews) | ✗ | ✗ | PRcar / Evoracar (ambos na mesma zona industrial) | portalegre-vw-1.png, portalegre-vw-2.png, portalegre-vw-3.png, portalegre-vw-4.png |
+| 19 | Alto Alentejo | Portalegre | BYD | `BYD Portalegre` | ✓ (pos 3) | ✗ direto (cobertura via BYD Castelo Branco - Rodda no Local Pack) | ✗ | ✗ | nenhum | portalegre-byd-1.png, portalegre-byd-2.png, portalegre-byd-3.png, portalegre-byd-4.png |
+| 20 | Alto Alentejo | Portalegre | Citroën | `Citroën Portalegre` | ✓ (pos 1 e 3) | ✓ (Local Pack completo - 3 entradas MatosCar) | ✗ | ✗ | nenhum | portalegre-citroen-1.png, portalegre-citroen-2.png, portalegre-citroen-3.png, portalegre-citroen-4.png |
 | 21 | Beira Interior Norte | Guarda | BMW | `BMW Guarda` | | | | | | |
 | 22 | Beira Interior Norte | Guarda | Audi | `Audi Guarda` | | | | | | |
 | 23 | Beira Interior Norte | Guarda | Volkswagen | `Volkswagen Guarda` | | | | | | |

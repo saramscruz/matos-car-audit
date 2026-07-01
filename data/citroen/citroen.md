@@ -424,3 +424,32 @@ Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
 Screenshot: beja-citroen-1.png, beja-citroen-2.png, beja-citroen-3.png, beja-citroen-4.png
 
 Observação livre (uma frase — só se houver algo inesperado): Terceira vez no Bloco Beja com Knowledge Panel próprio da MatosCar Fechado no momento da captura (após BMW) — abre às 14:00 em ambos os casos, possivelmente reflectindo horário de almoço real.
+## Modulo 3 - Pesquisa 20 - Citroen Portalegre
+Query: Citroen Portalegre
+Distrito / cidade: Portalegre
+Data: 01/07/2026  Hora: 14:30
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+Resultado 1: citroen.pt - Concessionario Citroen A MatosCar Portalegre - rede.citroen.pt
+Resultado 2: Standvirtual - Citroen Portalegre - Carros - standvirtual.com
+Resultado 3: citroen.pt - A MatosCar Portalegre - rede.citroen.pt
+
+MatosCar aparece nos primeiros 3 organicos: sim, posicoes 1 e 3
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack: sim
+MatosCar aparece no Local Pack: sim, dominio total (3 de 3 posicoes)
+Outros dealers no Local Pack:
+  1. Oficina Citroen - A MatosCar - Av. Francisco Fino Industrial 35 (posicao A)
+  2. Citroen - A MatosCar - Av. da Extremadura Espanhola 14 (posicao B)
+  3. Grupo A MatosCar - Av. Francisco Fino Industrial 35 (posicao C)
+
+- CONCORRENTES IDENTIFICADOS -
+Nenhum concorrente identificado nesta SERP.
+
+Screenshot: portalegre-citroen-1.png a portalegre-citroen-4.png
+
+Observacao livre: Replica exactamente o padrao de Local Pack completo ja registado em Evora. Citroen confirma-se pela terceira vez no modulo (Castelo Branco, Evora, agora Portalegre) como a marca-ancora da rede MatosCar nos distritos onde a marca tem melhor implementacao - situacao oposta a Audi, com visibilidade zero no mesmo distrito.

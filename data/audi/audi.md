@@ -413,3 +413,37 @@ Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
 Screenshot: beja-audi-1.png, beja-audi-2.png, beja-audi-3.png, beja-audi-4.png
 
 Observação livre (uma frase — só se houver algo inesperado): FINDING ACCIONÁVEL — primeira pesquisa do módulo com visibilidade zero da MatosCar (sem anúncio, sem top 3 orgânico, sem Knowledge Panel próprio); o concorrente Irmãos Luzias (Volkswagen) domina a SERP da query Audi Beja, sugerindo ausência de perfil de Google Business dedicado à Audi da MatosCar em Beja.
+## Modulo 3 - Pesquisa 17 - Audi Portalegre
+Query: audi portalegre
+Distrito / cidade: Portalegre
+Data: 01/07/2026  Hora: 14:08
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: sim
+Anunciante 1: audi.pt (Configure o seu novo carro - Disponibilidade imediata)
+MatosCar tem anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+Resultado 1: Audi Portugal - Localizador de Concessionarios - audi.pt
+Resultado 2: Standvirtual - Audi Portalegre - Carros - standvirtual.com
+Resultado 3: OLX Portugal - Audi Portalegre - Carros - olx.pt
+
+MatosCar aparece nos primeiros 3 organicos: nao
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack: sim
+MatosCar aparece no Local Pack: nao (sob marca Audi)
+Outros dealers no Local Pack:
+  1. Unicar Lda - R. Eng. Luis Mira Amaral 27 (posicao A)
+  2. Volkswagen - Car W - A MatosCar - R. Alexandre Herculano 102-104 (posicao B)
+  3. Renault Portalegre - Av. da Extremadura (posicao C)
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. Unicar Lda
+  2. Renault Portalegre
+  3. Caetano (caetano.pt) - Concessionario Oficial Audi
+
+Screenshot: portalegre-audi-1.png a portalegre-audi-4.png
+
+Observacao livre: Visibilidade Audi da MatosCar em Portalegre e zero (sem organico, sem Local Pack proprio, sem anuncio proprio) - replica o padrao ja registado em Beja para Audi e VW. Achado notavel: o Local Pack devolve a entrada "Volkswagen - Car W - A MatosCar" na mesma morada industrial, ou seja a MatosCar esta indexada no Google nesta zona mas sob a marca VW, nao sob Audi - possivel perfil GBP nao criado ou mal segmentado para Audi especificamente.

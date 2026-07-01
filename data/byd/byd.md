@@ -439,3 +439,32 @@ Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
 Screenshot: beja-byd-1.png, beja-byd-2.png, beja-byd-3.png, beja-byd-4.png
 
 Observação livre (uma frase — só se houver algo inesperado): Ao contrário de Audi e Volkswagen em Beja, aqui o Google explica proactivamente via AI Overview a ausência física da BYD em Beja e credita a MatosCar-Évora como a cobertura regional — resultado bem mais favorável do que a substituição total por um concorrente sem menção à MatosCar.
+## Modulo 3 - Pesquisa 19 - BYD Portalegre
+Query: BYD Portalegre
+Distrito / cidade: Portalegre
+Data: 01/07/2026  Hora: 14:21
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+Resultado 1: BYD Auto Portugal - Concessionarios BYD em Portugal - byd-auto.pt
+Resultado 2: BYD Global - Encontre o seu Concessionario - byd.com
+Resultado 3: A MatosCar - Carros BYD Novos e Usados a Venda em Portugal - amatoscar.pt
+
+MatosCar aparece nos primeiros 3 organicos: sim, posicao 3
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack: sim
+MatosCar aparece no Local Pack: nao diretamente em Portalegre - surge sob a marca BYD noutra localizacao
+Outros dealers no Local Pack:
+  1. BYD Castelo Branco - Rodda - 4,6 estrelas (20) - Castelo Branco (esta e a propria MatosCar sob outra localizacao)
+  2. Santogal BYD Alfragide - 4,8 estrelas (5) - Amadora, fora da area de operacao
+  3. PEUGEOT MOTORPOR PORTA... - 4,2 estrelas (110) - Portalegre, marca nao relacionada
+
+- CONCORRENTES IDENTIFICADOS -
+Nenhum concorrente BYD directo identificado nesta SERP.
+
+Screenshot: portalegre-byd-1.png a portalegre-byd-4.png
+
+Observacao livre: Padrao identico ao ja registado em Beja para BYD - a MatosCar cobre a query BYD Portalegre por proximidade a partir de Castelo Branco (BYD Castelo Branco - Rodda), nao por presenca local dedicada. Site institucional amatoscar.pt em posicao 3 organica faz a ponte para quem pesquisa em distritos sem concessionario BYD proprio. Comportamento distinto de BMW e VW em Portalegre, onde ha presenca fisica dedicada.
