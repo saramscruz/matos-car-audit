@@ -363,3 +363,36 @@ Tres avaliacoes de 1/5 visiveis sem interaccao adicional no Knowledge Panel BMW 
 - Ana MBella (1/5, ha 2 anos): critica em espanhol, esperou quase um quarto de hora sem ser atendida.
 Rating geral visivel: 3,7 estrelas (31 avaliacoes).
 Relevancia: nao e materia do Modulo 3 (visibilidade competitiva), mas criticas negativas visiveis no topo da SERP afectam conversao. Registar para consideracao no relatorio final.
+
+## Pesquisa 6 — BMW Évora
+
+Query: BMW Évora
+Distrito / cidade: Évora
+Data: 01/07/2026 Hora: 11:56
+
+— ANÚNCIOS PAGOS —
+Existe algum anúncio pago nos resultados: n
+
+— RESULTADOS ORGÂNICOS —
+Resultado 1: BMW A MatosCar: Home — bmw.amatoscar.pt
+Resultado 2: A Matoscar - Veículos usados | BMW Premium Selection — bmwpremiumselection.bmw.pt
+Resultado 3: A MatosCar Évora — bmw-motorrad.pt
+
+A MatosCar aparece nos primeiros 3 resultados orgânicos: s
+Se sim, posição: 1
+
+— GOOGLE MAPS / LOCAL PACK —
+Existe Local Pack (bloco de mapas) nos resultados: s
+Se sim:
+  A MatosCar aparece no Local Pack: s
+  Se sim, posição no Local Pack: 1
+  Outros dealers no Local Pack (nome + cidade):
+    Nenhum — as 3 entradas do Local Pack são todas MatosCar (BMW, Oficina BMW, BMW Motorrad)
+
+— CONCORRENTES IDENTIFICADOS —
+Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
+  Nenhum
+
+Screenshot: evora-bmw-1.png, evora-bmw-2.png, evora-bmw-3.png, evora-bmw-4.png
+
+Observação livre (uma frase — só se houver algo inesperado): Dominância total da MatosCar na SERP — três primeiras posições orgânicas e todo o Local Pack pertencem à MatosCar, sem concorrentes BMW visíveis em Évora.

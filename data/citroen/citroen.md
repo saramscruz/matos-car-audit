@@ -364,3 +364,36 @@ Nota: sem concorrentes directos (outros dealers Citroen) visiveis nesta SERP.
 
 Screenshot: castelo-branco-citroen-1.png, castelo-branco-citroen-2.png, castelo-branco-citroen-3.png, castelo-branco-citroen-4.png
 Observacao livre: caso mais favoravel do bloco Castelo Branco apos a BMW. Knowledge Panel correcto com melhor rating (4.5 estrelas, 94 avaliacoes). citroen.pt domina os primeiros resultados organicos com paginas que mencionam explicitamente A MATOS CAR Castelo Branco - situacao oposta a BYD onde byd-auto.pt nao mencionava a MatosCar. Ausencia de concorrentes directos nesta SERP. Fraqueza: amatoscar.pt so aparece na posicao 6 apesar da forca do Knowledge Panel.
+
+## Pesquisa 10 — Citroën Évora
+
+Query: Citroën Évora
+Distrito / cidade: Évora
+Data: 01/07/2026 Hora: 12:57
+
+— ANÚNCIOS PAGOS —
+Existe algum anúncio pago nos resultados: n
+
+— RESULTADOS ORGÂNICOS —
+Resultado 1: Concessionário Citroën A MATOS CAR - Évora — rede.citroen.pt
+Resultado 2: Descubra os modelos Citroën em A MATOS CAR - Évora — rede.citroen.pt
+Resultado 3: Citroën Évora - Carros — standvirtual.com
+
+A MatosCar aparece nos primeiros 3 resultados orgânicos: s
+Se sim, posição: 1
+
+— GOOGLE MAPS / LOCAL PACK —
+Existe Local Pack (bloco de mapas) nos resultados: s
+Se sim:
+  A MatosCar aparece no Local Pack: s
+  Se sim, posição no Local Pack: 1
+  Outros dealers no Local Pack (nome + cidade):
+    1. Citroën Évora - Eduardo & Valverde — Quinta do Moniz, Rua Manuel Correia Lopes nº11, Évora (oficina independente, rede Eurorepar)
+
+— CONCORRENTES IDENTIFICADOS —
+Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
+  1. Eduardo & Valverde Lda — oficina independente afiliada Eurorepar, via autonews.pt
+
+Screenshot: evora-citroen-1.png, evora-citroen-2.png, evora-citroen-3.png, evora-citroen-4.png
+
+Observação livre (uma frase — só se houver algo inesperado): Primeira vez no Bloco Évora em que o Local Pack não é 100% MatosCar — a oficina independente Eduardo & Valverde (rede Eurorepar) partilha visibilidade de mapa, ainda que não seja concessionário de marca.

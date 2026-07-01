@@ -352,3 +352,32 @@ MatosCar e a entidade do Knowledge Panel: s (mas perfil Volkswagen, nao Audi)
 
 Screenshot: castelo-branco-audi-1.png, castelo-branco-audi-2.png, castelo-branco-audi-3.png, castelo-branco-audi-4.png
 Observacao livre: situacao estruturalmente oposta a BMW Castelo Branco. MatosCar nao domina esta query - perde posicao organica 1 e 3 para agregadores (Standvirtual e OLX), o unico anuncio pago e da Audi Portugal (nao do dealer), e o Knowledge Panel e da entidade Volkswagen por ausencia aparente de GBP dedicado Audi. Finding relevante para recomendacoes finais.
+
+## Pesquisa 7 — Audi Évora
+
+Query: audi évora
+Distrito / cidade: Évora
+Data: 01/07/2026 Hora: 12:32
+
+— ANÚNCIOS PAGOS —
+Existe algum anúncio pago nos resultados: n
+
+— RESULTADOS ORGÂNICOS —
+Resultado 1: Carros Audi Novos e Usados à Venda em Portugal — amatoscar.pt
+Resultado 2: Audi Évora - Carros — standvirtual.com
+Resultado 3: Audi Portugal — audi.pt
+
+A MatosCar aparece nos primeiros 3 resultados orgânicos: s
+Se sim, posição: 1
+
+— GOOGLE MAPS / LOCAL PACK —
+Existe Local Pack (bloco de mapas) nos resultados: n
+Se não, aparece noutro ponto visível da SERP sem scroll: s — Knowledge Panel próprio da MatosCar (4,0★, 55 críticas, fotos, morada, horário, botões Ligar/Direções/Website)
+
+— CONCORRENTES IDENTIFICADOS —
+Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
+  Nenhum dealer concorrente directo. Standvirtual é agregador, não dealer.
+
+Screenshot: evora-audi-1.png, evora-audi-2.png, evora-audi-3.png, evora-audi-4.png
+
+Observação livre (uma frase — só se houver algo inesperado): Knowledge Panel próprio da MatosCar em vez de Local Pack tradicional, mesmo padrão já visto em BMW Castelo Branco — sinal de perfil de Google Business bem estabelecido.

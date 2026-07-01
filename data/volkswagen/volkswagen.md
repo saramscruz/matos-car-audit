@@ -370,3 +370,36 @@ MatosCar e a entidade do Knowledge Panel: s (entidade correcta - Volkswagen Come
 
 Screenshot: castelo-branco-volkswagen-1.png, castelo-branco-volkswagen-2.png, castelo-branco-volkswagen-3.png, castelo-branco-volkswagen-4.png
 Observacao livre: sugestoes de pesquisa relacionada incluem "AMATOSCAR usados Castelo Branco" e "AMatosCar Castelo Branco" - sinal de associacao forte da MatosCar a esta query no Google. Porem amatoscar.pt so aparece na posicao 4 organica, atras da marca propria (VW Portugal), de um perfil Facebook pessoal e de um directorio de terceiros. Skoda Castelo Branco aparece tambem nas sugestoes - concorrente de grupo a monitorizar.
+
+## Pesquisa 8 — Volkswagen Évora
+
+Query: Volkswagen Évora
+Distrito / cidade: Évora
+Data: 01/07/2026 Hora: 12:38
+
+— ANÚNCIOS PAGOS —
+Existe algum anúncio pago nos resultados: n
+
+— RESULTADOS ORGÂNICOS —
+Resultado 1: Pesquisa de Concessionários — volkswagen.pt
+Resultado 2: A MatosCar: Compra e Venda de Carros Novos e Usados em Portugal — amatoscar.pt
+Resultado 3: VW Évora - Carros — standvirtual.com
+
+A MatosCar aparece nos primeiros 3 resultados orgânicos: s
+Se sim, posição: 2
+
+— GOOGLE MAPS / LOCAL PACK —
+Existe Local Pack (bloco de mapas) nos resultados: s
+Se sim:
+  A MatosCar aparece no Local Pack: s
+  Se sim, posição no Local Pack: 1
+  Outros dealers no Local Pack (nome + cidade):
+    Nenhum — as 2 entradas do Local Pack são ambas MatosCar (Volkswagen Comercial, Oficina Volkswagen - Car W)
+
+— CONCORRENTES IDENTIFICADOS —
+Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
+  1. Evoracar — Concessionário Auto Audi e Volkswagen em Évora, via autonews.pt — Zona Industrial 1 Lote 27, Évora
+
+Screenshot: evora-vw-1.png, evora-vw-2.png, evora-vw-3.png, evora-vw-4.png
+
+Observação livre (uma frase — só se houver algo inesperado): Primeiro concorrente de marca genuíno identificado no bloco Évora — a Evoracar vende Audi e Volkswagen, sobrepondo-se a duas marcas do âmbito; a MatosCar cede a posição 1 orgânica ao site institucional da própria Volkswagen.

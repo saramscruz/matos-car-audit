@@ -44,3 +44,17 @@ Audi: rating nao observado (KP errado)
 - A ausencia de GBP dedicado para Audi e BYD e um problema local (Castelo Branco) ou sistemico (todos os distritos)?
 - Os agregadores mantêm a mesma dominancia organica nos restantes distritos?
 - A Rodda (concorrente BYD) aparece noutros distritos ou e especifica de Castelo Branco?
+
+## Bloco 2 — Évora (pesquisas 6-10)
+
+Data: 01/07/2026
+
+1. **Domínio quase total da MatosCar.** Presente no Local Pack/Knowledge Panel em 5 de 5 marcas. Posição 1 orgânica em 3 de 5 (BMW, Audi, Citroën); posição 2 em 2 de 5 (Volkswagen, BYD).
+
+2. **Dois formatos de visibilidade de "localização" coexistem no mesmo distrito.** Local Pack tradicional (BMW, Volkswagen, Citroën) vs. Knowledge Panel próprio (Audi, BYD) — mesmo grupo, tratamento inconsistente do Google entre marcas. Vale investigar a causa (provavelmente ligada à forma como cada perfil de Google Business foi configurado por marca).
+
+3. **Primeiro anúncio pago do módulo** — BYD, mas do distribuidor oficial nacional (byd-auto.pt), não de um concorrente directo.
+
+4. **Dois concorrentes genuínos identificados**, ambos fora do universo BMW: Evoracar (Audi + Volkswagen) e Eduardo & Valverde/Eurorepar (oficina independente, visibilidade cruzando para Citroën).
+
+5. **BMW continua sem qualquer concorrente identificado** — nem em Castelo Branco nem em Évora apareceu um rival de marca.

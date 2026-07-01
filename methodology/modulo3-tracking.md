@@ -1,4 +1,4 @@
-﻿# Módulo 3 — Tracking de Execução
+# Módulo 3 — Tracking de Execução
 **Visibilidade Competitiva · amatoscar.pt · Junho 2026**
 
 Ficheiro de apoio para preenchimento durante o fieldwork. Não substitui o registo detalhado por marca em `data/[marca]/[marca].md` — serve para ver o conjunto das 35 pesquisas num único local, sem reler ficheiros separados.
@@ -49,11 +49,11 @@ Preencher uma linha por pesquisa, à medida que avanças. Os detalhes completos 
 | 3 | Beira Interior | Castelo Branco | Volkswagen | `Volkswagen Castelo Branco` | ✗ (pos 4) | Knowledge Panel correcto | ✗ | ✗ | VW Portugal (pos 1) + Standvirtual (pos 5) | castelo-branco-volkswagen-1.png |
 | 4 | Beira Interior | Castelo Branco | BYD | `BYD Castelo Branco` | ✗ (ausente) | ✗ (Knowledge Panel da Rodda) | ✗ | ✗ | Rodda (KP) + Standvirtual (pos 2) | castelo-branco-byd-1.png |
 | 5 | Beira Interior | Castelo Branco | Citroën | `Citroën Castelo Branco` | ✗ (pos 6) | Knowledge Panel correcto (4.5★) | ✗ | ✗ | nenhum dealer concorrente (citroen.pt domina pos 1-2) | castelo-branco-citroen-1.png |
-| 6 | Alentejo Central | Évora | BMW | `BMW Évora` | | | | | | |
-| 7 | Alentejo Central | Évora | Audi | `Audi Évora` | | | | | | |
-| 8 | Alentejo Central | Évora | Volkswagen | `Volkswagen Évora` | | | | | | |
-| 9 | Alentejo Central | Évora | BYD | `BYD Évora` | | | | | | |
-| 10 | Alentejo Central | Évora | Citroën | `Citroën Évora` | | | | | | |
+| 6 | Alentejo Central | Évora | BMW | `BMW Évora` | ✓ (pos 1) | ✓ (Local Pack completo - 3 entradas MatosCar) | ✗ | ✗ | nenhum | evora-bmw-1.png, evora-bmw-2.png, evora-bmw-3.png, evora-bmw-4.png |
+| 7 | Alentejo Central | Évora | Audi | `Audi Évora` | ✓ (pos 1) | ✓ (Knowledge Panel próprio) | ✗ | ✗ | nenhum | evora-audi-1.png, evora-audi-2.png, evora-audi-3.png, evora-audi-4.png |
+| 8 | Alentejo Central | Évora | Volkswagen | `Volkswagen Évora` | ✓ (pos 2) | ✓ (pos 1) | ✗ | ✗ | Evoracar | evora-vw-1.png, evora-vw-2.png, evora-vw-3.png, evora-vw-4.png |
+| 9 | Alentejo Central | Évora | BYD | `BYD Évora` | ✓ (pos 2) | ✓ (Knowledge Panel próprio) | ✓ | ✗ | nenhum (byd-auto.pt é distribuidor oficial) | evora-byd-1.png, evora-byd-2.png, evora-byd-3.png, evora-byd-4.png |
+| 10 | Alentejo Central | Évora | Citroën | `Citroën Évora` | ✓ (pos 1) | ✓ (pos 1) | ✗ | ✗ | Eduardo & Valverde (Eurorepar) | evora-citroen-1.png, evora-citroen-2.png, evora-citroen-3.png, evora-citroen-4.png |
 | 11 | Baixo Alentejo | Beja | BMW | `BMW Beja` | | | | | | |
 | 12 | Baixo Alentejo | Beja | Audi | `Audi Beja` | | | | | | |
 | 13 | Baixo Alentejo | Beja | Volkswagen | `Volkswagen Beja` | | | | | | |

@@ -375,3 +375,35 @@ MatosCar e a entidade do Knowledge Panel: n
 
 Screenshot: castelo-branco-byd-1.png, castelo-branco-byd-2.png, castelo-branco-byd-3.png, castelo-branco-byd-4.png
 Observacao livre: finding critico - ausencia total da MatosCar nesta SERP. Nenhum resultado organico, nenhum Knowledge Panel proprio, nenhuma mencao nas sugestoes relacionadas. Knowledge Panel pertence a Rodda (concorrente directo, 4.6 estrelas vs 3.7 da BMW MatosCar). Para esta query o Google nao reconhece a MatosCar como entidade relevante em Castelo Branco para BYD. Ausencia de Google Business Profile dedicado BYD provavel causa estrutural.
+
+## Pesquisa 9 — BYD Évora
+
+Query: byd évora
+Distrito / cidade: Évora
+Data: 01/07/2026 Hora: 12:47
+
+— ANÚNCIOS PAGOS —
+Existe algum anúncio pago nos resultados: s
+Se sim:
+  Anunciante 1: BYD® Auto Portugal — byd-auto.pt (distribuidor oficial nacional, promoção BYD ATTO 2)
+  A MatosCar tem anúncio pago: n
+
+— RESULTADOS ORGÂNICOS —
+Resultado 1: Concessionários BYD em Portugal. Sempre ao Seu Lado. — byd-auto.pt (nomeia A.MatosCar - Évora)
+Resultado 2: Carros BYD Novos e Usados à Venda em Portugal — amatoscar.pt
+Resultado 3: BYD | Líder Mundial em Carros Elétricos e Híbridos Plug-in — byd-auto.pt
+
+A MatosCar aparece nos primeiros 3 resultados orgânicos: s
+Se sim, posição: 2
+
+— GOOGLE MAPS / LOCAL PACK —
+Existe Local Pack (bloco de mapas) nos resultados: n
+Se não, aparece noutro ponto visível da SERP sem scroll: s — Knowledge Panel próprio da MatosCar (5,0★, 11 críticas, fotos, morada, horário, botões Ligar/Direções/Website)
+
+— CONCORRENTES IDENTIFICADOS —
+Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
+  Nenhum. Único outro nome é byd-auto.pt, distribuidor oficial da marca, não concessionário rival.
+
+Screenshot: evora-byd-1.png, evora-byd-2.png, evora-byd-3.png, evora-byd-4.png
+
+Observação livre (uma frase — só se houver algo inesperado): Primeiro anúncio pago detectado no Bloco Évora, vindo do distribuidor oficial BYD e não de um concorrente; MatosCar mantém domínio quase total da SERP.
