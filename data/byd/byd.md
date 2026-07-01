@@ -407,3 +407,35 @@ Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
 Screenshot: evora-byd-1.png, evora-byd-2.png, evora-byd-3.png, evora-byd-4.png
 
 Observação livre (uma frase — só se houver algo inesperado): Primeiro anúncio pago detectado no Bloco Évora, vindo do distribuidor oficial BYD e não de um concorrente; MatosCar mantém domínio quase total da SERP.
+## Pesquisa 14 — BYD Beja
+
+Query: BYD Beja
+Distrito / cidade: Beja
+Data: 01/07/2026 Hora: 13:44
+
+— ANÚNCIOS PAGOS —
+Existe algum anúncio pago nos resultados: n
+
+— NOTA DE FORMATO —
+SERP com Vista Geral de IA (AI Overview) no topo — primeira ocorrência no módulo. Texto gerado declara explicitamente que não existe concessionário/stand físico oficial BYD em Beja, e que a representação regional para o Alentejo é assegurada a partir de Évora, em parceria com o Grupo A MatosCar. Fonte citada: fleetmagazine.pt.
+
+— RESULTADOS ORGÂNICOS —
+Resultado 1: Concessionários BYD em Portugal. Sempre ao Seu Lado. — byd-auto.pt
+Resultado 2: Encontre o seu Concessionário | BYD Portugal — byd.com
+Resultado 3: Carros BYD Novos e Usados à Venda em Portugal — amatoscar.pt
+
+A MatosCar aparece nos primeiros 3 resultados orgânicos: s
+Se sim, posição: 3
+
+— GOOGLE MAPS / LOCAL PACK —
+Existe Local Pack (bloco de mapas) nos resultados: n
+Se não, aparece noutro ponto visível da SERP sem scroll: n (Local Pack tradicional ausente; AI Overview cobre esse papel informativo)
+
+— CONCORRENTES IDENTIFICADOS —
+Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
+  1. SPOTICAR PT (Motorpor Alentejo Beja) — rede Stellantis, "Carros usados byd BEJA"
+  2. M. & Costas (byd.mcostas.pt) — apresenta-se como "Concessionário Oficial M & COSTAS" BYD
+
+Screenshot: beja-byd-1.png, beja-byd-2.png, beja-byd-3.png, beja-byd-4.png
+
+Observação livre (uma frase — só se houver algo inesperado): Ao contrário de Audi e Volkswagen em Beja, aqui o Google explica proactivamente via AI Overview a ausência física da BYD em Beja e credita a MatosCar-Évora como a cobertura regional — resultado bem mais favorável do que a substituição total por um concorrente sem menção à MatosCar.

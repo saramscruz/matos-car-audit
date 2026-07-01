@@ -54,11 +54,11 @@ Preencher uma linha por pesquisa, à medida que avanças. Os detalhes completos 
 | 8 | Alentejo Central | Évora | Volkswagen | `Volkswagen Évora` | ✓ (pos 2) | ✓ (pos 1) | ✗ | ✗ | Evoracar | evora-vw-1.png, evora-vw-2.png, evora-vw-3.png, evora-vw-4.png |
 | 9 | Alentejo Central | Évora | BYD | `BYD Évora` | ✓ (pos 2) | ✓ (Knowledge Panel próprio) | ✓ | ✗ | nenhum (byd-auto.pt é distribuidor oficial) | evora-byd-1.png, evora-byd-2.png, evora-byd-3.png, evora-byd-4.png |
 | 10 | Alentejo Central | Évora | Citroën | `Citroën Évora` | ✓ (pos 1) | ✓ (pos 1) | ✗ | ✗ | Eduardo & Valverde (Eurorepar) | evora-citroen-1.png, evora-citroen-2.png, evora-citroen-3.png, evora-citroen-4.png |
-| 11 | Baixo Alentejo | Beja | BMW | `BMW Beja` | | | | | | |
-| 12 | Baixo Alentejo | Beja | Audi | `Audi Beja` | | | | | | |
-| 13 | Baixo Alentejo | Beja | Volkswagen | `Volkswagen Beja` | | | | | | |
-| 14 | Baixo Alentejo | Beja | BYD | `BYD Beja` | | | | | | |
-| 15 | Baixo Alentejo | Beja | Citroën | `Citroën Beja` | | | | | | |
+| 11 | Baixo Alentejo | Beja | BMW | `BMW Beja` | ✓ (pos 1) | ✓ (Knowledge Panel de grupo) | ✗ | ✗ | nenhum | beja-bmw-1.png, beja-bmw-2.png, beja-bmw-3.png, beja-bmw-4.png |
+| 12 | Baixo Alentejo | Beja | Audi | `Audi Beja` | ✗ | ✗ | ✓ | ✗ | Irmãos Luzias (VW) domina KP + Carmine.pt | beja-audi-1.png, beja-audi-2.png, beja-audi-3.png, beja-audi-4.png |
+| 13 | Baixo Alentejo | Beja | Volkswagen | `Volkswagen Beja` | ✗ | ✗ | ✗ | ✗ | Irmãos Luzias domina toda a SERP | beja-vw-1.png, beja-vw-2.png, beja-vw-3.png, beja-vw-4.png |
+| 14 | Baixo Alentejo | Beja | BYD | `BYD Beja` | ✓ (pos 3) | ✗ | ✗ | ✗ | Spoticar (Motorpor), M. & Costas | beja-byd-1.png, beja-byd-2.png, beja-byd-3.png, beja-byd-4.png |
+| 15 | Baixo Alentejo | Beja | Citroën | `Citroën Beja` | ✓ (pos 1) | ✓ (Knowledge Panel próprio, Fechado) | ✗ | ✗ | nenhum (Garrido & Camacho = mesma entidade, a confirmar) | beja-citroen-1.png, beja-citroen-2.png, beja-citroen-3.png, beja-citroen-4.png |
 | 16 | Alto Alentejo | Portalegre | BMW | `BMW Portalegre` | | | | | | |
 | 17 | Alto Alentejo | Portalegre | Audi | `Audi Portalegre` | | | | | | |
 | 18 | Alto Alentejo | Portalegre | Volkswagen | `Volkswagen Portalegre` | | | | | | |

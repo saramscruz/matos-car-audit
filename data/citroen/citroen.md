@@ -397,3 +397,30 @@ Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
 Screenshot: evora-citroen-1.png, evora-citroen-2.png, evora-citroen-3.png, evora-citroen-4.png
 
 Observação livre (uma frase — só se houver algo inesperado): Primeira vez no Bloco Évora em que o Local Pack não é 100% MatosCar — a oficina independente Eduardo & Valverde (rede Eurorepar) partilha visibilidade de mapa, ainda que não seja concessionário de marca.
+## Pesquisa 15 — Citroën Beja
+
+Query: Citroën Beja
+Distrito / cidade: Beja
+Data: 01/07/2026 Hora: 13:50
+
+— ANÚNCIOS PAGOS —
+Existe algum anúncio pago nos resultados: n
+
+— RESULTADOS ORGÂNICOS —
+Resultado 1: A MATOS CAR - Beja — rede.citroen.pt
+Resultado 2: Ricardo Ruivo - A MatosCar | Beja — Facebook (330+ seguidores, promoção Citroën C4)
+
+A MatosCar aparece nos primeiros 3 resultados orgânicos: s
+Se sim, posição: 1
+
+— GOOGLE MAPS / LOCAL PACK —
+Existe Local Pack (bloco de mapas) nos resultados: n
+Se não, aparece noutro ponto visível da SERP sem scroll: s — Knowledge Panel próprio "Citroën A Matoscar Beja" (4,3★, 122 críticas, Fechado no momento da captura, abre às 14:00)
+
+— CONCORRENTES IDENTIFICADOS —
+Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
+  Nenhum concorrente genuíno identificado. "Garrido & Camacho, Concessionário Auto Citroen em Beja" (autonews.pt) partilha a mesma morada exacta do Knowledge Panel da MatosCar (R. da Metalurgica Alentejana, 4) — muito provavelmente a designação jurídica/corporativa por trás da concessão Citroën da MatosCar em Beja, não um rival. A confirmar com o cliente.
+
+Screenshot: beja-citroen-1.png, beja-citroen-2.png, beja-citroen-3.png, beja-citroen-4.png
+
+Observação livre (uma frase — só se houver algo inesperado): Terceira vez no Bloco Beja com Knowledge Panel próprio da MatosCar Fechado no momento da captura (após BMW) — abre às 14:00 em ambos os casos, possivelmente reflectindo horário de almoço real.

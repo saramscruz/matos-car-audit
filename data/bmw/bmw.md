@@ -396,3 +396,31 @@ Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
 Screenshot: evora-bmw-1.png, evora-bmw-2.png, evora-bmw-3.png, evora-bmw-4.png
 
 Observação livre (uma frase — só se houver algo inesperado): Dominância total da MatosCar na SERP — três primeiras posições orgânicas e todo o Local Pack pertencem à MatosCar, sem concorrentes BMW visíveis em Évora.
+## Pesquisa 11 — BMW Beja
+
+Query: bmw beja
+Distrito / cidade: Beja
+Data: 01/07/2026 Hora: 13:23
+
+— ANÚNCIOS PAGOS —
+Existe algum anúncio pago nos resultados: n
+
+— RESULTADOS ORGÂNICOS —
+Resultado 1: BMW A MatosCar — bmw.amatoscar.pt
+Resultado 2: BMW Beja - Carros — standvirtual.com
+Resultado 3: bmw - Comprar usados Carros Beja | Carros a venda — olx.pt
+
+A MatosCar aparece nos primeiros 3 resultados orgânicos: s
+Se sim, posição: 1
+
+— GOOGLE MAPS / LOCAL PACK —
+Existe Local Pack (bloco de mapas) nos resultados: n
+Se não, aparece noutro ponto visível da SERP sem scroll: s — Knowledge Panel de grupo "Grupo A MAtosCar" (4,2★, 25 críticas, Stand de automóveis em Beja, Fechado no momento da captura, abre às 14:30)
+
+— CONCORRENTES IDENTIFICADOS —
+Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
+  Nenhum. Standvirtual e OLX são agregadores; BMW Portugal é site oficial da marca.
+
+Screenshot: beja-bmw-1.png, beja-bmw-2.png, beja-bmw-3.png, beja-bmw-4.png
+
+Observação livre (uma frase — só se houver algo inesperado): Primeira vez que o Knowledge Panel aparece como perfil de grupo ("Grupo A MAtosCar") em vez de perfil específico da marca BMW, e aparecia Fechado no momento da captura — diferente do padrão de Castelo Branco e Évora.

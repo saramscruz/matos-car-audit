@@ -58,3 +58,16 @@ Data: 01/07/2026
 4. **Dois concorrentes genuínos identificados**, ambos fora do universo BMW: Evoracar (Audi + Volkswagen) e Eduardo & Valverde/Eurorepar (oficina independente, visibilidade cruzando para Citroën).
 
 5. **BMW continua sem qualquer concorrente identificado** — nem em Castelo Branco nem em Évora apareceu um rival de marca.
+## Bloco 3 — Beja (pesquisas 11-15)
+
+Data: 01/07/2026
+
+1. **Cobertura desigual entre marcas — o finding mais importante do módulo até agora.** BMW e Citroën têm presença forte e estabelecida (Knowledge Panel próprio, posição 1 orgânica). Audi e Volkswagen têm visibilidade zero — nem anúncio, nem top 3, nem Knowledge Panel. BYD fica no meio: sem Knowledge Panel local, mas com posição 3 orgânica e reconhecimento explícito via AI Overview da cobertura a partir de Évora.
+
+2. **Um único concorrente domina onde a MatosCar está ausente.** A Irmãos Luzias (concessionário multimarca VW + Mazda + Skoda) captura toda a visibilidade das pesquisas "Audi Beja" e "Volkswagen Beja" — não porque venda Audi, mas porque é o dealer estabelecido na categoria automóvel em Beja e o Google associa-o à falta de alternativa local da MatosCar.
+
+3. **Diferença de tratamento do Google entre ausências.** Quando a MatosCar não tem presença física (BYD), o AI Overview explica a situação e credita a cobertura de Évora. Quando não tem presença física noutras marcas (Audi, VW), não há essa explicação — só o vazio preenchido pelo concorrente. Vale explorar porque é que BYD teve este tratamento privilegiado e as outras duas não.
+
+4. **Padrão "Fechado" recorrente.** Tanto BMW como Citroën apareceram com Knowledge Panel a indicar "Fechado" no momento da captura (13:23 e 13:50, ambos antes da reabertura às 14:00) — possivelmente reflectindo o horário real de almoço da loja de Beja, não um problema de dados.
+
+5. **Possível duplicação de entidade a esclarecer.** Garrido & Camacho (Citroën) partilha morada exacta com o Knowledge Panel da MatosCar — provavelmente a mesma entidade sob designação jurídica diferente, não um concorrente novo.

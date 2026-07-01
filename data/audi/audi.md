@@ -381,3 +381,35 @@ Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
 Screenshot: evora-audi-1.png, evora-audi-2.png, evora-audi-3.png, evora-audi-4.png
 
 Observação livre (uma frase — só se houver algo inesperado): Knowledge Panel próprio da MatosCar em vez de Local Pack tradicional, mesmo padrão já visto em BMW Castelo Branco — sinal de perfil de Google Business bem estabelecido.
+## Pesquisa 12 — Audi Beja
+
+Query: audi beja
+Distrito / cidade: Beja
+Data: 01/07/2026 Hora: 13:31
+
+— ANÚNCIOS PAGOS —
+Existe algum anúncio pago nos resultados: s
+Se sim:
+  Anunciante 1: audi.pt — site oficial nacional da marca, "AUDI com ofertas"
+  A MatosCar tem anúncio pago: n
+
+— RESULTADOS ORGÂNICOS —
+Resultado 1: Localizador de Concessionários — audi.pt
+Resultado 2: Audi Beja - Carros — standvirtual.com
+Resultado 3: Audi Beja - Carros — olx.pt
+
+A MatosCar aparece nos primeiros 3 resultados orgânicos: n
+Se não, aparece noutro ponto visível da SERP sem scroll: n
+
+— GOOGLE MAPS / LOCAL PACK —
+Existe Local Pack (bloco de mapas) nos resultados: n
+Se não, aparece noutro ponto visível da SERP sem scroll: n — o Knowledge Panel presente é da IRMÃOS LUZIAS - Volkswagen Comercial (concorrente), não da MatosCar
+
+— CONCORRENTES IDENTIFICADOS —
+Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
+  1. IRMÃOS LUZIAS - Volkswagen Comercial — 4,3★ (123 críticas), Concessionário Volkswagen em Beja, Rua de D. Afonso III 43 Ap 340, Beja — domina Knowledge Panel + entrada orgânica na query Audi Beja
+  2. Carmine.pt — agregador, lista 7 Audi disponíveis em stands do distrito de Beja
+
+Screenshot: beja-audi-1.png, beja-audi-2.png, beja-audi-3.png, beja-audi-4.png
+
+Observação livre (uma frase — só se houver algo inesperado): FINDING ACCIONÁVEL — primeira pesquisa do módulo com visibilidade zero da MatosCar (sem anúncio, sem top 3 orgânico, sem Knowledge Panel próprio); o concorrente Irmãos Luzias (Volkswagen) domina a SERP da query Audi Beja, sugerindo ausência de perfil de Google Business dedicado à Audi da MatosCar em Beja.

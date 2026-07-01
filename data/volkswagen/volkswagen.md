@@ -403,3 +403,31 @@ Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
 Screenshot: evora-vw-1.png, evora-vw-2.png, evora-vw-3.png, evora-vw-4.png
 
 Observação livre (uma frase — só se houver algo inesperado): Primeiro concorrente de marca genuíno identificado no bloco Évora — a Evoracar vende Audi e Volkswagen, sobrepondo-se a duas marcas do âmbito; a MatosCar cede a posição 1 orgânica ao site institucional da própria Volkswagen.
+## Pesquisa 13 — Volkswagen Beja
+
+Query: Volkswagen Beja
+Distrito / cidade: Beja
+Data: 01/07/2026 Hora: 13:39
+
+— ANÚNCIOS PAGOS —
+Existe algum anúncio pago nos resultados: n
+
+— RESULTADOS ORGÂNICOS —
+Resultado 1: Contactos - Irmãos Luzias em Beja — irmaosluzias.pt
+Resultado 2: Irmãos Luzias - Carros, Maquinas, Tractores, Novos e Usados — irmaosluzias.pt
+Resultado 3: Facebook · Irmãos Luzias - Máquinas e Alfaias Agrícolas — Facebook (3,4 mil seguidores)
+
+A MatosCar aparece nos primeiros 3 resultados orgânicos: n
+Se não, aparece noutro ponto visível da SERP sem scroll: n
+
+— GOOGLE MAPS / LOCAL PACK —
+Existe Local Pack (bloco de mapas) nos resultados: n
+Se não, aparece noutro ponto visível da SERP sem scroll: n — o Knowledge Panel presente é da IRMÃOS LUZIAS - Volkswagen Comercial (concorrente), não da MatosCar
+
+— CONCORRENTES IDENTIFICADOS —
+Dealers concorrentes visíveis nesta SERP (orgânico + pago + maps):
+  1. Irmãos Luzias — concessionário multimarca (Mazda + Skoda + Volkswagen) em Beja, Rua D. Afonso III Nº 43, confirmado via autonews.pt. Domina toda a SERP: Knowledge Panel + posições 1, 2 e 3 orgânicas.
+
+Screenshot: beja-vw-1.png, beja-vw-2.png, beja-vw-3.png, beja-vw-4.png
+
+Observação livre (uma frase — só se houver algo inesperado): FINDING ACCIONÁVEL — segunda pesquisa consecutiva em Beja com visibilidade zero da MatosCar (após Audi); Irmãos Luzias confirma-se como dealer multimarca estabelecido (Mazda+Skoda+VW) em Beja, dominando totalmente a SERP para ambas as marcas onde a MatosCar está ausente.
