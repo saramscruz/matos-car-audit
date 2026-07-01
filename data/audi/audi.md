@@ -317,3 +317,38 @@ Número aproximado de unidades listadas: 0 (ficha de modelo genérica)
 Screenshot: assets/audi/funnel/cp2-ficha-modelo-rs5.png, assets/audi/funnel/cp2-formulario-pedir-info.png
 Observação: Página "Audi RS 5 Limousine" sem stock concreto — sem VIN, matrícula real, quilometragem ou cor específica. Secção "Motorizações" lista uma única versão (Híbrido PHEV, 2.9 TFSI Quattro Tiptronic, 639 CV). Texto descreve "autonomia totalmente eléctrica" de 84 km apesar de ser híbrido plug-in, não eléctrico puro — risco de confusão terminológica relevante para CP10. Galeria de imagens alojada em domínio externo (assets.maxterauto.com), confirma conteúdo de catálogo de terceiros. Dois mecanismos de contacto reais na página, ambos levando ao mesmo objectivo: (1) CTA "Quero experimentar" no topo, abre modal de pedido de test-drive — mesmo componente observado na BMW (Nome, Apelidos, Telefone, E-mail obrigatórios, Concelho opcional, reCAPTCHA); (2) link "Solicitar oferta" junto à motorização e formulário inline "Pedir informação" no fundo da página apontam para a mesma secção/formulário (Nome/Apelidos/E-mail/Telefone/Concelho obrigatórios + Comentários opcional, sem reCAPTCHA visível). Nenhum dos dois pede unidade, cor ou versão específica — confirma ausência de ligação a stock real.
 
+
+## Modulo 3 - Pesquisa: Audi Castelo Branco
+Query: Audi Castelo Branco
+Distrito / cidade: Beira Interior / Castelo Branco
+Data: 01/07/2026  Hora: 10:10
+
+— ANUNCIOS PAGOS —
+Existe anuncio pago: s
+Anunciante 1: Audi Portugal - audi.pt ("Audi: qualidade garantida - Disponibilidade imediata")
+Anunciante 2: Audi Portugal - audi.pt ("Localizador de Concessionarios")
+MatosCar tem anuncio pago: n
+Nota: anuncio pertence a marca (Audi Portugal), nao ao dealer. Pode reencaminhar para localizador de concessionarios sem garantia de visibilidade da MatosCar.
+
+— RESULTADOS ORGANICOS —
+Nota estrutural: Knowledge Panel presente mas com entidade errada - devolve Volkswagen Comercial Car W - A MatosCar (3.9 estrelas, 135 avaliacoes) em vez de entidade Audi. Sugere ausencia de Google Business Profile dedicado Audi em Castelo Branco.
+Resultado 1: Standvirtual - standvirtual.com ("Audi Castelo Branco - Carros")
+Resultado 2: Facebook A MatosCar - facebook.com (post de ha 5 anos sobre abertura oficina Audi)
+Resultado 3: OLX Portugal - olx.pt ("Audi Castelo Branco - Carros", 1800 a 42750 euros)
+Resultado 4: A MatosCar - amatoscar.pt ("Carros Audi Novos e Usados a Venda em Portugal")
+MatosCar aparece nos top 3 organicos: n
+MatosCar aparece na posicao: 4
+Aparece noutro ponto visivel sem scroll: n (Knowledge Panel e da entidade Volkswagen, nao Audi)
+
+— GOOGLE MAPS / LOCAL PACK —
+Existe Local Pack classico: n
+Existe Knowledge Panel de entidade: s (entidade errada - Volkswagen Comercial Car W)
+MatosCar e a entidade do Knowledge Panel: s (mas perfil Volkswagen, nao Audi)
+
+— CONCORRENTES IDENTIFICADOS —
+1. Standvirtual - standvirtual.com (agregador, posicao organica 1)
+2. OLX Portugal - olx.pt (agregador, posicao organica 3)
+3. Audi Portugal - audi.pt (marca, anuncio pago)
+
+Screenshot: castelo-branco-audi-1.png, castelo-branco-audi-2.png, castelo-branco-audi-3.png, castelo-branco-audi-4.png
+Observacao livre: situacao estruturalmente oposta a BMW Castelo Branco. MatosCar nao domina esta query - perde posicao organica 1 e 3 para agregadores (Standvirtual e OLX), o unico anuncio pago e da Audi Portugal (nao do dealer), e o Knowledge Panel e da entidade Volkswagen por ausencia aparente de GBP dedicado Audi. Finding relevante para recomendacoes finais.

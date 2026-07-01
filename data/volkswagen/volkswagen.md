@@ -337,3 +337,36 @@ Número aproximado de unidades listadas: 0 (ficha de modelo genérica)
 Screenshot: assets/volkswagen/funnel/cp2-ficha-modelo-tayron.png, assets/volkswagen/funnel/cp2-motorizacoes.png, assets/volkswagen/funnel/cp2-formulario-pedir-info.png
 Observação: Página "Volkswagen Tayron" sem stock concreto — sem VIN, matrícula real, quilometragem ou cor específica. Secção "Motorizações" presente e mais detalhada do que nas outras marcas observadas até agora: 5 variantes listadas (Sem Chumbo 1.5 eTSI 150cv URBAN; Híbrido PHEV 1.5 TSI 204cv URBAN; Diesel 2.0 TDI 150cv URBAN; Híbrido PHEV 1.5 TSI 204cv R-LINE; Híbrido PHEV 1.5 TSI 272cv R-LINE), cada uma com link próprio "Solicitar oferta" (aponta para formulário "Pedir informação" no fundo da página, mesmo padrão da Audi). CTA "Quero experimentar" no topo abre o mesmo modal de test-drive observado em BMW e Audi. Inconsistência de profundidade de conteúdo entre marcas confirmada: BMW i3 não tem secção Motorizações (só galeria+vídeo), Audi RS5 tem 1 motorização listada, VW Tayron tem 5 — sugere desigualdade na actualização/disponibilidade de dados por ficha de modelo, não apenas por marca.
 
+
+## Modulo 3 - Pesquisa: Volkswagen Castelo Branco
+Query: Volkswagen Castelo Branco
+Distrito / cidade: Beira Interior / Castelo Branco
+Data: 01/07/2026  Hora: 10:20
+
+— ANUNCIOS PAGOS —
+Existe anuncio pago: n
+Verificado em todos os screenshots, sem etiqueta Patrocinado visivel.
+
+— RESULTADOS ORGANICOS —
+Nota estrutural: Knowledge Panel correcto - Volkswagen Comercial Car W - A MatosCar (3.9 estrelas, 135 avaliacoes). Entidade certa para esta query, ao contrario da pesquisa Audi Castelo Branco.
+Resultado 1: Volkswagen Portugal - volkswagen.pt ("Pesquisa de Concessionarios")
+Resultado 2: Facebook Vasco Tomas - A MatosCar - facebook.com (990 seguidores, 5.0 estrelas, 1 avaliacao, perfil pessoal de vendedor)
+Resultado 3: autonews.pt - "A MatosCar - Castelo Branco - Oficina" (listagem de terceiro, nao pagina propria MatosCar)
+Resultado 4: A MatosCar - amatoscar.pt ("Compra e Venda de Carros Novos e Usados em Portugal")
+Resultado 5: Standvirtual - standvirtual.com ("VW Castelo Branco - Carros")
+MatosCar aparece nos top 3 organicos: parcialmente (pos 2 via Facebook pessoal, pos 3 via listagem autonews)
+MatosCar aparece com pagina propria (amatoscar.pt): posicao 4
+Aparece noutro ponto visivel sem scroll: s (Knowledge Panel correcto)
+
+— GOOGLE MAPS / LOCAL PACK —
+Existe Local Pack classico: n
+Existe Knowledge Panel de entidade: s
+MatosCar e a entidade do Knowledge Panel: s (entidade correcta - Volkswagen Comercial Car W)
+
+— CONCORRENTES IDENTIFICADOS —
+1. Volkswagen Portugal - volkswagen.pt (marca, posicao organica 1, localizador de concessionarios)
+2. Standvirtual - standvirtual.com (agregador, posicao organica 5)
+3. autonews.pt (directorio, posicao organica 3)
+
+Screenshot: castelo-branco-volkswagen-1.png, castelo-branco-volkswagen-2.png, castelo-branco-volkswagen-3.png, castelo-branco-volkswagen-4.png
+Observacao livre: sugestoes de pesquisa relacionada incluem "AMATOSCAR usados Castelo Branco" e "AMatosCar Castelo Branco" - sinal de associacao forte da MatosCar a esta query no Google. Porem amatoscar.pt so aparece na posicao 4 organica, atras da marca propria (VW Portugal), de um perfil Facebook pessoal e de um directorio de terceiros. Skoda Castelo Branco aparece tambem nas sugestoes - concorrente de grupo a monitorizar.

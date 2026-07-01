@@ -1,7 +1,7 @@
-# Módulo 3 — Tracking de Execução
+﻿# Módulo 3 — Tracking de Execução
 **Visibilidade Competitiva · amatoscar.pt · Junho 2026**
 
-Ficheiro de apoio para preenchimento durante o fieldwork. Não substitui o registo detalhado por marca em `brands/[marca].md` — serve para ver o conjunto das 35 pesquisas num único local, sem reler ficheiros separados.
+Ficheiro de apoio para preenchimento durante o fieldwork. Não substitui o registo detalhado por marca em `data/[marca]/[marca].md` — serve para ver o conjunto das 35 pesquisas num único local, sem reler ficheiros separados.
 
 Protocolo de referência: `methodology/competitive-visibility-protocol.md`
 
@@ -11,9 +11,9 @@ Protocolo de referência: `methodology/competitive-visibility-protocol.md`
 
 ```
 Total de pesquisas: 35
-Concluídas: 0 / 35
-Sessões realizadas: 0
-Data de início:
+Concluídas: 1 / 35
+Sessões realizadas: 1
+Data de início: 30/06/2026
 Data de conclusão prevista:
 ```
 
@@ -29,10 +29,10 @@ Data de conclusão prevista:
 
 | Sessão | Distrito(s) | Nº pesquisas | Estado |
 |--------|-------------|:---:|:---:|
-| 1 | Castelo Branco | 5 | ☐ |
-| 2 | Évora + Beja | 10 | ☐ |
-| 3 | Portalegre + Guarda | 10 | ☐ |
-| 4 | Abrantes + Santarém | 10 | ☐ |
+| 1 | Castelo Branco | 5 | Em curso |
+| 2 | Beira Interior | Castelo Branco | Audi | `Audi Castelo Branco` | ✗ (pos 4) | Knowledge Panel errado (VW) | ✓ (Audi PT) | ✗ | Standvirtual + OLX (agregadores) | castelo-branco-audi.png |
+| 3 | Beira Interior | Castelo Branco | Volkswagen | `Volkswagen Castelo Branco` | ✗ (pos 4) | Knowledge Panel correcto | ✗ | ✗ | VW Portugal (pos 1) + Standvirtual (pos 5) | castelo-branco-volkswagen-1.png |
+| 4 | Beira Interior | Castelo Branco | BYD | `BYD Castelo Branco` | ✗ (ausente) | ✗ (Knowledge Panel da Rodda) | ✗ | ✗ | Rodda (KP) + Standvirtual (pos 2) | castelo-branco-byd-1.png |
 
 Ajustável — o protocolo não exige este agrupamento específico, só a ordem por distrito e o limite de 48h.
 
@@ -40,15 +40,15 @@ Ajustável — o protocolo não exige este agrupamento específico, só a ordem 
 
 ## Tabela de síntese — 35 pesquisas
 
-Preencher uma linha por pesquisa, à medida que avanças. Os detalhes completos (resultados orgânicos, Local Pack, concorrentes) vão para o template de registo individual em `brands/[marca].md`; esta tabela é só o resumo de alto nível.
+Preencher uma linha por pesquisa, à medida que avanças. Os detalhes completos (resultados orgânicos, Local Pack, concorrentes) vão para o registo individual em `data/[marca]/[marca].md`; esta tabela é só o resumo de alto nível.
 
 | # | Distrito | Capital pesquisada | Marca | Query exacta | MatosCar orgânico (1-3) | MatosCar Local Pack | Anúncio pago presente | MatosCar tem anúncio | Concorrente principal | Screenshot |
 |---|----------|---------------------|-------|---------------|:---:|:---:|:---:|:---:|---|:---:|
-| 1 | Beira Interior | Castelo Branco | BMW | `BMW Castelo Branco` | | | | | | |
-| 2 | Beira Interior | Castelo Branco | Audi | `Audi Castelo Branco` | | | | | | |
-| 3 | Beira Interior | Castelo Branco | Volkswagen | `Volkswagen Castelo Branco` | | | | | | |
-| 4 | Beira Interior | Castelo Branco | BYD | `BYD Castelo Branco` | | | | | | |
-| 5 | Beira Interior | Castelo Branco | Citroën | `Citroën Castelo Branco` | | | | | | |
+| 1 | Beira Interior | Castelo Branco | BMW | `BMW Castelo Branco` | ✓ (pos 1) | Knowledge Panel próprio | ✗ | ✗ | nenhum (Standvirtual só com scroll) | castelo-branco-bmw.png |
+| 2 | Beira Interior | Castelo Branco | Audi | `Audi Castelo Branco` | ✗ (pos 4) | Knowledge Panel errado (VW) | ✓ (Audi PT) | ✗ | Standvirtual + OLX (agregadores) | castelo-branco-audi.png |
+| 3 | Beira Interior | Castelo Branco | Volkswagen | `Volkswagen Castelo Branco` | ✗ (pos 4) | Knowledge Panel correcto | ✗ | ✗ | VW Portugal (pos 1) + Standvirtual (pos 5) | castelo-branco-volkswagen-1.png |
+| 4 | Beira Interior | Castelo Branco | BYD | `BYD Castelo Branco` | ✗ (ausente) | ✗ (Knowledge Panel da Rodda) | ✗ | ✗ | Rodda (KP) + Standvirtual (pos 2) | castelo-branco-byd-1.png |
+| 5 | Beira Interior | Castelo Branco | Citroën | `Citroën Castelo Branco` | ✗ (pos 6) | Knowledge Panel correcto (4.5★) | ✗ | ✗ | nenhum dealer concorrente (citroen.pt domina pos 1-2) | castelo-branco-citroen-1.png |
 | 6 | Alentejo Central | Évora | BMW | `BMW Évora` | | | | | | |
 | 7 | Alentejo Central | Évora | Audi | `Audi Évora` | | | | | | |
 | 8 | Alentejo Central | Évora | Volkswagen | `Volkswagen Évora` | | | | | | |
@@ -89,7 +89,7 @@ Preencher uma linha por pesquisa, à medida que avanças. Os detalhes completos 
 Registar aqui qualquer coisa fora do previsto — marca nova, agregador de leads, concorrente fora da área — à medida que aparece. Cada entrada deve ter número da pesquisa associado para rastreabilidade.
 
 ```
-#[nº pesquisa] — [observação]
+#1 — SERP devolve Knowledge Panel de entidade única (BMW - A MatosCar) em vez de Local Pack clássico de 3 dealers. Standvirtual visível apenas com scroll, fora do critério formal.
 ```
 
 ---
@@ -112,7 +112,7 @@ Observação:
 
 - [ ] 35 pesquisas concluídas
 - [ ] Tabela de síntese (acima) totalmente preenchida
-- [ ] Templates de síntese por marca preenchidos em cada `brands/[marca].md`
+- [ ] Templates de síntese por marca preenchidos em cada `data/[marca]/[marca].md`
 - [ ] Template de síntese transversal preenchido (ver protocolo, secção final)
 - [ ] Verificação adicional "MatosCar Abrantes" concluída
 - [ ] Screenshots confirmadas em `assets/[marca]/competitive/`

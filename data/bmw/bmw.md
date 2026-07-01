@@ -294,3 +294,72 @@ Número aproximado de unidades listadas: 0 (ficha de modelo genérica, não unid
 Screenshot: assets/bmw/funnel/cp2-ficha-modelo-i3.png, assets/bmw/funnel/cp2-modal-test-drive.png
 Observação: Página de modelo "Novo i3" sem stock concreto — sem VIN, matrícula real, quilometragem, ano ou cor específica. Conteúdo é texto promocional do fabricante (autonomia WLTP, descrição de design), galeria de fotos e vídeo. CTA "Quero experimentar" abre modal de pedido de test-drive (não Reservar/compra): campos Nome, Apelidos, Telefone, E-mail obrigatórios, Concelho opcional, checkboxes de privacidade e marketing, protegido por reCAPTCHA. Formulário não pede unidade, cor ou versão específica — confirma ausência de ligação a stock real. Página permanece no domínio amatoscar.pt, sem redirecção externa.
 
+
+## Modulo 3 - Pesquisa: BMW Castelo Branco
+Query: BMW Castelo Branco
+Distrito / cidade: Beira Interior / Castelo Branco
+Data: 30/06/2026  Hora: 18:26
+
+— ANUNCIOS PAGOS —
+Existe anuncio pago: n
+Verificado no topo absoluto da pagina, sem etiqueta Patrocinado visivel.
+
+— RESULTADOS ORGANICOS —
+Nota estrutural: a SERP devolve Knowledge Panel de entidade unica (BMW - A MatosCar, 3.7 estrelas, 31 avaliacoes), nao Local Pack classico de 3 dealers.
+Resultado 1: BMW A MatosCar - bmw.amatoscar.pt
+Resultado 2: A MatosCar BMW (Facebook) - facebook.com
+Resultado 3: A MatosCar: Compra e Venda de Carros Novos e Usados em Portugal - www.amatoscar.pt
+MatosCar aparece nos top 3 organicos: s (posicao 1)
+Aparece noutro ponto visivel sem scroll: s (Knowledge Panel acima dos organicos)
+
+— GOOGLE MAPS / LOCAL PACK —
+Existe Local Pack classico: n
+Existe Knowledge Panel de entidade: s
+MatosCar e a entidade do Knowledge Panel: s
+Outros dealers visiveis: nenhum
+
+— CONCORRENTES IDENTIFICADOS —
+Sem scroll: nenhum concorrente visivel
+Com scroll (fora do criterio formal): Standvirtual - standvirtual.com (agregador)
+
+Screenshot: castelo-branco-bmw-1.png, castelo-branco-bmw-2.png, castelo-branco-bmw-3.png
+Observacao livre: dominancia total da MatosCar nesta query. Knowledge Panel proprio + 3 primeiros organicos todos MatosCar + zero concorrentes sem scroll. Formato de SERP difere do esperado pelo protocolo - possivelmente porque o Google ja reconhece esta combinacao marca+cidade como entidade de negocio especifica.
+
+## Modulo 3 - Pesquisa: BMW Castelo Branco
+Query: BMW Castelo Branco
+Distrito / cidade: Beira Interior / Castelo Branco
+Data: 30/06/2026  Hora: 18:26
+
+— ANUNCIOS PAGOS —
+Existe anuncio pago: n
+Verificado no topo absoluto da pagina, sem etiqueta Patrocinado visivel.
+
+— RESULTADOS ORGANICOS —
+Nota estrutural: SERP devolve Knowledge Panel de entidade unica (BMW - A MatosCar, 3.7 estrelas, 31 avaliacoes), nao Local Pack classico de 3 dealers.
+Resultado 1: BMW A MatosCar - bmw.amatoscar.pt
+Resultado 2: A MatosCar BMW (Facebook) - facebook.com
+Resultado 3: A MatosCar: Compra e Venda de Carros Novos e Usados em Portugal - www.amatoscar.pt
+MatosCar aparece nos top 3 organicos: s (posicao 1)
+Aparece noutro ponto visivel sem scroll: s (Knowledge Panel acima dos organicos)
+
+— GOOGLE MAPS / LOCAL PACK —
+Existe Local Pack classico: n
+Existe Knowledge Panel de entidade: s
+MatosCar e a entidade do Knowledge Panel: s
+Outros dealers visiveis: nenhum
+
+— CONCORRENTES IDENTIFICADOS —
+Sem scroll: nenhum
+Com scroll (fora do criterio formal): Standvirtual - standvirtual.com (agregador)
+
+Screenshot: castelo-branco-bmw-1.png, castelo-branco-bmw-2.png, castelo-branco-bmw-3.png
+Observacao livre: dominancia total da MatosCar nesta query. Knowledge Panel proprio + 3 primeiros organicos todos MatosCar + zero concorrentes sem scroll. Formato de SERP difere do esperado pelo protocolo - Google reconhece esta combinacao marca+cidade como entidade de negocio especifica.
+
+### Nota lateral — Criticas negativas visiveis no Knowledge Panel
+Observado no screenshot castelo-branco-bmw-3.png.
+Tres avaliacoes de 1/5 visiveis sem interaccao adicional no Knowledge Panel BMW - A MatosCar:
+- Danny Verwichte (1/5, ha um mes): cliente em viagem de estrada, motor BMW sobreaqueceu, nao foi atendido na garagem.
+- Susana Farinha (1/5, ha um ano): primeira utilizacao, nao gostou do servico prestado.
+- Ana MBella (1/5, ha 2 anos): critica em espanhol, esperou quase um quarto de hora sem ser atendida.
+Rating geral visivel: 3,7 estrelas (31 avaliacoes).
+Relevancia: nao e materia do Modulo 3 (visibilidade competitiva), mas criticas negativas visiveis no topo da SERP afectam conversao. Registar para consideracao no relatorio final.

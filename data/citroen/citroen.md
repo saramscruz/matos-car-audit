@@ -326,3 +326,41 @@ Número aproximado de unidades listadas: 0 (ficha de modelo genérica)
 Screenshot: assets/citroen/funnel/cp2-ficha-modelo-ec5aircross.png, assets/citroen/funnel/cp2-motorizacoes.png, assets/citroen/funnel/cp2-formulario-pedir-info.png
 Observação: Página "Citroen Novo ë-C5 Aircross" sem stock concreto — sem VIN, matrícula real, quilometragem ou cor específica. Secção "Motorizações" lista 5 variantes, todas correctamente etiquetadas "Eléctrico" (230cv Autonomia Alargada Auto MAX; 210cv Autonomia Longa Auto MAX; 230cv Autonomia Alargada Auto PLUS; 210cv Autonomia Longa Auto PLUS; 230cv Autonomia Alargada Auto BUSINESS) — consistência terminológica mantida, sem ambiguidade eléctrico/híbrido. DEFEITO DE QUALIDADE identificado: nomes das variantes aparecem truncados/cortados ("Elétri 230cv...", "Elétr 230cv...", "Elé 230cv...") — provável limite de caracteres mal configurado no sistema de catálogo, afecta legibilidade e credibilidade. O bloco de texto promocional genérico (presente em todas as marcas observadas, conteúdo variável conforme fornecido pelo fabricante/distribuidor) aqui aborda sustentabilidade (bancos com tecidos reciclados) — conteúdo equivalente ao que noutras marcas abordou design ou funcionalidades práticas. CTA "Quero experimentar" e formulário "Pedir informação" seguem o padrão consistente das restantes marcas.
 
+
+## Modulo 3 - Pesquisa: Citroen Castelo Branco
+Query: Citroën Castelo Branco
+Distrito / cidade: Beira Interior / Castelo Branco
+Data: 01/07/2026  Hora: 10:32
+
+— ANUNCIOS PAGOS —
+Existe anuncio pago: n
+Verificado em todos os screenshots, sem etiqueta Patrocinado visivel.
+
+— RESULTADOS ORGANICOS —
+Nota estrutural: Knowledge Panel correcto - Citroen - A MatosCar (4.5 estrelas, 94 avaliacoes). Melhor rating de todos os Knowledge Panels observados neste distrito.
+Resultado 1: citroen.pt - rede.citroen.pt ("Descubra os modelos Citroen em A MATOS CAR - Castelo Branco") - pagina da marca a apontar explicitamente para a MatosCar
+Resultado 2: citroen.pt - rede.citroen.pt ("Ofertas Citroen")
+Resultado 3: OLX Portugal - olx.pt ("Castelo Branco - Citroen")
+Resultado 4: Standvirtual - standvirtual.com ("Citroen Castelo Branco - Carros")
+Resultado 5: autonews.pt ("A MatosCar Beiras, Oficina Auto Citroen e Volvo em Castelo Branco")
+Resultado 6: A MatosCar - amatoscar.pt ("Carros Citroen Novos e Usados a Venda em Portugal")
+Resultado 7: citroen.pt - rede.citroen.pt ("Servicos de manutencao e reparacao Citroen A MATOS CAR - Castelo Branco")
+Resultado 8: Carmine.pt - carmine.pt ("Citroen no distrito de Castelo Branco, usados e seminovos")
+Resultado 9: citroen.pt - rede.citroen.pt ("Servicos disponiveis A MATOS CAR - Castelo Branco")
+MatosCar aparece nos top 3 organicos: nao directamente - mas pos 1 e 2 sao citroen.pt a mencionar explicitamente A MATOS CAR Castelo Branco
+MatosCar com pagina propria (amatoscar.pt): posicao 6
+Aparece noutro ponto visivel sem scroll: s (Knowledge Panel correcto, 4.5 estrelas)
+
+— GOOGLE MAPS / LOCAL PACK —
+Existe Local Pack classico: n
+Existe Knowledge Panel de entidade: s
+MatosCar e a entidade do Knowledge Panel: s (entidade correcta - Citroen - A MatosCar)
+
+— CONCORRENTES IDENTIFICADOS —
+1. OLX Portugal - olx.pt (agregador, posicao organica 3)
+2. Standvirtual - standvirtual.com (agregador, posicao organica 4)
+3. Carmine.pt - carmine.pt (agregador, posicao organica 8)
+Nota: sem concorrentes directos (outros dealers Citroen) visiveis nesta SERP.
+
+Screenshot: castelo-branco-citroen-1.png, castelo-branco-citroen-2.png, castelo-branco-citroen-3.png, castelo-branco-citroen-4.png
+Observacao livre: caso mais favoravel do bloco Castelo Branco apos a BMW. Knowledge Panel correcto com melhor rating (4.5 estrelas, 94 avaliacoes). citroen.pt domina os primeiros resultados organicos com paginas que mencionam explicitamente A MATOS CAR Castelo Branco - situacao oposta a BYD onde byd-auto.pt nao mencionava a MatosCar. Ausencia de concorrentes directos nesta SERP. Fraqueza: amatoscar.pt so aparece na posicao 6 apesar da forca do Knowledge Panel.

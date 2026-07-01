@@ -338,3 +338,40 @@ Número aproximado de unidades listadas: 0 (ficha de modelo genérica)
 Screenshot: assets/byd/funnel/cp2-ficha-modelo-seal6.png, assets/byd/funnel/cp2-motorizacoes.png, assets/byd/funnel/cp2-formulario-pedir-info.png
 Observação: Página "BYD Novo Seal 6 DM-i Touring" sem stock concreto — sem VIN, matrícula real, quilometragem ou cor específica. Secção "Motorizações" lista 2 variantes (Híbrido Sem Chumbo Comfort, 212 CV; Híbrido Sem Chumbo Comfort Lite, 212 CV), ambas correctamente etiquetadas como "Híbrido" — ao contrário da Audi, não há confusão terminológica entre eléctrico puro e híbrido. Secção de garantia visível antes do formulário: 8 anos/150.000 km garantia de fabricante, 8 anos/200.000 km garantia da bateria — diferencial não observado nas outras 3 marcas, consistente com estratégia típica de marcas chinesas a construir confiança em mercados novos. CTA "Quero experimentar" e formulário "Pedir informação" seguem o mesmo padrão das restantes marcas (Nome/Apelidos/E-mail/Telefone/Concelho obrigatórios + Comentários opcional).
 
+
+## Modulo 3 - Pesquisa: BYD Castelo Branco
+Query: BYD Castelo Branco
+Distrito / cidade: Beira Interior / Castelo Branco
+Data: 01/07/2026  Hora: 10:26
+
+— ANUNCIOS PAGOS —
+Existe anuncio pago: n
+Verificado em todos os screenshots, sem etiqueta Patrocinado visivel.
+
+— RESULTADOS ORGANICOS —
+Nota estrutural: Knowledge Panel presente mas entidade errada - BYD Castelo Branco - Rodda (4.6 estrelas, 20 avaliacoes). Rodda e concorrente directo da MatosCar. Google nao associa a MatosCar a query BYD Castelo Branco.
+Resultado 1: BYD Auto Portugal - byd-auto.pt ("Concessionarios BYD em Portugal. Sempre ao Seu Lado.")
+Resultado 2: Standvirtual - standvirtual.com ("BYD Castelo Branco - Carros")
+Resultado 3: Check Up Media - checkupmedia.com ("BYD chega a Castelo Branco e Guarda")
+Resultado 4: BYD Auto Portugal - byd-auto.pt ("BYD Lider Mundial em Carros Electricos e Hibridos Plug-in")
+Resultado 5: Jornal Economico - jornaleconomico.sapo.pt
+Resultado 6: Carmine.pt - carmine.pt ("Byd no distrito de Castelo Branco, usados e seminovos")
+Resultado 7: Rodda - rodda.pt ("BYD - Grupo Automoveis do Mondego")
+Resultado 8: M. & Costas - byd.mcostas.pt ("BYD Concessionario Oficial M & Costas") - nota Google: "Nao inclui Branco, tem de incluir Branco"
+MatosCar aparece nos top 3 organicos: n
+MatosCar aparece em qualquer posicao organica: n
+MatosCar aparece nesta SERP: n (ausencia total)
+
+— GOOGLE MAPS / LOCAL PACK —
+Existe Local Pack classico: n
+Existe Knowledge Panel de entidade: s (entidade errada - Rodda, concorrente directo)
+MatosCar e a entidade do Knowledge Panel: n
+
+— CONCORRENTES IDENTIFICADOS —
+1. Rodda - rodda.pt (concorrente directo, Knowledge Panel + posicao organica 7)
+2. M. & Costas - byd.mcostas.pt (concorrente directo, posicao organica 8)
+3. Standvirtual - standvirtual.com (agregador, posicao organica 2)
+4. BYD Auto Portugal - byd-auto.pt (marca, posicoes organicas 1 e 4)
+
+Screenshot: castelo-branco-byd-1.png, castelo-branco-byd-2.png, castelo-branco-byd-3.png, castelo-branco-byd-4.png
+Observacao livre: finding critico - ausencia total da MatosCar nesta SERP. Nenhum resultado organico, nenhum Knowledge Panel proprio, nenhuma mencao nas sugestoes relacionadas. Knowledge Panel pertence a Rodda (concorrente directo, 4.6 estrelas vs 3.7 da BMW MatosCar). Para esta query o Google nao reconhece a MatosCar como entidade relevante em Castelo Branco para BYD. Ausencia de Google Business Profile dedicado BYD provavel causa estrutural.
