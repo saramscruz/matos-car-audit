@@ -488,3 +488,37 @@ Dealers concorrentes visiveis nesta SERP:
 Screenshot: guarda-volkswagen-1.png a guarda-volkswagen-4.png
 
 Observacao livre: Confirma-se o padrao previsto na pesquisa anterior - a Gavis, multimarca (VW/Audi/Seat/Skoda), domina ambas as queries em Guarda com o mesmo perfil GBP e reviews identicos, sinal de ser literalmente a mesma entidade a capturar as duas marcas. Distinto do padrao Beja (Irmaos Luzias capturava Audi e VW por ausencia da MatosCar, mas sem Knowledge Panel dominante) - aqui a Gavis tem presenca tao forte que ocupa o formato normalmente reservado a propria MatosCar noutras marcas/distritos. Ausencia da MatosCar em Guarda para Audi e VW e total e sem qualquer mencao secundaria - o padrao mais desfavoravel observado ate agora para estas duas marcas.
+## Modulo 3 - Pesquisa 28 - Volkswagen Abrantes
+Query: Volkswagen Abrantes
+Distrito / cidade: Abrantes
+Data: 01/07/2026  Hora: 15:40
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+Resultado 1: Standvirtual - VW Abrantes - Carros - standvirtual.com
+Resultado 2: Volkswagen Portugal - Pesquisa de Concessionarios - volkswagen.pt
+Resultado 3: OLX Portugal - Volkswagen - VW - Carros Abrantes (Sao Vicente e Sao Joao) e... - olx.pt
+
+MatosCar aparece nos primeiros 3 organicos: nao
+Aparece noutro ponto visivel sem scroll: nao - ausencia total
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack: sim
+MatosCar aparece no Local Pack: nao
+Outros dealers no Local Pack:
+  1. Spotcars - Comercio Automo... - Parque SPOTCARS, Av. Antonio... (posicao A, repete de Audi Abrantes)
+  2. Fly Motors Comercio Automo... - Av. Antonio Farinha Pereira N 20 (posicao B, novo)
+  3. Cremilcar - Comercio de Viat... - Av. Dom Manuel Primeiro 1361 (posicao C, repete de BMW e Audi Abrantes)
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. Spotcars (spotcars.pt) - repete de Audi Abrantes, agora tambem VW
+  2. Fly Motors (flymotors.pt) - novo, mesma zona de Spotcars
+  3. Cremilcar - terceira aparicao consecutiva (BMW, Audi, VW)
+  4. Carby (carby.pt) - Concessionario Oficial Volkswagen, resultado organico
+
+Screenshot: abrantes-volkswagen-1.png a abrantes-volkswagen-4.png
+
+Observacao livre: Terceira marca consecutiva (BMW, Audi, VW) com ausencia total da MatosCar em Abrantes - mas ao contrario de Portalegre e Guarda, aqui nao ha Knowledge Panel de entidade unica a dominar, o Local Pack esta genuinamente fragmentado entre tres dealers distintos. Cremilcar confirma-se como o concorrente mais presente e consistente de todo o distrito de Abrantes, aparecendo nas tres primeiras marcas pesquisadas. Reforca o achado central do bloco: a abertura da MatosCar em Abrantes ainda nao tem qualquer expressao digital, mesmo em marcas onde a MatosCar domina noutros distritos.

@@ -69,11 +69,11 @@ Preencher uma linha por pesquisa, à medida que avanças. Os detalhes completos 
 | 23 | Beira Interior Norte | Guarda | Volkswagen | `Volkswagen Guarda` | ✗ | ✗ (Knowledge Panel dominado pelo concorrente Gavis, identico ao caso Audi) | ✗ | ✗ | Gavis (multimarca VW/Audi/Seat/Skoda) | guarda-volkswagen-1.png, guarda-volkswagen-2.png, guarda-volkswagen-3.png, guarda-volkswagen-4.png |
 | 24 | Beira Interior Norte | Guarda | BYD | `BYD Guarda` | ✗ | ✗ (Knowledge Panel dominado pelo concorrente Rodda) | ✗ | ✗ | Rodda (Grupo Automoveis do Mondego/Corvauto) | guarda-byd-1.png, guarda-byd-2.png, guarda-byd-3.png, guarda-byd-4.png |
 | 25 | Beira Interior Norte | Guarda | Citroën | `Citroën Guarda` | ✓ (pos 1-3) | ✓ (Knowledge Panel entidade única, 4,3★/51 reviews) | ✗ | ✗ | nenhum | guarda-citroen-1.png, guarda-citroen-2.png, guarda-citroen-3.png, guarda-citroen-4.png |
-| 26 | Santarém/Abrantes | Abrantes | BMW | `BMW Abrantes` | | | | | | |
-| 27 | Santarém/Abrantes | Abrantes | Audi | `Audi Abrantes` | | | | | | |
-| 28 | Santarém/Abrantes | Abrantes | Volkswagen | `Volkswagen Abrantes` | | | | | | |
-| 29 | Santarém/Abrantes | Abrantes | BYD | `BYD Abrantes` | | | | | | |
-| 30 | Santarém/Abrantes | Abrantes | Citroën | `Citroën Abrantes` | | | | | | |
+| 26 | Santarém/Abrantes | Abrantes | BMW | `BMW Abrantes` | ✗ | ✗ (Knowledge Panel generico vazio, nao geo MatosCar) | ✗ | ✗ | Cremilcar / Carpego Automoveis | abrantes-bmw-1.png, abrantes-bmw-2.png, abrantes-bmw-3.png, abrantes-bmw-4.png |
+| 27 | Santarém/Abrantes | Abrantes | Audi | `Audi Abrantes` | ✗ | ✗ | ✗ | ✗ | Spotcars / LZCarSolutions / Cremilcar / Carpego | abrantes-audi-1.png, abrantes-audi-2.png, abrantes-audi-3.png, abrantes-audi-4.png |
+| 28 | Santarém/Abrantes | Abrantes | Volkswagen | `Volkswagen Abrantes` | ✗ | ✗ | ✗ | ✗ | Spotcars / Fly Motors / Cremilcar | abrantes-volkswagen-1.png, abrantes-volkswagen-2.png, abrantes-volkswagen-3.png, abrantes-volkswagen-4.png |
+| 29 | Santarém/Abrantes | Abrantes | BYD | `BYD Abrantes` | ✗ | ✗ | ✓ | ✗ | DS Auto Abrantes / Spotcars (nota: geolocalizacao IP identificou Fundao - ver observacao) | abrantes-byd-1.png, abrantes-byd-2.png, abrantes-byd-3.png, abrantes-byd-4.png |
+| 30 | Santarém/Abrantes | Abrantes | Citroën | `Citroën Abrantes` | ✗ | ✗ (Knowledge Panel dealer local marcado como encerrado permanentemente) | ✗ | ✗ | Z-Car Automoveis / Z.Car-Automoveis Tomar | abrantes-citroen-1.png, abrantes-citroen-2.png, abrantes-citroen-3.png, abrantes-citroen-4.png |
 | 31 | Santarém/Abrantes | Santarém | BMW | `BMW Santarém` | | | | | | |
 | 32 | Santarém/Abrantes | Santarém | Audi | `Audi Santarém` | | | | | | |
 | 33 | Santarém/Abrantes | Santarém | Volkswagen | `Volkswagen Santarém` | | | | | | |

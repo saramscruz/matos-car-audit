@@ -476,3 +476,37 @@ Dealers concorrentes visiveis nesta SERP:
 Screenshot: guarda-audi-1.png a guarda-audi-4.png
 
 Observacao livre: Visibilidade Audi da MatosCar em Guarda e zero - terceiro distrito consecutivo (Beja, Portalegre, agora Guarda) sem presenca digital local para Audi. Caso qualitativamente distinto dos anteriores: aqui um concorrente multimarca (Gavis) ocupa o mesmo formato de Knowledge Panel dominante que a MatosCar usa noutras marcas/distritos, com avaliacoes fortes e consistentes (108 reviews). Gavis e um concorrente novo no modulo, distinto de PRcar, Evoracar e Irmaos Luzias.
+## Modulo 3 - Pesquisa 27 - Audi Abrantes
+Query: Audi Abrantes
+Distrito / cidade: Abrantes
+Data: 01/07/2026  Hora: 15:24
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+Resultado 1: Audi Portugal - Localizador de Concessionarios - audi.pt
+Resultado 2: Standvirtual - Audi Abrantes - Carros - standvirtual.com
+Resultado 3: OLX Portugal - Audi Abrantes (Sao Vicente e Sao Joao) e Alferrarede - Carros - olx.pt (5900 euros)
+
+MatosCar aparece nos primeiros 3 organicos: nao
+Aparece noutro ponto visivel sem scroll: nao - ausencia total
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack: sim
+MatosCar aparece no Local Pack: nao
+Outros dealers no Local Pack:
+  1. Spotcars - Comercio Automo... - Parque SPOTCARS, Av. Antonio... (posicao A)
+  2. LZCarSolutions - R. Antonio Correia Pires 23 (posicao B)
+  3. Cremilcar - Comercio de Viat... - Av. Dom Manuel Primeiro 1361 (posicao C, mesma entidade da pesquisa BMW Abrantes)
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. Spotcars - Comercio Automovel, novo no modulo
+  2. LZCarSolutions - novo no modulo
+  3. Cremilcar - repete de BMW Abrantes
+  4. Carpego Automoveis (carpego.pt) - Usados Audi, repete de BMW Abrantes
+
+Screenshot: abrantes-audi-1.png a abrantes-audi-4.png
+
+Observacao livre: Quarto distrito consecutivo (Beja, Portalegre, Guarda, Abrantes) com visibilidade Audi da MatosCar em zero absoluto - padrao completamente consistente na metade final do modulo. Cremilcar e Carpego Automoveis confirmam-se como concorrentes multimarca em Abrantes (BMW + Audi), a semelhanca do papel da Gavis em Guarda.

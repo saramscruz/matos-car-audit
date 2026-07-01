@@ -479,3 +479,35 @@ Nenhum concorrente identificado nesta SERP.
 Screenshot: guarda-citroen-1.png a guarda-citroen-4.png
 
 Observacao livre: Quinto distrito consecutivo (Castelo Branco, Evora, Beja, Portalegre, Guarda) onde a Citroen e a marca com melhor cobertura MatosCar - padrao totalmente consistente, sem uma unica excepcao em todo o modulo. Contraste marcante com o mesmo distrito na Audi e VW, dominadas pela Gavis com ausencia total da MatosCar - confirma que a fragilidade da MatosCar nestas duas marcas e estrutural (por marca), nao geografica (por distrito).
+## Modulo 3 - Pesquisa 30 - Citroen Abrantes
+Query: Citroen Abrantes
+Distrito / cidade: Abrantes
+Data: 01/07/2026  Hora: 16:33
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- VISTA GERAL DE IA (AI OVERVIEW) -
+Presente. Recomenda Z-Car Automoveis: Concessionario oficial e reparador autorizado, Av. das Forcas Armadas 230, 2200-300 Abrantes.
+
+- RESULTADOS ORGANICOS -
+Resultado 1: Standvirtual - Citroen Abrantes - Carros - standvirtual.com
+Resultado 2: citroen.pt - encontre o seu concessionario citroen ou reparador autorizado
+Resultado 3: Citroen Abrantes - Z-Car Automoveis - Knowledge Panel, 3,5 estrelas (25 avaliacoes), status Encerrado permanentemente
+
+MatosCar aparece nos primeiros 3 organicos: nao
+Aparece noutro ponto visivel sem scroll: nao - ausencia total
+
+- GOOGLE MAPS / LOCAL PACK -
+Knowledge Panel da Z-Car Automoveis mostra estado Encerrado permanentemente.
+MatosCar aparece: nao
+Nota adicional: Facebook Z.Car-Automoveis,Lda | Tomar aparece em As pessoas tambem pesquisam - Concessionario Citroen - Tomar e Abrantes, multimarcas, 3,7 estrelas (3 avaliacoes) - possivel continuacao/realocacao da mesma empresa.
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. Z-Car Automoveis - dealer principal segundo AI Overview, mas GBP indica encerramento permanente
+  2. Z.Car-Automoveis, Lda (Tomar) - possivel continuacao da mesma empresa, ainda servindo Abrantes
+
+Screenshot: abrantes-citroen-1.png a abrantes-citroen-4.png
+
+Observacao livre: ACHADO EXCECIONAL - primeira vez em todo o modulo que a Citroen nao tem qualquer presenca MatosCar visivel, quebrando o padrao de dominancia total mantido em Castelo Branco, Evora, Beja, Portalegre e Guarda. Inconsistencia notavel entre a AI Overview (recomenda Z-Car Automoveis como activa) e o proprio Google Business Profile dessa entidade (marca Encerrado permanentemente) - risco metodologico a assinalar sobre fiabilidade de respostas geradas por IA. Com esta pesquisa confirma-se que Abrantes e o unico dos 6 distritos analisados onde nenhuma das 5 marcas tem qualquer presenca digital MatosCar - resultado mais desfavoravel do modulo inteiro para a rede.

@@ -480,3 +480,59 @@ Nenhum concorrente identificado nesta SERP.
 Screenshot: guarda-bmw-1.png a guarda-bmw-4.png
 
 Observacao livre: Quarta ocorrencia do padrao Knowledge Panel de entidade unica (apos BMW Castelo Branco, BMW e Citroen Beja, BMW e VW Portalegre) - reforca a hipotese de que este formato surge quando a MatosCar e a unica concessionaria local da marca. A pagina de Facebook confirma explicitamente que a mesma unidade BMW cobre tres distritos (Guarda, Castelo Branco e Evora), explicando a ausencia estrutural de concorrentes BMW em toda a area de operacao da MatosCar. Volume de avaliacoes elevado e consistente (117, 3,8 estrelas) sugere perfil GBP maduro, ao contrario do caso VW Portalegre (2,3 estrelas, so 3 reviews).
+## Modulo 3 - Pesquisa 26 - BMW Abrantes
+Query: BMW Abrantes
+Distrito / cidade: Abrantes
+Data: 01/07/2026  Hora: 15:18
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+Resultado 1: BMW Portugal - Concessionarios BMW - bmw.pt
+Resultado 2: Cremilcar - Cremilcar | Inicio - cremilcar.pt (empresa com sede em Abrantes, compra/venda/reparacao de viaturas)
+Resultado 3: Standvirtual - BMW Abrantes - Carros - standvirtual.com
+
+MatosCar aparece nos primeiros 3 organicos: nao
+Aparece noutro ponto visivel sem scroll: nao - ausencia total
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Knowledge Panel: sim, mas generico e vazio - "Bmw - Escritorio empresarial em Abrantes", 2200-383 Abrantes, sem avaliacoes, sem horario preenchido, sem telefone. Nao e a MatosCar - parece entidade automatica do Google sem gestao activa.
+MatosCar aparece: nao
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. Cremilcar (cremilcar.pt) - dealer sediado em Abrantes
+  2. Carpego Automoveis (carpego.pt) - dealer de usados BMW em Abrantes/Santarem
+
+Screenshot: abrantes-bmw-1.png a abrantes-bmw-4.png
+
+Observacao livre: Achado critico - a MatosCar abriu fisicamente em Abrantes em junho de 2026 mas a query BMW Abrantes nao mostra qualquer rasto digital da marca (nem organico, nem Local Pack, nem Knowledge Panel proprio). O unico Knowledge Panel presente e uma entidade generica e vazia, sem dados preenchidos. Confirma directamente a tensao identificada no PRD para este distrito: presenca fisica recente sem presenca digital correspondente. Primeiro caso do modulo em que a BMW - a marca mais consistentemente dominante em todos os outros distritos - tem visibilidade zero.
+## Modulo 3 - Pesquisa 26 - BMW Abrantes
+Query: BMW Abrantes
+Distrito / cidade: Abrantes
+Data: 01/07/2026  Hora: 15:18
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+Resultado 1: BMW Portugal - Concessionarios BMW - bmw.pt
+Resultado 2: Cremilcar - Cremilcar | Inicio - cremilcar.pt (empresa com sede em Abrantes, compra/venda/reparacao de viaturas)
+Resultado 3: Standvirtual - BMW Abrantes - Carros - standvirtual.com
+
+MatosCar aparece nos primeiros 3 organicos: nao
+Aparece noutro ponto visivel sem scroll: nao - ausencia total
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Knowledge Panel: sim, mas generico e vazio - "Bmw - Escritorio empresarial em Abrantes", 2200-383 Abrantes, sem avaliacoes, sem horario preenchido, sem telefone. Nao e a MatosCar - parece entidade automatica do Google sem gestao activa.
+MatosCar aparece: nao
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. Cremilcar (cremilcar.pt) - dealer sediado em Abrantes
+  2. Carpego Automoveis (carpego.pt) - dealer de usados BMW em Abrantes/Santarem
+
+Screenshot: abrantes-bmw-1.png a abrantes-bmw-4.png
+
+Observacao livre: Achado critico - a MatosCar abriu fisicamente em Abrantes em junho de 2026 mas a query BMW Abrantes nao mostra qualquer rasto digital da marca (nem organico, nem Local Pack, nem Knowledge Panel proprio). O unico Knowledge Panel presente e uma entidade generica e vazia, sem dados preenchidos. Confirma directamente a tensao identificada no PRD para este distrito: presenca fisica recente sem presenca digital correspondente. Primeiro caso do modulo em que a BMW - a marca mais consistentemente dominante em todos os outros distritos - tem visibilidade zero.

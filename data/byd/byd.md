@@ -496,3 +496,36 @@ Dealers concorrentes visiveis nesta SERP:
 Screenshot: guarda-byd-1.png a guarda-byd-4.png
 
 Observacao livre: Achado forte - primeira ausencia total da MatosCar em toda a query BYD do modulo, sem cobertura nem por proximidade. Esta pesquisa revelou tambem um erro de atribuicao na Pesquisa 19 (BYD Portalegre), entretanto corrigido: a entrada "BYD Castelo Branco - Rodda" nao e a MatosCar, e a mesma Rodda aqui identificada, ja correctamente registada como concorrente na Pesquisa 1 (BYD Castelo Branco). A MatosCar nao parece ter presenca fisica na rede BYD em Castelo Branco nem Guarda.
+## Modulo 3 - Pesquisa 29 - BYD Abrantes
+Query: BYD Abrantes
+Distrito / cidade: Abrantes
+Data: 01/07/2026  Hora: 15:45
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: sim
+Anunciante 1: BYD Auto Portugal - byd-auto.pt (Escolha a marca lider BYD - Conheca as campanhas EV da BYD)
+MatosCar tem anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+Resultado 1: BYD Auto Portugal - Concessionarios BYD em Portugal - byd-auto.pt
+Resultado 2: byd.com - Encontre o seu Concessionario | BYD Portugal
+Resultado 3: dsauto.pt - Stand DS-AUTO-ABRANTES - Rua Rei Dom Carlos, Zona Industrial, Abrantes (multimarca: BYD, Chevrolet, Citroen, Dacia, Dodge)
+
+MatosCar aparece nos primeiros 3 organicos: nao
+Aparece noutro ponto visivel sem scroll: nao - ausencia total
+
+- VISTA GERAL DE IA (AI OVERVIEW) -
+Presente. Texto: Para explorar e adquirir carros da BYD perto de Fundao, tem varias opcoes. Pode visitar o concessionario oficial DS Auto Abrantes, localizado na Zona Industrial, ou procurar viaturas seminovas e usadas no stand Spotcars.
+
+- GOOGLE MAPS / LOCAL PACK -
+Nao observado como bloco classico nesta captura - AI Overview parece substituir esse espaco.
+MatosCar aparece: nao
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. DS Auto Abrantes (dsauto.pt) - concessionario multimarca (BYD, Chevrolet, Citroen, Dacia, Dodge), Zona Industrial de Abrantes, creditado pela propria IA Overview como concessionario oficial BYD da zona
+  2. Spotcars - terceira aparicao consecutiva neste distrito (Audi, VW, agora BYD)
+
+Screenshot: abrantes-byd-1.png a abrantes-byd-4.png
+
+Observacao livre: ACHADO METODOLOGICO A ASSINALAR - a AI Overview referiu carros da BYD perto de Fundao, refletindo a localizacao real da analista via geolocalizacao por IP - mecanismo que o modo incognito e as definicoes de permissao de site do Chrome nao bloqueiam (confirmado: nenhum site tinha autorizacao explicita de localizacao nas Definicoes do Chrome). Limitacao estrutural do protocolo a declarar no relatorio final, sem correccao viavel sem VPN/proxy. A parte desta anomalia, o achado central mantem-se: MatosCar com ausencia total, quarta marca consecutiva (BMW, Audi, VW, BYD) sem qualquer presenca digital em Abrantes.
