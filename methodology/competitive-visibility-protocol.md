@@ -30,7 +30,7 @@ Localização do browser: desactivada
 
 ---
 
-## As 30 pesquisas
+## As 35 pesquisas
 
 ### Formato das queries
 

@@ -227,7 +227,7 @@ Para cada marca, uma pesquisa Google em Chrome incógnito a 390px para cada dist
 - `[marca] Abrantes`
 - `[marca] Santarém`
 
-Total de pesquisas: 30 (5 marcas × 5 distritos originais + 5 marcas × 2 queries Abrantes/Santarém = 30)
+Total de pesquisas: 35 (5 marcas × 5 distritos originais + 5 marcas × 2 queries Abrantes/Santarém = 35)
 
 **Registar para cada pesquisa:**
 
@@ -314,7 +314,7 @@ matos-car-audit/
 |-----|--------|
 | Dia 1 | Módulo 0: pesquisa comparativa das 5 marcas. Módulo 1: Google Trends para todas as 5 marcas — 20 queries + template de registo completo. Screenshots e notas em brands/[marca].md. |
 | Dia 2 | Módulo 2: Observação do site para todas as 5 marcas. Screenshots em assets/[marca]/funnel/. Notas em brands/[marca].md. |
-| Dia 3 | Módulo 3: 30 pesquisas competitivas — 5 marcas × 6 distritos (incluindo Abrantes/Santarém duplo formato). Notas em brands/[marca].md. |
+| Dia 3 | Módulo 3: 35 pesquisas competitivas — 5 marcas × 7 queries distritais (incluindo Abrantes/Santarém duplo formato). Notas em brands/[marca].md. |
 
 ### Semana 2 — Report
 
