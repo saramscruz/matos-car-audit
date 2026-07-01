@@ -510,3 +510,33 @@ Dealers concorrentes visiveis nesta SERP:
 Screenshot: abrantes-audi-1.png a abrantes-audi-4.png
 
 Observacao livre: Quarto distrito consecutivo (Beja, Portalegre, Guarda, Abrantes) com visibilidade Audi da MatosCar em zero absoluto - padrao completamente consistente na metade final do modulo. Cremilcar e Carpego Automoveis confirmam-se como concorrentes multimarca em Abrantes (BMW + Audi), a semelhanca do papel da Gavis em Guarda.
+## Modulo 3 - Pesquisa 32 - Audi Santarem
+Query: Audi Santarem
+Distrito / cidade: Santarem
+Data: 01/07/2026  Hora: 16:53
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: sim
+Anunciante 1: Carby - Viaturas em Campanha - Concessionario Audi, Varzea Santarem, 4,4 estrelas (73)
+MatosCar tem anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+SERP abre com Knowledge Panel de entidade unica do concorrente: Audi Santarem - Carby, 4,4 estrelas (73 avaliacoes), Estrada Nacional 114, Km 73,8, Varzea.
+Resultado 1: audi.pt - AUDI com ofertas
+Resultado 2: Carby - carby.pt - Concessionario Oficial Audi (Penafiel, Vila Real, Almada, Santarem e Faro)
+Resultado 3: Standvirtual - Audi Santarem - Carros - standvirtual.com
+
+MatosCar aparece nos primeiros 3 organicos: nao
+Aparece noutro ponto visivel sem scroll: nao - ausencia total
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack classico: nao (substituido por Knowledge Panel da Carby)
+MatosCar aparece: nao
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. Carby (carby.pt) - cadeia de concessionarios Audi oficiais em 5 localizacoes (Penafiel, Vila Real, Almada, Santarem, Faro) - maior escala geografica de qualquer concorrente identificado no modulo
+
+Screenshot: santarem-audi-1.png a santarem-audi-4.png
+
+Observacao livre: Quinto distrito consecutivo (Beja, Portalegre, Guarda, Abrantes, Santarem) com visibilidade Audi da MatosCar em zero absoluto - padrao mais consistente e sem excepcao de todo o modulo. A Carby e qualitativamente diferente dos concorrentes anteriores - nao e um dealer local isolado, mas uma rede nacional de concessionarios Audi oficiais - sugere que a MatosCar nunca teve, estruturalmente, presenca na rede oficial Audi nesta regiao mais ampla do pais.

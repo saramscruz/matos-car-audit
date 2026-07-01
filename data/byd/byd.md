@@ -529,3 +529,33 @@ Dealers concorrentes visiveis nesta SERP:
 Screenshot: abrantes-byd-1.png a abrantes-byd-4.png
 
 Observacao livre: ACHADO METODOLOGICO A ASSINALAR - a AI Overview referiu carros da BYD perto de Fundao, refletindo a localizacao real da analista via geolocalizacao por IP - mecanismo que o modo incognito e as definicoes de permissao de site do Chrome nao bloqueiam (confirmado: nenhum site tinha autorizacao explicita de localizacao nas Definicoes do Chrome). Limitacao estrutural do protocolo a declarar no relatorio final, sem correccao viavel sem VPN/proxy. A parte desta anomalia, o achado central mantem-se: MatosCar com ausencia total, quarta marca consecutiva (BMW, Audi, VW, BYD) sem qualquer presenca digital em Abrantes.
+## Modulo 3 - Pesquisa 34 - BYD Santarem
+Query: BYD Santarem
+Distrito / cidade: Santarem
+Data: 01/07/2026  Hora: 17:08
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+SERP abre com Knowledge Panel de entidade unica do concorrente: BYD Santarem - Grupo Lizauto, 4,1 estrelas (11 avaliacoes), Rua Dr. Hilario Barreiro Nunes, Varzea.
+Resultado 1: Grupo Lizauto - grupolizauto.pt - BYD (BYD Dolphin Surf, premio World Urban Car 2025)
+Resultado 2: BYD Auto Portugal - byd-auto.pt - Concessionarios BYD em Portugal (confirma Lizauto - Santarem, Rua Dr. Hilario Nunes)
+Resultado 3: Instagram - byd.santarem, mais de 4,1 mil seguidores
+
+Nota: um resultado bydsantarem.com.br e site brasileiro sem relacao com Portugal, desconsiderado como ruido.
+
+MatosCar aparece nos primeiros 3 organicos: nao
+Aparece noutro ponto visivel sem scroll: nao - ausencia total
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack classico: nao (substituido por Knowledge Panel do Grupo Lizauto)
+MatosCar aparece: nao
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. Grupo Lizauto (grupolizauto.pt) - concessionario BYD oficial para Santarem, presenca activa em redes sociais (Instagram 4,1 mil seguidores, YouTube com video de inauguracao do stand em Janeiro 2026)
+
+Screenshot: santarem-byd-1.png a santarem-byd-4.png
+
+Observacao livre: Terceiro concessionario concorrente distinto identificado no Bloco 7 (Anibal Carvalho e Filhos para BMW, Carby para Audi/VW, agora Lizauto para BYD) - ao contrario de Guarda, onde a Gavis dominava multiplas marcas, em Santarem cada marca tem o seu proprio concessionario oficial dedicado, todos bem estabelecidos e com presenca digital activa. Sugere que Santarem tem uma rede de concessionarios oficiais mais madura e fragmentada por marca do que qualquer outro distrito do modulo, e que a MatosCar nunca teve presenca estabelecida aqui em nenhuma das marcas analisadas ate agora.

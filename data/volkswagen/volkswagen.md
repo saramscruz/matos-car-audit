@@ -522,3 +522,30 @@ Dealers concorrentes visiveis nesta SERP:
 Screenshot: abrantes-volkswagen-1.png a abrantes-volkswagen-4.png
 
 Observacao livre: Terceira marca consecutiva (BMW, Audi, VW) com ausencia total da MatosCar em Abrantes - mas ao contrario de Portalegre e Guarda, aqui nao ha Knowledge Panel de entidade unica a dominar, o Local Pack esta genuinamente fragmentado entre tres dealers distintos. Cremilcar confirma-se como o concorrente mais presente e consistente de todo o distrito de Abrantes, aparecendo nas tres primeiras marcas pesquisadas. Reforca o achado central do bloco: a abertura da MatosCar em Abrantes ainda nao tem qualquer expressao digital, mesmo em marcas onde a MatosCar domina noutros distritos.
+## Modulo 3 - Pesquisa 33 - Volkswagen Santarem
+Query: Volkswagen Santarem
+Distrito / cidade: Santarem
+Data: 01/07/2026  Hora: 17:01
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+SERP abre com Knowledge Panel de entidade unica do concorrente: CARBY - Volkswagen Santarem, 3,9 estrelas (343 avaliacoes), Estrada Nacional 114 Km 73,8, Varzea.
+Resultado 1: Carby - carby.pt - Concessionario Oficial Volkswagen (Penafiel, Vila Real, Almada, Santarem e Faro)
+Resultado 2: Facebook - Carby - Concessionario Volkswagen (@carbyconcessionariovolkswagen), mais de 7,6 mil seguidores
+
+MatosCar aparece nos primeiros 3 organicos: nao
+Aparece noutro ponto visivel sem scroll: nao - ausencia total, incluindo em As pessoas tambem pesquisam
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack classico: nao (substituido por Knowledge Panel da Carby)
+MatosCar aparece: nao
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. Carby (carby.pt) - mesma entidade ja vista na pesquisa Audi Santarem, dominante agora na marca VW propria, com 343 avaliacoes - o volume de reviews mais alto de qualquer perfil identificado em todo o modulo
+
+Screenshot: santarem-volkswagen-1.png a santarem-volkswagen-4.png
+
+Observacao livre: Confirma-se o padrao multimarca ja visto com a Gavis em Guarda - a Carby domina tanto Audi como Volkswagen em Santarem, com o mesmo perfil GBP. Diferenca notavel face a Gavis: a Carby tem escala muito superior (343 avaliacoes, mais de 7,6 mil seguidores no Facebook, presenca em 5 cidades), tornando-a o concorrente mais forte identificado em todo o modulo ate agora.

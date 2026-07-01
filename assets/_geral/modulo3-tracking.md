@@ -74,11 +74,11 @@ Preencher uma linha por pesquisa, à medida que avanças. Os detalhes completos 
 | 28 | Santarém/Abrantes | Abrantes | Volkswagen | `Volkswagen Abrantes` | ✗ | ✗ | ✗ | ✗ | Spotcars / Fly Motors / Cremilcar | abrantes-volkswagen-1.png, abrantes-volkswagen-2.png, abrantes-volkswagen-3.png, abrantes-volkswagen-4.png |
 | 29 | Santarém/Abrantes | Abrantes | BYD | `BYD Abrantes` | ✗ | ✗ | ✓ | ✗ | DS Auto Abrantes / Spotcars (nota: geolocalizacao IP identificou Fundao - ver observacao) | abrantes-byd-1.png, abrantes-byd-2.png, abrantes-byd-3.png, abrantes-byd-4.png |
 | 30 | Santarém/Abrantes | Abrantes | Citroën | `Citroën Abrantes` | ✗ | ✗ (Knowledge Panel dealer local marcado como encerrado permanentemente) | ✗ | ✗ | Z-Car Automoveis / Z.Car-Automoveis Tomar | abrantes-citroen-1.png, abrantes-citroen-2.png, abrantes-citroen-3.png, abrantes-citroen-4.png |
-| 31 | Santarém/Abrantes | Santarém | BMW | `BMW Santarém` | | | | | | |
-| 32 | Santarém/Abrantes | Santarém | Audi | `Audi Santarém` | | | | | | |
-| 33 | Santarém/Abrantes | Santarém | Volkswagen | `Volkswagen Santarém` | | | | | | |
-| 34 | Santarém/Abrantes | Santarém | BYD | `BYD Santarém` | | | | | | |
-| 35 | Santarém/Abrantes | Santarém | Citroën | `Citroën Santarém` | | | | | | |
+| 31 | Santarém/Abrantes | Santarém | BMW | `BMW Santarém` | ✗ | ✗ (Knowledge Panel dominado pelo concorrente Anibal Carvalho e Filhos) | ✗ | ✗ | Anibal Carvalho e Filhos, S.A. (concessionario BMW oficial desde 1989) | santarem-bmw-1.png, santarem-bmw-2.png, santarem-bmw-3.png, santarem-bmw-4.png |
+| 32 | Santarém/Abrantes | Santarém | Audi | `Audi Santarém` | ✗ | ✗ (Knowledge Panel dominado pelo concorrente Carby) | ✓ (anunciante e a Carby) | ✗ | Carby (cadeia Audi oficial em 5 localizacoes) | santarem-audi-1.png, santarem-audi-2.png, santarem-audi-3.png, santarem-audi-4.png |
+| 33 | Santarém/Abrantes | Santarém | Volkswagen | `Volkswagen Santarém` | ✗ | ✗ (Knowledge Panel dominado pelo concorrente Carby, identico ao caso Audi) | ✗ | ✗ | Carby (cadeia VW oficial, 343 avaliacoes) | santarem-volkswagen-1.png, santarem-volkswagen-2.png, santarem-volkswagen-3.png, santarem-volkswagen-4.png |
+| 34 | Santarém/Abrantes | Santarém | BYD | `BYD Santarém` | ✗ | ✗ (Knowledge Panel dominado pelo concorrente Grupo Lizauto) | ✗ | ✗ | Grupo Lizauto (concessionario BYD oficial) | santarem-byd-1.png, santarem-byd-2.png, santarem-byd-3.png, santarem-byd-4.png |
+| 35 | Santarém/Abrantes | Santarém | Citroën | `Citroën Santarém` | ✗ | ✗ (Knowledge Panel dominado pelo concorrente SACEL) | ✓ (anunciante e a marca Citroen institucional) | ✗ | SACEL (concessionario Citroen oficial, 205 avaliacoes) | santarem-citroen-1.png, santarem-citroen-2.png, santarem-citroen-3.png, santarem-citroen-4.png |
 
 **Legenda:** ✓ = presente · ✗ = ausente · ? = inconclusivo (preencher nas colunas binárias)
 

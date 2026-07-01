@@ -511,3 +511,34 @@ Dealers concorrentes visiveis nesta SERP:
 Screenshot: abrantes-citroen-1.png a abrantes-citroen-4.png
 
 Observacao livre: ACHADO EXCECIONAL - primeira vez em todo o modulo que a Citroen nao tem qualquer presenca MatosCar visivel, quebrando o padrao de dominancia total mantido em Castelo Branco, Evora, Beja, Portalegre e Guarda. Inconsistencia notavel entre a AI Overview (recomenda Z-Car Automoveis como activa) e o proprio Google Business Profile dessa entidade (marca Encerrado permanentemente) - risco metodologico a assinalar sobre fiabilidade de respostas geradas por IA. Com esta pesquisa confirma-se que Abrantes e o unico dos 6 distritos analisados onde nenhuma das 5 marcas tem qualquer presenca digital MatosCar - resultado mais desfavoravel do modulo inteiro para a rede.
+## Modulo 3 - Pesquisa 35 - Citroen Santarem
+Query: Citroen Santarem
+Distrito / cidade: Santarem
+Data: 01/07/2026  Hora: 17:12
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: sim
+Anunciante 1: Citroen (marca, citroen.pt) - anuncio institucional generico
+MatosCar tem anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+SERP abre com Knowledge Panel de entidade unica do concorrente: SACEL - Citroen, 4,1 estrelas (205 avaliacoes), R. Conde da Ribeira Grande 11, Varzea.
+Resultado 1: citroen.pt - resultado institucional da marca
+Resultado 2: Contactos SACEL - Santarem
+Resultado 3: SACEL - Santarem
+Resultado adicional: sacel.pt - SACEL - Citroen - ponto de venda/reparador Citroen, carros novos, seminovos e usados, servicos de Oficina
+
+MatosCar aparece nos primeiros 3 organicos: nao
+Aparece noutro ponto visivel sem scroll: nao - ausencia total
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack classico: nao (substituido por Knowledge Panel da SACEL)
+MatosCar aparece: nao
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. SACEL (sacel.pt) - concessionario Citroen oficial de Santarem, 205 avaliacoes - segundo maior volume de reviews do modulo (atras da Carby) - quarto concessionario concorrente distinto identificado no Bloco 7
+
+Screenshot: santarem-citroen-1.png a santarem-citroen-4.png
+
+Observacao livre: ACHADO QUE FECHA O MODULO - Santarem replica exactamente a estrutura de Abrantes. A Citroen, dominante sem excepcao em 5 dos 7 distritos, perde pela segunda vez consecutiva no eixo Abrantes/Santarem. Confirma-se que a MatosCar tem ausencia total em todas as 5 marcas, em ambos os formatos da nova zona (Abrantes e Santarem) - o resultado mais consistente e mais desfavoravel de todo o modulo. Cada marca tem, nesta regiao, um concessionario concorrente distinto, bem estabelecido e com forte presenca digital (Anibal Carvalho e Filhos para BMW, Carby para Audi/VW, Grupo Lizauto para BYD, SACEL para Citroen).

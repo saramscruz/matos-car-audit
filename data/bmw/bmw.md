@@ -536,3 +536,31 @@ Dealers concorrentes visiveis nesta SERP:
 Screenshot: abrantes-bmw-1.png a abrantes-bmw-4.png
 
 Observacao livre: Achado critico - a MatosCar abriu fisicamente em Abrantes em junho de 2026 mas a query BMW Abrantes nao mostra qualquer rasto digital da marca (nem organico, nem Local Pack, nem Knowledge Panel proprio). O unico Knowledge Panel presente e uma entidade generica e vazia, sem dados preenchidos. Confirma directamente a tensao identificada no PRD para este distrito: presenca fisica recente sem presenca digital correspondente. Primeiro caso do modulo em que a BMW - a marca mais consistentemente dominante em todos os outros distritos - tem visibilidade zero.
+## Modulo 3 - Pesquisa 31 - BMW Santarem
+Query: BMW Santarem
+Distrito / cidade: Santarem
+Data: 01/07/2026  Hora: 16:49
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+SERP abre com Knowledge Panel de entidade unica do concorrente: BMW - Anibal Carvalho e Filhos, S.A., 4,6 estrelas (429 avaliacoes), Concessionario BMW nos Varzea, R. do Matadouro Regional 21, Varzea.
+Resultado 1: BMW Portugal - Veiculos Usados em Santarem - bmwpremiumselection.bmw.pt
+Resultado 2: Facebook - BMW - Anibal Carvalho e Filhos, SA | Santarem, mais de 11,1 mil seguidores
+Resultado 3: standvirtual.com - anibalcfilhos.standvirtual.com - nota historica: Anibal Carvalho e Filhos iniciou actividade como Concessionario BMW no distrito de Santarem em janeiro de 1989
+
+MatosCar aparece nos primeiros 3 organicos: nao
+Aparece noutro ponto visivel sem scroll: nao - ausencia total, incluindo em As pessoas tambem pesquisam
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack classico: nao (substituido por Knowledge Panel da Anibal Carvalho e Filhos)
+MatosCar aparece: nao
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. Anibal Carvalho e Filhos, S.A. (acfbmw.pt) - concessionario BMW oficial do distrito de Santarem desde 1989, 429 avaliacoes, 4,6 estrelas - o perfil mais forte e historico de qualquer concorrente identificado em todo o modulo
+
+Screenshot: santarem-bmw-1.png a santarem-bmw-4.png
+
+Observacao livre: ACHADO EXCECIONAL - primeira ausencia total da BMW MatosCar em todo o modulo, quebrando o padrao de dominancia mantido em 5 distritos consecutivos (Castelo Branco, Evora, Beja, Portalegre, Guarda). Ao contrario dos concorrentes multimarca mais pequenos vistos noutros distritos (Gavis, Cremilcar), a Anibal Carvalho e Filhos e um concessionario BMW oficial de longa data (1989), com volume de avaliacoes muito superior a qualquer outro concorrente do modulo - sinal de que e provavelmente o concessionario BMW historico e legitimo para o distrito de Santarem, e que a MatosCar nunca teve presenca BMW aqui.
