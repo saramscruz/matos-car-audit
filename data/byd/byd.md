@@ -1,4 +1,4 @@
-﻿# BYD - Registo de Fieldwork
+# BYD - Registo de Fieldwork
 **MatosCar Regional Demand Audit - 2026**
 
 ---
@@ -458,7 +458,7 @@ MatosCar aparece nos primeiros 3 organicos: sim, posicao 3
 Existe Local Pack: sim
 MatosCar aparece no Local Pack: nao diretamente em Portalegre - surge sob a marca BYD noutra localizacao
 Outros dealers no Local Pack:
-  1. BYD Castelo Branco - Rodda - 4,6 estrelas (20) - Castelo Branco (esta e a propria MatosCar sob outra localizacao)
+  1. BYD Castelo Branco - Rodda - 4,6 estrelas (20) - Castelo Branco (Rodda e concorrente directo, ja identificado como tal na Pesquisa 1 - CORRIGIDO apos Pesquisa 24: nao e a MatosCar)
   2. Santogal BYD Alfragide - 4,8 estrelas (5) - Amadora, fora da area de operacao
   3. PEUGEOT MOTORPOR PORTA... - 4,2 estrelas (110) - Portalegre, marca nao relacionada
 
@@ -467,4 +467,32 @@ Nenhum concorrente BYD directo identificado nesta SERP.
 
 Screenshot: portalegre-byd-1.png a portalegre-byd-4.png
 
-Observacao livre: Padrao identico ao ja registado em Beja para BYD - a MatosCar cobre a query BYD Portalegre por proximidade a partir de Castelo Branco (BYD Castelo Branco - Rodda), nao por presenca local dedicada. Site institucional amatoscar.pt em posicao 3 organica faz a ponte para quem pesquisa em distritos sem concessionario BYD proprio. Comportamento distinto de BMW e VW em Portalegre, onde ha presenca fisica dedicada.
+Observacao livre: CORRECCAO (feita apos Pesquisa 24 - BYD Guarda): a entrada "BYD Castelo Branco - Rodda" no Local Pack NAO e a MatosCar - e o concorrente Rodda (Grupo Automoveis do Mondego/Corvauto), ja identificado correctamente como tal na Pesquisa 1 (BYD Castelo Branco). A MatosCar nao tem, ao que tudo indica, presenca fisica na rede BYD nestes distritos. A cobertura organica de amatoscar.pt em posicao 3 continua valida como unico ponto de contacto MatosCar nesta SERP, mas sem suporte de Local Pack proprio.
+## Modulo 3 - Pesquisa 24 - BYD Guarda
+Query: byd guarda
+Distrito / cidade: Guarda
+Data: 01/07/2026  Hora: 14:58
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+SERP abre com Knowledge Panel de entidade unica do concorrente: BYD Guarda - Rodda, 5,0 estrelas (2 avaliacoes), EN 18-1 Km 2.2 Vale de Estrela, Guarda.
+Resultado 1: BYD Auto Portugal - Concessionarios BYD em Portugal - byd-auto.pt (menciona RODDA - Guarda no snippet)
+Resultado 2: Standvirtual - BYD Guarda - Carros - standvirtual.com (stock da Rodda)
+Resultado 3: Check Up Media - BYD chega a Castelo Branco e Guarda - checkupmedia.com
+
+MatosCar aparece nos primeiros 3 organicos: nao
+Aparece noutro ponto visivel sem scroll: nao - ausencia total
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack classico: nao (substituido por Knowledge Panel da Rodda)
+MatosCar aparece: nao
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. Rodda (rodda.pt) - parte do Grupo Automoveis do Mondego / Corvauto, concessionario BYD oficial para Guarda, com cobertura em imprensa (Jornal Economico, fleetmagazine.pt) associando-o tambem a Castelo Branco
+
+Screenshot: guarda-byd-1.png a guarda-byd-4.png
+
+Observacao livre: Achado forte - primeira ausencia total da MatosCar em toda a query BYD do modulo, sem cobertura nem por proximidade. Esta pesquisa revelou tambem um erro de atribuicao na Pesquisa 19 (BYD Portalegre), entretanto corrigido: a entrada "BYD Castelo Branco - Rodda" nao e a MatosCar, e a mesma Rodda aqui identificada, ja correctamente registada como concorrente na Pesquisa 1 (BYD Castelo Branco). A MatosCar nao parece ter presenca fisica na rede BYD em Castelo Branco nem Guarda.

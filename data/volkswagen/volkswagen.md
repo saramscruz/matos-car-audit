@@ -460,3 +460,31 @@ Dealers concorrentes visiveis nesta SERP:
 Screenshot: portalegre-vw-1.png a portalegre-vw-4.png
 
 Observacao livre: Padrao Knowledge Panel de entidade unica (ja visto em BMW Castelo Branco) repete-se para VW em Portalegre - dominancia total do espaco de resultados, mas com avaliacao baixa (2,3 estrelas, so 3 reviews) comparada a pagina Facebook A MatosCar (4,0 estrelas, 81 reviews) que aparece mais abaixo na mesma SERP - possivel perfil GBP secundario ou mal gerido. Evoracar confirma-se como concorrente multi-distrito (Evora + Portalegre), tal como a PRcar - ambos fisicamente na mesma zona industrial da MatosCar em Portalegre.
+## Modulo 3 - Pesquisa 23 - Volkswagen Guarda
+Query: Volkswagen Guarda
+Distrito / cidade: Guarda
+Data: 01/07/2026  Hora: 14:53
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+SERP abre com Knowledge Panel de entidade unica: Gavis - Volkswagen - Guarda, 3,9 estrelas (108 avaliacoes), Sitio do Juncal, Guarda. Identico ao Knowledge Panel ja visto na pesquisa Audi Guarda.
+Resultado 1: gavis.pt - GAVIS (menu institucional Volkswagen, Contactos, Usados, Empresa, Oficina, Viaturas)
+Resultado 2: autonews.pt - Gavis, Oficina Auto Volkswagen em Guarda
+
+MatosCar aparece nos primeiros 3 organicos: nao
+Aparece noutro ponto visivel sem scroll: nao - ausencia total, incluindo em As pessoas tambem pesquisam
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack classico: nao (substituido por Knowledge Panel da Gavis)
+MatosCar aparece: nao
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. Gavis (gavis.pt) - mesma entidade ja identificada na pesquisa Audi Guarda, dominante agora na marca VW propria (108 avaliacoes, 3,9 estrelas identico)
+  2. M. & Costas - Volkswagen (Viana do Castelo), Caetano Volkswagen Passageiros, Auto Maran - Volkswagen - sugestoes relacionadas fora da area MatosCar
+
+Screenshot: guarda-volkswagen-1.png a guarda-volkswagen-4.png
+
+Observacao livre: Confirma-se o padrao previsto na pesquisa anterior - a Gavis, multimarca (VW/Audi/Seat/Skoda), domina ambas as queries em Guarda com o mesmo perfil GBP e reviews identicos, sinal de ser literalmente a mesma entidade a capturar as duas marcas. Distinto do padrao Beja (Irmaos Luzias capturava Audi e VW por ausencia da MatosCar, mas sem Knowledge Panel dominante) - aqui a Gavis tem presenca tao forte que ocupa o formato normalmente reservado a propria MatosCar noutras marcas/distritos. Ausencia da MatosCar em Guarda para Audi e VW e total e sem qualquer mencao secundaria - o padrao mais desfavoravel observado ate agora para estas duas marcas.

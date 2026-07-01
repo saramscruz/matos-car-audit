@@ -453,3 +453,29 @@ Nenhum concorrente identificado nesta SERP.
 Screenshot: portalegre-citroen-1.png a portalegre-citroen-4.png
 
 Observacao livre: Replica exactamente o padrao de Local Pack completo ja registado em Evora. Citroen confirma-se pela terceira vez no modulo (Castelo Branco, Evora, agora Portalegre) como a marca-ancora da rede MatosCar nos distritos onde a marca tem melhor implementacao - situacao oposta a Audi, com visibilidade zero no mesmo distrito.
+## Modulo 3 - Pesquisa 25 - Citroen Guarda
+Query: Citroen Guarda
+Distrito / cidade: Guarda
+Data: 01/07/2026  Hora: 15:06
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+SERP abre com Knowledge Panel de entidade unica: Citroen A Matoscar Guarda, 4,3 estrelas (51 avaliacoes), Av. da Estacao s/n, Guarda.
+Resultado 1: citroen.pt - Concessionario Citroen A MATOS CAR - Guarda - rede.citroen.pt
+Resultado 2: citroen.pt - Contactos A MATOS CAR - Guarda - rede.citroen.pt
+Resultado 3: amatoscar.pt - Carros Citroen Novos e Usados a Venda em Portugal
+
+MatosCar aparece nos primeiros 3 organicos: sim, posicoes 1, 2 e 3
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack classico: nao (substituido por Knowledge Panel de entidade unica)
+MatosCar aparece: sim, posicao dominante unica
+
+- CONCORRENTES IDENTIFICADOS -
+Nenhum concorrente identificado nesta SERP.
+
+Screenshot: guarda-citroen-1.png a guarda-citroen-4.png
+
+Observacao livre: Quinto distrito consecutivo (Castelo Branco, Evora, Beja, Portalegre, Guarda) onde a Citroen e a marca com melhor cobertura MatosCar - padrao totalmente consistente, sem uma unica excepcao em todo o modulo. Contraste marcante com o mesmo distrito na Audi e VW, dominadas pela Gavis com ausencia total da MatosCar - confirma que a fragilidade da MatosCar nestas duas marcas e estrutural (por marca), nao geografica (por distrito).

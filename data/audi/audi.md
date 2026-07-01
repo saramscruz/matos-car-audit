@@ -447,3 +447,32 @@ Dealers concorrentes visiveis nesta SERP:
 Screenshot: portalegre-audi-1.png a portalegre-audi-4.png
 
 Observacao livre: Visibilidade Audi da MatosCar em Portalegre e zero (sem organico, sem Local Pack proprio, sem anuncio proprio) - replica o padrao ja registado em Beja para Audi e VW. Achado notavel: o Local Pack devolve a entrada "Volkswagen - Car W - A MatosCar" na mesma morada industrial, ou seja a MatosCar esta indexada no Google nesta zona mas sob a marca VW, nao sob Audi - possivel perfil GBP nao criado ou mal segmentado para Audi especificamente.
+## Modulo 3 - Pesquisa 22 - Audi Guarda
+Query: Audi Guarda
+Distrito / cidade: Guarda
+Data: 01/07/2026  Hora: 14:49
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+SERP abre com Knowledge Panel de entidade unica do concorrente: Gavis - Volkswagen - Guarda, 3,9 estrelas (108 avaliacoes), Sitio do Juncal, Guarda.
+Resultado 1: gavis.pt - GAVIS - Concessionario Oficial Volkswagen Audi Seat Skoda
+Resultado 2: Audi Portugal - Localizador de Concessionarios - audi.pt
+Resultado 3: Standvirtual - Audi Guarda - Carros - standvirtual.com
+
+MatosCar aparece nos primeiros 3 organicos: nao
+Aparece noutro ponto visivel sem scroll: nao - ausencia total
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack classico: nao (substituido por Knowledge Panel do concorrente Gavis)
+MatosCar aparece: nao
+
+- CONCORRENTES IDENTIFICADOS -
+Dealers concorrentes visiveis nesta SERP:
+  1. Gavis (gavis.pt) - concessionario multimarca Volkswagen/Audi/Seat/Skoda, presenca em Guarda e Viseu, dominancia total via Knowledge Panel
+  2. Standvirtual / OLX - agregadores, stock generico
+
+Screenshot: guarda-audi-1.png a guarda-audi-4.png
+
+Observacao livre: Visibilidade Audi da MatosCar em Guarda e zero - terceiro distrito consecutivo (Beja, Portalegre, agora Guarda) sem presenca digital local para Audi. Caso qualitativamente distinto dos anteriores: aqui um concorrente multimarca (Gavis) ocupa o mesmo formato de Knowledge Panel dominante que a MatosCar usa noutras marcas/distritos, com avaliacoes fortes e consistentes (108 reviews). Gavis e um concorrente novo no modulo, distinto de PRcar, Evoracar e Irmaos Luzias.

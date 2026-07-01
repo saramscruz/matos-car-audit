@@ -453,3 +453,30 @@ Dealers concorrentes visiveis nesta SERP:
 Screenshot: portalegre-bmw-1.png a portalegre-bmw-4.png
 
 Observacao livre: Duas entradas MatosCar no Local Pack com moradas diferentes na mesma avenida (Industrial 17 vs Industrial 35) - possivel duplicacao de entidade GBP, mesmo padrao do caso Garrido & Camacho em Beja. PRcar e concorrente multi-distrito (Evora + Portalegre), como a Irmaos Luzias em Beja.
+## Modulo 3 - Pesquisa 21 - BMW Guarda
+Query: BMW Guarda
+Distrito / cidade: Guarda
+Data: 01/07/2026  Hora: 14:45
+
+- ANUNCIOS PAGOS -
+Existe anuncio pago: nao
+
+- RESULTADOS ORGANICOS -
+SERP abre com Knowledge Panel de entidade unica: BMW A MatosCar Guarda, 3,8 estrelas (117 avaliacoes), R. Vila de Manteigas 1, Guarda.
+Resultado 1: BMW A MatosCar - bmw.amatoscar.pt
+Resultado 2: BMW Motorrad - A MatosCar Guarda - bmw-motorrad.pt
+Resultado 3: Facebook - A MatosCar BMW (@AMatosCarBMW), mais de 5,4 mil seguidores - descreve-se como Concessionario BMW na Guarda, Castelo Branco e Evora
+
+MatosCar aparece nos primeiros 3 organicos: sim, posicoes 1, 2 e 3
+Aparece noutro ponto visivel sem scroll: sim - Knowledge Panel dominante no topo, antes de todos os resultados organicos
+
+- GOOGLE MAPS / LOCAL PACK -
+Existe Local Pack classico: nao (substituido por Knowledge Panel de entidade unica)
+MatosCar aparece: sim, posicao dominante unica
+
+- CONCORRENTES IDENTIFICADOS -
+Nenhum concorrente identificado nesta SERP.
+
+Screenshot: guarda-bmw-1.png a guarda-bmw-4.png
+
+Observacao livre: Quarta ocorrencia do padrao Knowledge Panel de entidade unica (apos BMW Castelo Branco, BMW e Citroen Beja, BMW e VW Portalegre) - reforca a hipotese de que este formato surge quando a MatosCar e a unica concessionaria local da marca. A pagina de Facebook confirma explicitamente que a mesma unidade BMW cobre tres distritos (Guarda, Castelo Branco e Evora), explicando a ausencia estrutural de concorrentes BMW em toda a area de operacao da MatosCar. Volume de avaliacoes elevado e consistente (117, 3,8 estrelas) sugere perfil GBP maduro, ao contrario do caso VW Portalegre (2,3 estrelas, so 3 reviews).
