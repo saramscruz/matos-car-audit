@@ -559,4 +559,4 @@ Dealers concorrentes visiveis nesta SERP:
 
 Screenshot: santarem-audi-1.png a santarem-audi-4.png
 
-Observacao livre: Quinto distrito consecutivo (Beja, Portalegre, Guarda, Abrantes, Santarem) com visibilidade Audi da MatosCar em zero absoluto nesta recolha - o padrao mais consistente de todo o modulo, dentro da amostra observada (sessao unica, 01/07/2026). A Carby e qualitativamente diferente dos concorrentes anteriores - nao e um dealer local isolado, mas uma rede nacional de concessionarios Audi oficiais - sugere, sem confirmacao por dados internos, que a MatosCa
+Observacao livre: Quinto distrito consecutivo (Beja, Portalegre, Guarda, Abrantes, Santarem) com visibilidade Audi da MatosCar em zero absoluto nesta recolha - o padrao mais consistente de todo o modulo, dentro da amostra observada (sessao unica, 01/07/2026). A Carby e qualitativamente diferente dos concorrentes anteriores - nao e um dealer local isolado, mas uma rede nacional de concessionarios Audi oficiais - sugere, sem confirmacao por dados internos, que a MatosCar nao tem presenca na rede oficial Audi nesta regiao mais ampla do pais.

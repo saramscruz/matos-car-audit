@@ -1,4 +1,4 @@
-﻿# Síntese Consolidada — Módulo 1 (Google Trends)
+# Síntese Consolidada — Módulo 1 (Google Trends)
 ## MatosCar — Auditoria de Procura Digital
 
 **Data:** 30/06/2026
@@ -172,4 +172,43 @@ Dois padrões distintos emergiram nas consultas relacionadas:
 
 Sintetizando o comportamento de cada distrito ao longo de todas as marcas analisadas:
 
-- **Portalegre:** o distrito mais instável entre marcas —
+- **Portalegre:** o distrito mais instável entre marcas — vai de 1º lugar nacional absoluto (Citroën, em duas queries) a posições muito baixas ou ausência de dados noutras (BMW, VW T-Roc, BYD Atto 3). O resultado mais espetacular do módulo está aqui, mas não é um padrão consistente — é específico da Citroën.
+- **Santarém:** o distrito mais consistentemente forte — aparece bem posicionado em VW (8º na marca, 3º no T-Roc), BYD (11º na marca, 7º no Atto 3) e Citroën (3º na marca, 3º no C3, 2º no eléctrico). Candidato a prioridade transversal de investimento.
+- **Setúbal (comparativo, não distrito MatosCar):** presente em todas as queries de eléctrico das 5 marcas — sinal de procura real e sustentada por elétricos nesta zona industrial, consistente com a hipótese "efeito Autoeuropa" testada (e não confirmada como padrão generalizado) em volkswagen.md. Mantido aqui como contexto de mercado, não como prioridade de investimento MatosCar.
+- **Évora e Castelo Branco:** os mais frequentemente nas posições mais baixas quando têm dados, e os mais propensos a não ter dados de todo nas queries de menor volume (eléctrico, modelo isolado).
+
+---
+
+## 10. Perguntas em aberto — respostas factuais encontradas
+
+Das 4 perguntas levantadas, 2 têm resposta factual confirmável por pesquisa externa; as outras 2 exigem dados internos da MatosCar ou trabalho de campo do Módulo 3, não pesquisa documental.
+
+### 10.1 — RESPONDIDA: o pico de fevereiro/março 2026 nos elétricos
+
+**Confirmado.** O pico de procura por "[marca] eléctrico" observado em fevereiro/março 2026, transversal às 5 marcas, coincide com uma janela real de incentivo fiscal do Estado português. O Fundo Ambiental abriu candidaturas ao Incentivo à Aquisição de Veículos de Emissões Nulas entre 29 de dezembro de 2025 e 12 de fevereiro de 2026, com um apoio direto de 4.000€ por veículo para particulares e dotação de 17,6 milhões de euros — esgotada rapidamente, à semelhança de fases anteriores do mesmo programa. Não é coincidência: é o efeito direto e esperado de um incentivo de compra com prazo definido e verba limitada, que gera pico de procura concentrado na janela de candidatura.
+
+*Fonte: Fundo Ambiental / Standvirtual Diário Automóvel, ABANCA, SAPO/24notícias, consultadas em 30/06/2026.*
+
+**Implicação para o relatório final:** picos de procura por elétricos não devem ser lidos como sinal de tendência orgânica de mercado sem cruzar com o calendário de incentivos fiscais. Há, aliás, um novo concurso de 20 milhões de euros anunciado para abrir entre maio e junho de 2026 — vale a pena monitorizar se gera um pico equivalente nos dados mais recentes do Trends, quando disponíveis.
+
+### 10.2 — PARCIALMENTE RESPONDIDA, COM CORREÇÃO: a queda de produção do C3
+
+**A informação original precisa de ajuste.** A fonte usada na pesquisa de mercado preliminar (Razão Automóvel) indicava que a Citroën foi uma das duas únicas marcas do Top 10 português a registar quebra de vendas em 2025 (-1,1%), "devido a problemas que afetaram a produção do C3". A pesquisa adicional mostra que este foi um problema **pontual, já em recuperação durante o próprio 2025**, não uma tendência persistente: em outubro de 2025, as vendas do C3 subiram 40% (12.771 unidades) e o C3 Aircross cresceu 519% (8.030 unidades), ao ponto da Stellantis reforçar a produção com 400 novas contratações na unidade de Rennes para responder à procura.
+
+Isto é coerente com o que observámos no Trends: a query da marca e do C3 mostraram tendência de subida ao longo do período analisado, não quebra — porque os dados de 12 meses do Trends (jun/2025 a jun/2026) captam precisamente a fase de recuperação, não a fase de quebra que a precedeu.
+
+*Fonte: Razão Automóvel (artigo sobre aumento de produção do C3, nov. 2025), cruzada com a fonte original sobre marcas mais vendidas 2025.*
+
+**Implicação para o relatório final:** ao mencionar este episódio ao cliente, é importante apresentá-lo como uma fase já ultrapassada e seguida de recuperação forte, não como uma fragilidade atual da marca — caso contrário a leitura fica desatualizada e desalinhada com os próprios dados de procura que o módulo recolheu.
+
+### 10.3 — NÃO RESPONDÍVEL POR PESQUISA EXTERNA: Portalegre + Citroën
+
+Esta continua a ser a pergunta mais importante e mais inexplicada do módulo. Não existe informação pública (notícias, dados de mercado, relatórios setoriais) que explique por que Portalegre lidera o ranking nacional de procura por Citroën e pelo C3 especificamente. As hipóteses plausíveis — força de concessionário local, campanha de marketing regional, perfil demográfico do distrito particularmente afinado com o segmento do C3 — não são verificáveis por pesquisa documental. **Esta pergunta só pode ser respondida com dados internos da MatosCar ou trabalho de campo do Módulo 3** (ex: verificar se existe e qual a posição de mercado do concessionário Citroën em Portalegre, se houve campanha publicitária recente na região, dados INE de perfil socioeconómico do distrito).
+
+### 10.4 — NÃO RESPONDÍVEL POR PESQUISA EXTERNA: desalinhamento Golf/T-Roc
+
+Já está confirmado, com fonte direta da SIVA, que o T-Roc é o modelo mais vendido da Volkswagen em Portugal, apesar do Golf dominar a pesquisa orgânica. O que falta — se isto representa uma oportunidade de SEO subexplorada para o T-Roc, ou simplesmente reflete inércia de marca histórica do Golf sem implicação prática — não é uma questão factual respondível por pesquisa, é uma decisão de estratégia de conteúdo a tomar com o cliente, possivelmente testável através de dados próprios de SEO/analytics da MatosCar caso já tenha páginas indexadas para ambos os modelos.
+
+---
+
+*Fontes: Google Trends (Portugal, últimos 12 meses, recolhido entre 29/06/2026 e 30/06/2026), complementado com pesquisa de mercado pontual para confirmação de modelos mais vendidos (ACAP, Razão Automóvel, SIVA, Auto.pt, fontes citadas nos ficheiros de marca individuais).*

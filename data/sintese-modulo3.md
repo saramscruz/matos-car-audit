@@ -132,4 +132,6 @@ Menções honrosas: Gavis, Carby, Irmãos Luzias, Evoracar e PRcar, cada um pres
 **Abrantes/Santarém — diagnóstico final:**
 - MatosCar visível em pesquisas "Abrantes": 0 de 5 marcas
 - MatosCar visível em pesquisas "Santarém": 0 de 5 marcas
-- Conclusão: a abertura física da MatosCar em Abrantes (junho de 2026) não tem, à data da recolha, qualquer expressão digital mensurável — nem sob o nome da cidade nova, 
+- Conclusão: a abertura física da MatosCar em Abrantes (junho de 2026) não tem, à data da recolha, qualquer expressão digital mensurável — nem sob o nome da cidade nova, nem sob o nome da capital de distrito. É o único diagnóstico do módulo com resultado idêntico e nulo nos dois formatos de pesquisa testados.
+
+**Finding transversal (para a página 9 do relatório):** A MatosCar tem presença digital forte e consistente em BMW e Citroën nos seus 5 distritos históricos de operação (com Évora como caso exemplar de execução completa), mas essa força não se estende à Audi e Volkswagen em lado nenhum do território analisado, nem a nenhuma das 5 marcas na nova zona de Abrantes/Santarém — divergência que separa claramente uma questão de prioridade histórica de marca de uma questão de expansão geográfica ainda não acompanhada digitalmente.
