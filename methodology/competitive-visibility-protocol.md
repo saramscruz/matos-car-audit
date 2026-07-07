@@ -218,3 +218,12 @@ FINDING TRANSVERSAL (uma frase — vai para página 9 do relatório):
 - **Paid search da MatosCar.** Sem acesso à conta Google Ads, não é possível saber se existem campanhas activas mas com targeting geográfico diferente do testado.
 
 Se durante as pesquisas aparecer algo inesperado — uma marca nova, um agregador de leads, um concorrente de fora da área — registar em observação livre. Pode ser relevante para a secção de próximos passos.
+
+---
+
+## Limitações a declarar no relatório
+
+- **As 35 pesquisas foram feitas numa única sessão, por um único investigador, num único browser/IP, sem repetição.** Não há verificação cruzada por segunda pessoa, dispositivo ou dia diferente. Os resultados reflectem o estado da SERP nesse momento específico, não uma média estável ao longo do tempo.
+- **A regra 3 (não activar localização do browser) não elimina a geolocalização por IP.** Confirmado empiricamente na pesquisa BYD Abrantes: a AI Overview referiu "carros da BYD perto de Fundão" — a localização real do investigador, não a cidade pesquisada — mesmo em janela anónima e sem nenhuma permissão de site activa. O pressuposto original do protocolo (query com intenção geográfica explícita = simulação válida de utilizador nesse distrito) não se confirma nos casos em que o Google usa geolocalização por IP em vez de, ou além de, interpretar a query. Sem VPN/proxy não há correcção viável dentro deste protocolo.
+- **O Google personaliza e actualiza resultados de pesquisa de forma dinâmica.** O mesmo termo pode devolver SERPs diferentes por hora do dia, dia da semana, histórico da conta, ou simplesmente variação normal do algoritmo — não testado neste módulo.
+- **Padrões descritos como "sem excepção" ou "consistente em todos os distritos" referem-se sempre ao que foi observado dentro desta amostra e desta sessão** — não devem ser lidos como uma garantia de que o mesmo resultado se replica noutro dia, dispositivo ou investigador.

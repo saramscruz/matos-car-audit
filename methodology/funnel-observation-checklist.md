@@ -384,6 +384,13 @@ Finding desta marca em uma frase:
 
 ---
 
+## Limitações a declarar no relatório
+
+- **As observações das 5 marcas foram feitas por um único investigador, num único browser/dispositivo, sem repetição.** Não há verificação cruzada por segunda pessoa, sessão ou data diferente.
+- **O site pode mudar entre sessões de marcas diferentes.** A regra 4 (não mais de 24h entre marcas) reduz mas não elimina este risco — conteúdo, preços e destaques observados são um retrato pontual, não uma média estável.
+- **Viewport mobile-first (390px) é a base de quase todas as observações**, com desktop testado apenas nos checkpoints 3 e 4 quando relevante — as restantes conclusões não foram verificadas em desktop.
+- **"Bom/Aceitável/Problema/Falha" são juízos qualitativos de um único avaliador**, aplicados de forma consistente entre marcas mas sem critério quantitativo nem segunda opinião — outro avaliador podia classificar o mesmo ecrã de forma diferente.
+
 ## Nota sobre o que este módulo não avalia
 
 - **Velocidade de carregamento:** fora de âmbito sem ferramentas de diagnóstico (PageSpeed, GTmetrix)

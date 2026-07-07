@@ -1,6 +1,8 @@
 ﻿# Síntese Módulo 2 — Observação do Funil Digital
 **amatoscar.pt · Junho 2026**
 
+> **Nota metodológica (07/07/2026):** esta síntese resulta de uma única sessão de observação, por um único investigador, maioritariamente em viewport mobile (390px). Ver `methodology/funnel-observation-checklist.md`, secção "Limitações a declarar no relatório", para as limitações completas antes de usar estas conclusões no relatório final.
+
 ---
 
 ## CP1 — Findability a partir da homepage — síntese das 5 marcas
@@ -183,7 +185,4 @@ Observação fora do âmbito dos 10 checkpoints formais, registada por relevânc
 - "A MatosCar inaugurou o novo polo de Abrantes" (29/06/2026) — PRIMEIRA confirmação visual e datada da abertura de Abrantes referida no PRD, com fotografia do corte de fita. Relevante directamente para o Módulo 3 (cobertura Abrantes/Santarém).
 - "BYD Dolphin G DM-i, o novo compacto do mercado europeu" (29/06/2026) — conteúdo editorial sobre BYD, descreve "autonomia de até 1.040 km" para um modelo PHEV ("Tecnologia Super Híbrida DM 5.0") sem distinguir claramente autonomia total vs autonomia eléctrica pura — variante mais subtil da mesma imprecisão terminológica identificada na Audi (CP2). Nenhuma notícia equivalente para BMW, Audi, VW ou Citroën nesta secção — reforça a assimetria de visibilidade editorial entre marcas já identificada no CP9 (campanhas).
 
-**Bloco de acções rápidas, abaixo das notícias**: Contacte-nos, Marcação de Revisão, Onde estamos, Newsletter. A existência de subscrição de newsletter ("Receba novidades, campanhas e conteúdos exclusivos da A MatosCar") não foi testada quanto a funcionalidade, frequência de envio ou conteúdo — fica como ponto em aberto para um eventual follow-up engagement (Módulo de email marketing / CRM), não avaliável no âmbito deste audit de funil digital.
-
-Screenshot: assets/_geral/cp-extra-noticias-homepage-abrantes-byd.png
-
+**Bloco de acções rápidas, abaixo das notícias**: Contacte-nos, Marcação de Revisão, Onde estamos, Newsletter. A existência de subscrição de newsletter ("Receba novidades, campanhas 

@@ -909,5 +909,6 @@ FINDING TRANSVERSAL (uma frase — vai para página 9 do relatório):
 - Índice 0-100 é relativo ao pico do período, não volume absoluto de pesquisas.
 - Marcas comparadas no mesmo gráfico (Módulo 0) distorcem a escala da marca de menor volume.
 - Distritos com população pequena frequentemente retornam dados insuficientes.
+- **"SEM DADOS SUFICIENTES" não é o mesmo que "sem procura".** É o limiar mínimo de volume que o próprio Google exige para publicar um número, e esse limiar não é divulgado. Uma região pode ter procura real, mas abaixo do limiar de publicação. Este relatório trata a ausência de dados como indício de procura baixa/residual, por ser a leitura mais razoável disponível — mas essa é uma suposição de trabalho, não um facto medido, e deve ser apresentada como tal.
 - Os dados são um snapshot da data de recolha — o Google Trends actualiza retrospectivamente.
 - "Em alta" significa crescimento percentual recente, não volume. Uma query com 10 pesquisas que duplicou aparece como "Em alta" — contexto é necessário.
