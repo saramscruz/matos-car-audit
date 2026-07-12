@@ -12,8 +12,8 @@
 - Hora de inicio:
 
 **Sintese**
-- Demand tier: [ High / Medium / Low / Emerging ]
-- Finding (uma frase):
+- Demand tier: **Baixa** (base: Módulo 0 — VW abaixo de índice 15, indistinguível da BYD a essa escala, apesar de ser a âncora histórica de volume do portfólio. A distinção VW vs. BYD não é fiável só com o Módulo 0.) Tendência da marca: crescente (delta +11,2). Dados verificados 07/07/2026.
+- Finding (uma frase): Apesar de ser a âncora histórica de volume, a VW tem procura de pesquisa baixa (Módulo 0, <15) — desalinhamento entre presença de mercado e visibilidade de pesquisa; a procura de modelo concentra-se no T-Roc e é liderada por "preço", e a query "VW eléctrico" não tem qualquer distrito MatosCar com dados.
 
 ---
 
@@ -73,7 +73,7 @@
 
 ## Finding final desta VOLKSWAGEN (para o relatorio)
 
-> Uma frase. Vai directamente para a pagina da VOLKSWAGEN no PDF.
+> A Volkswagen é a âncora histórica de volume do grupo, mas em procura de pesquisa online está no fundo da tabela (indistinguível da BYD) — um desalinhamento entre o peso comercial da marca e a sua visibilidade digital que vale a pena fechar.
 
 
 ## Query: Volkswagen
@@ -263,7 +263,7 @@ volkswagen-concessionario-00.png; volkswagen-concessionario-01.png
 
 ## RESUMO MODULO 1 - VOLKSWAGEN
 
-[RASCUNHO - Sara: o resumo anterior (Demand Tier High, findings sobre a hipotese "efeito Autoeuropa" ligada a Setubal, comparacao entre as 3 marcas alemas) foi escrito com base nos dados de 30/06/2026, que incluiam Setubal na lista de "distritos MatosCar" (Setubal nao e distrito MatosCar). Os 4 blocos acima ja estao corrigidos e verificados contra os CSVs de 07/07/2026 - por favor reescrever este resumo tendo em conta que a hipotese "efeito Autoeuropa" precisa de ser recontextualizada sem Setubal como distrito MatosCar. Nota: Beja, Portalegre e Guarda formam agora o grupo mais forte na query da marca (indices 58-60) - pode ser a base de um finding novo sobre VW.]
+**Resumo reconciliado (dados de 07/07/2026, verificados contra os CSVs).** Demand tier **Baixa** em volume absoluto (Módulo 0: VW abaixo do índice 15, indistinguível da BYD a essa escala — a distinção VW/BYD não é fiável só com o Módulo 0), mas a marca é uma das duas com **tendência crescente** no período (delta +11,2). Na força geográfica pelos distritos MatosCar, a VW é a **2ª mais forte** das 5 marcas (posição média 8,5): **Beja (4º) e Portalegre (3º)** estão entre os resultados mais fortes de todo o módulo, enquanto Évora e Castelo Branco são mais fracos (14º/15º). Ao nível do modelo, o T-Roc perde quase toda a cobertura geográfica (só Santarém devolve dados) e a sua consulta dominante é **"t-roc preço"** (índice 100) — único caso do módulo onde "preço" lidera claramente. Desalinhamento conhecido: o Golf domina a pesquisa orgânica, mas o T-Roc é o modelo mais vendido da VW em PT (fonte SIVA). A hipótese "efeito Autoeuropa" liga-se a **Setúbal**, que **não é distrito MatosCar** — é contexto de mercado, não prioridade de investimento.
 
 ## Módulo 2 — CP1 — Findability a partir da homepage
 

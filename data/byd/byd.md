@@ -12,8 +12,8 @@
 - Hora de inicio:
 
 **Sintese**
-- Demand tier: [ High / Medium / Low / Emerging ]
-- Finding (uma frase):
+- Demand tier: **Emergente** (base: Módulo 0 — procura absoluta ainda baixa, abaixo de índice 15 e indistinguível da VW a essa escala, mas em crescimento e a única marca nova do portfólio.) Tendência da marca: crescente (delta +11,3). Dados verificados 07/07/2026.
+- Finding (uma frase): A BYD tem procura absoluta ainda baixa (indistinguível da VW no Módulo 0) mas em crescimento, com a lista de cross-shopping de EV mais ampla do módulo e já presença na consideração de compradores premium (aparece em BMW e Audi eléctrico); começa a surgir mercado de usados (Standvirtual).
 
 ---
 
@@ -73,7 +73,7 @@
 
 ## Finding final desta BYD (para o relatorio)
 
-> Uma frase. Vai directamente para a pagina da BYD no PDF.
+> A BYD parte de uma procura baixa mas em crescimento, já disputa a atenção de quem procura eléctricos premium (BMW, Audi) e começa a ter mercado de usados — uma marca emergente onde chegar cedo à visibilidade digital tem mais retorno do que nas marcas já estabelecidas.
 
 
 ## Query: BYD
@@ -288,7 +288,7 @@ byd-concessionario-00.png; byd-concessionario-01.png
 
 ## RESUMO MODULO 1 - BYD
 
-[RASCUNHO - Sara: o resumo anterior (Demand Tier High com trajectoria de crescimento, comparacao entre as 4 marcas, implicacoes estrategicas) foi escrito com base nos dados de 30/06/2026, que continham Setubal na lista de distritos MatosCar. Os 4 blocos acima ja estao corrigidos e verificados contra os CSVs de 07/07/2026 - por favor reescrever este resumo depois de rever os blocos. Nota tecnica a reter: BYD concessionario e a unica query de todo o projecto sem qualquer serie temporal (nem zeros) - vale a pena decidir se isto entra no relatorio como achado por si so.]
+**Resumo reconciliado (dados de 07/07/2026, verificados contra os CSVs).** Demand tier **Emergente**: procura absoluta ainda baixa (Módulo 0: abaixo do índice 15, indistinguível da VW a essa escala), mas é a **única marca nova do portfólio** e a que tem **crescimento mais sustentado** (delta +11,3, confirmado nas duas recolhas de 30/06 e 07/07). **Correcção face à versão de 30/06:** a classificação "muito forte na geografia" **não se sustenta** — pela posição média nos distritos MatosCar a BYD é agora a **mais fraca** das 5 marcas (13,3), com Beja em 18º nacional; só **Évora** mantém resultado forte (9º na marca, 6º no Atto 3). Ao nível do modelo, o Atto 3 é dominado por geografia/afirmação de marca ("byd atto 3 portugal" 100), não por preço. A BYD é a referência chinesa mais recorrente do módulo e **já intrude na consideração de EV premium** (aparece em BMW e Audi eléctrico). Nota técnica a reter: **BYD concessionário é a única query de todo o projecto sem qualquer série temporal** (nem o pico isolado das outras marcas) — volume insuficiente para qualquer dado. Implicação: para a BYD, o sinal accionável é a **visibilidade local** (perfil de Google Business, ver Módulo 3), não a procura por "concessionário".
 
 ## Módulo 2 — CP1 — Findability a partir da homepage
 

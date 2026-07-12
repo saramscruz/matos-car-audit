@@ -112,7 +112,7 @@ Data de conclusão: 01/07/2026
 **Visibilidade geral MatosCar:**
 - SERPs com MatosCar orgânico: 14 de 35 (40%)
 - SERPs com MatosCar no Local Pack/Knowledge Panel: 16 de 35 (46%)
-- SERPs com anúncio pago da MatosCar: 0 de 35 — a MatosCar não teve presença paga em nenhuma das 35 pesquisas desta sessão de recolha, apesar de a concorrência ter anunciado em 7 delas (Audi Castelo Branco, BYD Évora, Audi Portalegre, BYD Abrantes, Audi Santarém, Volkswagen — via Carby — e Citroën Santarém).
+- SERPs com anúncio pago da MatosCar: 0 de 35 — a MatosCar não teve presença paga em nenhuma das 35 pesquisas desta sessão de recolha, apesar de a concorrência ter anunciado em 7 delas (Audi Castelo Branco, BYD Évora, Audi Beja, Audi Portalegre, BYD Abrantes, Audi Santarém e Citroën Santarém — conforme a coluna "Anúncio pago presente" da grelha de tracking do Módulo 3).
 
 **Marca com melhor visibilidade: BMW** (5 de 7 distritos com presença orgânica e no Local Pack/Knowledge Panel). **Citroën** fica muito próxima em segundo lugar (4/7 orgânico, 5/7 maps) — as duas marcas juntas concentram a quase totalidade da presença digital positiva da MatosCar em todo o módulo.
 

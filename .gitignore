@@ -10,3 +10,6 @@ output/drafts/*.tmp
 *.env
 secrets.ps1
 api-key.txt
+
+__pycache__/
+*.pyc

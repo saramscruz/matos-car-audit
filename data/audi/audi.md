@@ -12,8 +12,8 @@
 - Hora de inicio: nao registada com precisao (primeira exportacao de CSV: 13:55)
 
 **Sintese**
-- Demand tier: [ Sara: preencher - ver medias abaixo: Audi marca 85.3, comparavel a BMW 81.3 ]
-- Finding (uma frase): [Sara: preencher - a sintese anterior (Demand tier High, findings sobre Setubal/Tesla/Beja/Guarda) usava os dados de 30/06/2026, que tinham o erro metodologico Setubal/Beja/Guarda. Nao reaproveitar sem verificar contra os blocos novos abaixo.]
+- Demand tier: **Média-alta** (base: Módulo 0 — Audi é a 2ª marca, índice 35-50, claramente abaixo da BMW. Atenção: a média por query da Audi marca, 85,3, NÃO é comparável à da BMW, 81,3 — cada query normaliza o seu próprio pico; a comparação válida é só o Módulo 0.) Tendência da marca: estável (delta −3,4). Dados verificados 07/07/2026.
+- Finding (uma frase): A Audi é a 2ª marca em procura absoluta e tem o resultado geográfico mais forte de todo o módulo (Guarda, 2º nacional, índice 96), mas a procura pelo modelo de entrada "Audi A3" é maioritariamente sobre gerações antigas e usado/manutenção (8L, 8P, 1.9 TDI, "bomba injetora"), não compra de novo.
 
 ---
 
@@ -73,7 +73,7 @@
 
 ## Finding final desta AUDI (para o relatorio)
 
-> [Sara: preencher - o finding anterior (baseado em dados de 30/06/2026 com o erro Setubal/Beja/Guarda) foi removido. Ver blocos de dados novos abaixo antes de reescrever.]
+> A Audi é a 2ª marca mais procurada e tem o distrito mais forte de toda a auditoria (Guarda, 2º do país), mas a procura pelo A3 é sobretudo de usado e manutenção de gerações antigas — sinal de oportunidade em peças e retoma, não só em venda de novos.
 
 ---
 
@@ -302,11 +302,7 @@ audi-concessionario-00.png; audi-concessionario-01.png
 ## RESUMO MODULO 1 - AUDI
 Data: 07/07/2026
 
-[RASCUNHO - Sara: o resumo anterior (Demand Tier High, comparacao com BMW, findings sobre Setubal/Tesla) foi escrito com base nos dados de 30/06/2026, que continham o erro Setubal/Beja/Guarda. Os 4 blocos de dados acima ja estao corrigidos e verificados contra os CSVs de 07/07/2026. Por favor reescrever este resumo depois de rever os blocos - alguns pontos a considerar:
-- Audi marca: media 85.3, Guarda e agora o distrito MatosCar mais forte (2o nacional, indice 96)
-- Audi A3: ainda dominado por geracoes antigas/TDI (usado, nao novo) - padrao mantem-se
-- Audi eletrico: Castelo Branco passou a ter dados fortes (2o nacional) - mudanca a validar, nao estava presente em 30/06
-- Audi concessionario: sem dados em qualquer distrito, incluindo a nivel nacional - mais extremo ainda que na sessao anterior]
+**Resumo reconciliado (dados de 07/07/2026, verificados contra os CSVs).** Demand tier **Média-alta** em volume absoluto (Módulo 0: Audi é a 2ª marca, índice 35-50, claramente abaixo da BMW mas acima das restantes três); tendência estável (delta −3,4). Na força geográfica pelos distritos MatosCar, a Audi sobe da classificação "intermédia" anterior sobretudo por causa da **Guarda**, que é o **resultado individual mais forte de todo o módulo** — Audi marca em **2º lugar nacional, índice 96** (e A3 em 4º). Fora da Guarda, a Audi é mediana (restantes distritos entre 9º e 17º), o que confirma que é um stronghold específico da Guarda, não um padrão geral. **Audi A3** continua dominado por gerações antigas e motorizações TDI (8L, 8P, 1.9 TDI; entidade "Bomba injetora") — sinal de **usado/manutenção**, não compra de novo. **Audi eléctrico** tem presença forte pontual em **Castelo Branco** (2º nacional, índice 90) e cross-shopping premium amplo (Mercedes, BMW, Tesla, Cupra, Porsche). **Audi concessionário** não tem dados em nenhum distrito MatosCar (a nível nacional só um pico isolado). **Correcção face à versão de 30/06:** o resumo anterior (tier "High", comparação directa com BMW, Setúbal como distrito MatosCar) assentava no erro Setúbal/Beja/Guarda e não deve ser reaproveitado.
 
 ---
 

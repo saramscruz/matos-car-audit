@@ -12,8 +12,8 @@
 - Hora de inicio:
 
 **Sintese**
-- Demand tier: [ High / Medium / Low / Emerging ]
-- Finding (uma frase):
+- Demand tier: **Média-baixa** (base: Módulo 0 — Citroën é a 3ª marca, índice 15-25, acima da VW/BYD e abaixo da Audi.) Tendência da marca: estável (delta −4,3). Dados verificados 07/07/2026.
+- Finding (uma frase): A Citroën é a 3ª em procura absoluta mas a mais consistente geograficamente nos distritos MatosCar (todos entre índice 84-95, posições nacionais 4-12) e a de melhor alinhamento EV (Santarém, 3º nacional no eléctrico); a procura pelo C3 é de gama nova (C3 Aircross, anos-modelo 2025-2026), não de usado.
 
 ---
 
@@ -73,7 +73,7 @@
 
 ## Finding final desta CITROEN (para o relatorio)
 
-> Uma frase. Vai directamente para a pagina da CITROEN no PDF.
+> A Citroën não é a mais procurada em termos absolutos, mas é a mais uniformemente forte nos distritos MatosCar e a mais bem posicionada nos eléctricos — e a procura pelo novo C3/C3 Aircross é de gama nova, alinhada com a oferta actual, não mercado de usados.
 
 
 ## Query: Citroen
@@ -278,7 +278,7 @@ citroen-concessionario-00.png; citroen-concessionario-01.png
 
 ## RESUMO MODULO 1 - CITROEN
 
-[RASCUNHO - Sara: o resumo anterior (Demand Tier High com concentracao geografica excecional, Portalegre 1o lugar nacional absoluto em 2 queries, comparacao final entre as 5 marcas) foi escrito com base nos dados de 30/06/2026, que usavam uma lista incorrecta de distritos MatosCar (Setubal incluido, Guarda ausente). Os 4 blocos acima ja estao corrigidos e verificados contra os CSVs de 07/07/2026 - por favor reescrever este resumo. Nota importante: com a lista de 6 distritos corrigida, Portalegre ja NAO lidera nem na marca (7o lugar) nem no C3 (4o lugar) - o finding "Portalegre em 1o lugar nacional absoluto" nao se sustenta nos dados novos e nao deve ser reaproveitado sem verificacao. Em compensacao, a Citroen marca tem agora o conjunto mais homogeneo de distritos MatosCar de todas as marcas (todos entre indice 84-95) - pode ser a base de um novo finding, a validar.]
+**Resumo reconciliado (dados de 07/07/2026, verificados contra os CSVs).** Demand tier **Média-baixa** em volume absoluto (Módulo 0: Citroën é a 3ª marca, índice 15-25, acima de VW/BYD e abaixo da Audi), mas é a **mais forte e mais consistente** na força geográfica pelos distritos MatosCar (posição média 7,0, a melhor das 5 marcas): todos os 6 distritos entre a 4ª e a 12ª posição nacional, com índices homogéneos entre 84-95 — sem picos isolados nem quedas. O modelo mantém cobertura completa (C3 com dados nos 6 distritos), sendo **Santarém** o distrito MatosCar mais forte no C3 (2º nacional, índice 89) e Portalegre em 4º (índice 80). **Correcção face à versão de 30/06:** o finding antigo "Portalegre em 1º lugar nacional absoluto na marca e no C3" **não se sustenta** — Portalegre está em 7º na marca e 4º no C3. A procura do C3 é de **gama nova** (C3/C3 Aircross, anos-modelo 2025-26), não mercado de usados, e a Citroën é a marca com melhor alinhamento EV (Santarém âncora). Nota: no Módulo 2, é a marca com procura forte mas **zero campanhas activas** — desalinhamento procura↔promoção.
 
 ## Módulo 2 — CP1 — Findability a partir da homepage
 

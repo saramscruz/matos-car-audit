@@ -12,8 +12,8 @@
 - Hora de inicio: nao registada com precisao (primeira exportacao de CSV: 12:36)
 
 **Sintese**
-- Demand tier: [ RASCUNHO - rever ] High (classificacao anterior, baseada nos dados de 06/07/2026 - confirmar se ainda se sustenta com os numeros novos abaixo)
-- Finding (uma frase): [RASCUNHO - NAO CONFIRMADO] O finding anterior ("procura forte e estavel a nivel de marca, boa cobertura nos distritos MatosCar, cobertura desaparece em queries especificas, Santarem unico distrito consistente") continua globalmente compativel com os dados de hoje, mas os numeros exactos mudaram (ver blocos abaixo) - Sara, por favor confirmar/reescrever antes do relatorio final.
+- Demand tier: **Alta** (base: Módulo 0, única fonte comparável entre marcas — BMW é a líder absoluta, índice 75-100. NÃO comparar médias por query entre marcas: cada query normaliza o seu próprio pico a 100.) Tendência da marca: estável, ligeiro declínio (delta −2,4). Dados verificados 07/07/2026.
+- Finding (uma frase): A BMW tem a maior procura absoluta das cinco marcas, mas essa força concentra-se no nome da marca e dilui-se ao nível do modelo, eléctrico e concessionário — com Santarém como único distrito MatosCar consistente e um outlier por explicar: a BMW Série 1 em Portalegre (2º nacional, índice 94).
 
 ---
 
@@ -309,7 +309,7 @@ Observacao livre: setimo e ultimo distrito do modulo BMW - ausencia total da Mat
 
 ## Finding final desta BMW (para o relatorio)
 
-> [RASCUNHO - rever face aos dados de 07/07/2026] A procura por BMW e forte e estavel a nivel de marca, com boa cobertura nos distritos MatosCar, mas essa cobertura reduz-se drasticamente em queries mais especificas (modelo, eletrico, concessionario), com Santarem como o unico distrito MatosCar a manter sinal consistente em todas as queries.
+> A BMW é a marca mais procurada das cinco (líder absoluto no comparativo nacional), mas a sua procura concentra-se no nome da marca e dilui-se ao nível do modelo — com uma excepção notável e por explicar: a Série 1 é a 2ª mais procurada do país no distrito de Portalegre.
 
 ---
 

@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar de Stock — Folha de Decisão · T0 · A MatosCar</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root{
+    --orange:#F26132; --orange-d:#d94e22; --dark:#232933; --slate:#2D3646;
+    --muted:#6b7280; --line:#e8eaee; --panel:#f6f7f9; --green:#2e7d5b; --red:#c0392b;
+    --ev:#F26132; --hy:#f6a06f; --di:#2D3646; --ga:#98a2b3;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#eceef1;color:var(--slate);
+    font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:14px;line-height:1.5}
+  .page{max-width:1040px;margin:24px auto;background:#fff;padding:0 0 30px;
+    box-shadow:0 6px 30px rgba(35,41,51,.12);border-radius:10px;overflow:hidden}
+  /* header */
+  header{background:var(--dark);color:#fff;padding:22px 34px;display:flex;align-items:center;gap:22px}
+  header img{height:38px;filter:brightness(0) invert(1)}
+  header .t{flex:1}
+  header h1{margin:0;font-size:21px;font-weight:700;letter-spacing:.2px}
+  header .sub{margin-top:3px;font-size:12.5px;color:#c7ccd6}
+  header .tag{background:var(--orange);color:#fff;font-weight:700;font-size:12px;
+    padding:6px 12px;border-radius:20px;white-space:nowrap}
+  .wrap{padding:26px 34px}
+  .note{color:var(--muted);font-size:11.5px;font-style:italic;margin:-8px 0 18px}
+  /* KPIs */
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:24px}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+  .kpi .n{font-size:27px;font-weight:800;color:var(--dark);line-height:1.1}
+  .kpi .n span{color:var(--orange)}
+  .kpi .l{font-size:11.5px;color:var(--muted);margin-top:4px}
+  h2{font-size:15px;color:var(--dark);margin:26px 0 12px;font-weight:700}
+  h2 b{color:var(--orange)}
+  .grid2{display:grid;grid-template-columns:1.35fr 1fr;gap:22px;align-items:start}
+  .card{border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+  .card h3{margin:0 0 10px;font-size:13px;color:var(--slate);font-weight:700}
+  .chartbox{position:relative;height:230px}
+  .chartbox.tall{height:250px}
+  /* insights */
+  .ins{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:6px}
+  .ins .c{border:1px solid var(--line);border-left:3px solid var(--orange);border-radius:8px;padding:13px 15px;background:#fff}
+  .ins .c b{color:var(--dark)}
+  .ins .c .k{font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--orange);font-weight:800;margin-bottom:5px}
+  /* decisao */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  ul{margin:6px 0 0;padding-left:18px}
+  li{margin-bottom:6px}
+  /* quality */
+  .q{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:8px}
+  .q .qc{background:var(--dark);color:#fff;border-radius:9px;padding:12px 13px}
+  .q .qc .p{font-size:20px;font-weight:800;color:#fff}
+  .q .qc .p.ok{color:#7fe0b6}
+  .q .qc .lab{font-size:11px;color:#c7ccd6;margin-top:2px}
+  footer{color:var(--muted);font-size:10.5px;font-style:italic;padding:16px 34px 0;border-top:1px solid var(--line);margin-top:24px}
+  @media print{
+    body{background:#fff} .page{box-shadow:none;margin:0;max-width:none;border-radius:0}
+    @page{size:A4;margin:10mm}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <img src="https://www.amatoscar.pt/wp-content/uploads/2025/06/logo.webp" alt="A MatosCar"
+         onerror="this.style.display='none'">
+    <div class="t">
+      <h1>Radar de Stock — Folha de Decisão · T0</h1>
+      <div class="sub">Usados · 12/07/2026 · análise de Sara Cruz · dados públicos do próprio site</div>
+    </div>
+    <div class="tag">193 viaturas</div>
+  </header>
+
+  <div class="wrap">
+    <div class="note">Ponto de partida (T0). "Saída de stock" é proxy, não venda confirmada. A rotação nasce na 2ª recolha (T1, setembro).</div>
+
+    <div class="kpis">
+      <div class="kpi"><div class="n">193</div><div class="l">viaturas em stock online</div></div>
+      <div class="kpi"><div class="n">27&nbsp;500&nbsp;€</div><div class="l">preço mediano (8.950 – 171.265 €)</div></div>
+      <div class="kpi"><div class="n"><span>39%</span></div><div class="l">eletrificadas (45 EV + 30 híbridos)</div></div>
+      <div class="kpi"><div class="n"><span>100%</span></div><div class="l">com distrito atribuído · matrícula única</div></div>
+    </div>
+
+    <div class="grid2">
+      <div class="card">
+        <h3>Stock por distrito — concentração extrema em Évora (65%)</h3>
+        <div class="chartbox tall"><canvas id="cDist"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Combustível do stock</h3>
+        <div class="chartbox tall"><canvas id="cFuel"></canvas></div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:22px">
+      <h3>Stock por marca — o volume não são as marcas do audit</h3>
+      <div class="chartbox"><canvas id="cBrand"></canvas></div>
+    </div>
+
+    <h2>O que os dados dizem <b>— três leituras</b></h2>
+    <div class="ins">
+      <div class="c"><div class="k">Concentração</div><b>Dois terços do stock em Évora</b> — e os carros mais caros (mediana 30.200 €, acima da média). Força de stock e força digital coincidem no mesmo distrito.</div>
+      <div class="c"><div class="k">Expansão</div><b>Abrantes/Santarém: 0 viaturas.</b> A loja nova (junho 2026) não tem expressão nem no stock nem na procura — o digital não acompanhou a abertura física.</div>
+      <div class="c"><div class="k">Alocação</div><b>O volume vive fora das marcas do audit</b> (Nissan, Hyundai, Kia, Toyota, BMW). Audi (8), Citroën (5) e BYD (3) têm stock pequeno demais para medir rotação.</div>
+    </div>
+
+    <h2>Decisão do trimestre <b>&amp; próximo passo</b></h2>
+    <div class="cols">
+      <div>
+        <b style="color:var(--dark)">Agir agora (T0)</b>
+        <ul>
+          <li><b>Baseline fixado</b> — 193 viaturas com distrito, preço, matrícula e data.</li>
+          <li><b>Piloto de visibilidade</b> — corrigir o perfil Google da BYD e da Audi (hoje cedem espaço a concorrentes) e re-medir em 6-8 semanas.</li>
+          <li><b>Confirmar com a equipa</b> — porquê 0 stock em Abrantes e se os 65% de Évora refletem a estrutura real.</li>
+        </ul>
+      </div>
+      <div>
+        <b style="color:var(--dark)">Medir em T1 (setembro)</b>
+        <ul>
+          <li><b>Rotação-proxy</b> (dias-listado) por distrito e marca, focada em Évora e no volume.</li>
+          <li><b>Efeito do piloto</b> — a BYD/Audi já têm perfil próprio na pesquisa local?</li>
+          <li><b>Abrantes</b> — já aparece algum stock ou visibilidade?</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>Qualidade dos dados <b>(T0)</b></h2>
+    <div class="q">
+      <div class="qc"><div class="p ok">100%</div><div class="lab">distrito atribuído (193/193)</div></div>
+      <div class="qc"><div class="p ok">100%</div><div class="lab">matrícula única (chave de rotação)</div></div>
+      <div class="qc"><div class="p ok">100%</div><div class="lab">preço · extremos verificados</div></div>
+      <div class="qc"><div class="p ok">100%</div><div class="lab">combustível conhecido*</div></div>
+      <div class="qc"><div class="p">91%</div><div class="lab">km (18 quase-novos, ausência genuína)</div></div>
+    </div>
+  </div>
+
+  <footer>
+    Método: recolha de 12/07/2026 via sitemap do próprio site (193/193 viaturas), fichas lidas individualmente para localização, matrícula e preço. Contagem (193) bate com o contador do sitemap. Parsing validado por testes automáticos. *1 viatura sem campo de combustível no site (Nissan Juke, motor DIG-T) confirmada Gasolina à mão. Rotação disponível a partir da 2ª recolha. Sem dados de terceiros; sem comparação de preços externa. Cores e logótipo: identidade de amatoscar.pt.
+  </footer>
+</div>
+
+<script>
+const ORANGE='#F26132', ORANGE2='#f6a06f', DARK='#232933', SLATE='#2D3646', GREY='#98a2b3';
+Chart.defaults.font.family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif";
+Chart.defaults.font.size=12; Chart.defaults.color='#5b6470';
+
+new Chart(document.getElementById('cDist'),{
+  type:'bar',
+  data:{ labels:['Évora','Guarda','Castelo Branco','Portalegre','Beja','Abrantes / Santarém'],
+    datasets:[{ data:[126,33,16,9,9,0],
+      backgroundColor:[ORANGE,SLATE,SLATE,SLATE,SLATE,'#d8dce2'],
+      borderRadius:5, barThickness:22 }]},
+  options:{ indexAxis:'y', responsive:true, maintainAspectRatio:false,
+    plugins:{ legend:{display:false},
+      tooltip:{callbacks:{label:c=>c.parsed.x+' viaturas'}},
+      datalabels:false },
+    scales:{ x:{grid:{color:'#eef0f3'},ticks:{precision:0}}, y:{grid:{display:false}} } },
+  plugins:[{ id:'vlabels', afterDatasetsDraw(ch){ const {ctx}=ch;
+    ch.getDatasetMeta(0).data.forEach((b,i)=>{ const v=ch.data.datasets[0].data[i];
+      ctx.save(); ctx.font='700 12px sans-serif'; ctx.fillStyle=v?'#232933':'#c0392b';
+      ctx.textBaseline='middle'; ctx.fillText(v, b.x+8, b.y); ctx.restore(); }); } }]
+});
+
+new Chart(document.getElementById('cFuel'),{
+  type:'doughnut',
+  data:{ labels:['Gasolina','Elétrico','Híbrido','Diesel'],
+    datasets:[{ data:[88,45,30,30], backgroundColor:[GREY,ORANGE,ORANGE2,SLATE], borderColor:'#fff', borderWidth:2 }]},
+  options:{ responsive:true, maintainAspectRatio:false, cutout:'58%',
+    plugins:{ legend:{position:'right',labels:{boxWidth:12,padding:12,font:{size:12}}},
+      tooltip:{callbacks:{label:c=>c.label+': '+c.parsed+' ('+Math.round(c.parsed/193*100)+'%)'}} } }
+});
+
+new Chart(document.getElementById('cBrand'),{
+  type:'bar',
+  data:{ labels:['BMW','Nissan','Hyundai','Kia','Peugeot','Toyota','VW','Volvo','Opel','Audi','Fiat','Citroën','BYD'],
+    datasets:[{ data:[27,24,23,17,15,14,12,11,11,8,8,5,3],
+      backgroundColor:c=>{const b=c.dataIndex; return ['Audi','Citroën','BYD'].includes(c.chart.data.labels[b])?ORANGE:SLATE;},
+      borderRadius:4, barThickness:26 }]},
+  options:{ responsive:true, maintainAspectRatio:false,
+    plugins:{ legend:{display:false}, tooltip:{callbacks:{label:c=>c.parsed.y+' viaturas'}} },
+    scales:{ y:{grid:{color:'#eef0f3'},ticks:{precision:0}}, x:{grid:{display:false}} } }
+});
+</script>
+</body>
+</html>

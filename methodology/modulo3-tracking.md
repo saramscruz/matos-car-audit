@@ -11,10 +11,10 @@ Protocolo de referência: `methodology/competitive-visibility-protocol.md`
 
 ```
 Total de pesquisas: 35
-Concluídas: 1 / 35
+Concluídas: 35 / 35
 Sessões realizadas: 1
 Data de início: 30/06/2026
-Data de conclusão prevista:
+Data de conclusão: 01/07/2026
 ```
 
 **Regra de sequência (protocolo, regra 4):** por distrito, não por marca. Faz as 5 marcas de um distrito antes de passar ao seguinte.
@@ -29,10 +29,13 @@ Data de conclusão prevista:
 
 | Sessão | Distrito(s) | Nº pesquisas | Estado |
 |--------|-------------|:---:|:---:|
-| 1 | Castelo Branco | 5 | Em curso |
-| 2 | Beira Interior | Castelo Branco | Audi | `Audi Castelo Branco` | ✗ (pos 4) | Knowledge Panel errado (VW) | ✓ (Audi PT) | ✗ | Standvirtual + OLX (agregadores) | castelo-branco-audi.png |
-| 3 | Beira Interior | Castelo Branco | Volkswagen | `Volkswagen Castelo Branco` | ✗ (pos 4) | Knowledge Panel correcto | ✗ | ✗ | VW Portugal (pos 1) + Standvirtual (pos 5) | castelo-branco-volkswagen-1.png |
-| 4 | Beira Interior | Castelo Branco | BYD | `BYD Castelo Branco` | ✗ (ausente) | ✗ (Knowledge Panel da Rodda) | ✗ | ✗ | Rodda (KP) + Standvirtual (pos 2) | castelo-branco-byd-1.png |
+| 1 | Castelo Branco | 5 | Concluída |
+| 2 | Évora | 5 | Concluída |
+| 3 | Beja | 5 | Concluída |
+| 4 | Portalegre | 5 | Concluída |
+| 5 | Guarda | 5 | Concluída |
+| 6 | Abrantes | 5 | Concluída |
+| 7 | Santarém | 5 | Concluída |
 
 Ajustável — o protocolo não exige este agrupamento específico, só a ordem por distrito e o limite de 48h.
 

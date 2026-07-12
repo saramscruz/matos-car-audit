@@ -1,7 +1,7 @@
 # Síntese Consolidada — Módulo 1 (Google Trends)
 ## MatosCar — Auditoria de Procura Digital
 
-**Data:** 30/06/2026
+**Data da recolha:** 07/07/2026 (recolha completa que substitui a de 29-30/06/2026) · **Síntese reconciliada:** 07/07/2026
 **Âmbito:** 5 marcas (BMW, Audi, Volkswagen, BYD, Citroën), 20 queries, 12 meses de dados (Google Trends, Portugal)
 **Distritos de referência MatosCar (Módulo 1):** Castelo Branco, Évora, Beja, Portalegre, Guarda. *(Rede MatosCar completa: 7 distritos — Abrantes, Beja, Castelo Branco, Évora, Guarda, Portalegre, Santarém. Abrantes e Santarém ficam fora do Módulo 1 por desenho do PRD, só entram no Módulo 3. Setúbal NÃO é distrito MatosCar — ver nota na secção 5.)*
 
@@ -9,13 +9,16 @@ Este documento cruza os achados registados marca a marca durante o fieldwork e o
 
 ---
 
-> **[AVISO — DOCUMENTO DESACTUALIZADO, 07/07/2026]** As 20 queries do Módulo 1 foram todas re-recolhidas em 07/07/2026 (ver `data/bmw/bmw.md`, `data/audi/audi.md`, `data/volkswagen/volkswagen.md`, `data/byd/byd.md`, `data/citroen/citroen.md`, já corrigidos e verificados contra os CSVs originais). Esta síntese ainda reflecte os dados de 29-30/06/2026 e **contém pelo menos um finding central que já não se confirma**:
+> **[ESTADO: RECONCILIADA COM OS DADOS DE 07/07/2026]** Todas as secções desta síntese foram reescritas a partir dos 5 ficheiros de marca (`data/[marca]/[marca].md`), cujos valores foram verificados um a um contra os CSVs originais do Google Trends (304 verificações numéricas, zero discrepâncias). A versão anterior reflectia a recolha de 29-30/06/2026 e continha vários findings que já não se confirmavam. Principais correcções face a essa versão:
 >
-> - **Secção 2 e 3 (Citroën / Portalegre):** o finding "Portalegre lidera o ranking nacional absoluto para Citroën (1º lugar, índice 100) tanto na marca como no C3" **não se confirma nos dados de 07/07/2026**. Nos números novos, Portalegre está em 7º lugar (marca) e 4º lugar (C3) entre os distritos MatosCar — ainda um bom resultado, mas já não excepcional nem "sem precedentes". A Citroën marca tem agora o conjunto de distritos MatosCar mais homogéneo de todas as marcas (todos entre índice 84-95), o que pode ser a base de um finding novo, mas diferente do anterior.
-> - **Secções 2, 5 e 9 (Setúbal):** esta versão já identifica correctamente que Setúbal não é distrito MatosCar, mas ainda usa dados de origem (BMW, Audi, VW, BYD, Citroën antigos) que, nos ficheiros de marca, misturavam Setúbal com a lista real de 6 distritos (Castelo Branco, Évora, Beja, Portalegre, Guarda, Santarém) — nomeadamente omitindo Beja e/ou Guarda em vários casos. Os ficheiros de marca já estão corrigidos; esta síntese ainda não.
-> - **Secção 1 (Demand Tier) e restantes secções:** os ranges de índice e vários números pontuais mudaram ligeiramente entre 30/06 e 07/07/2026 (o próprio protocolo documenta que os dados do Trends são um snapshot dinâmico). Não foi feita uma reconciliação completa número a número desta síntese — recomenda-se reescrevê-la a partir dos 5 ficheiros de marca já corrigidos, em vez de corrigir isoladamente os pontos acima.
+> - **Portalegre / Citroën (secções 2, 3, 9):** o antigo finding "Portalegre lidera o ranking nacional absoluto para Citroën (1º lugar) na marca e no C3" **não se confirma**. Portalegre está em 7º (marca) e 4º (C3) entre os distritos MatosCar. O distrito MatosCar mais forte no C3 é agora **Santarém** (2º nacional). O resultado de modelo mais espectacular do módulo passou a ser **BMW Série 1 em Portalegre** (2º nacional, índice 94).
+> - **"Marca > modelo" (secção 3):** deixou de ser "quase universal" — só se verifica em 3 marcas (VW, BMW, BYD); Audi e Citroën mantêm cobertura completa dos 6 distritos.
+> - **"Preço domina" (secção 4):** deixou de ser universal — "preço" só lidera claramente na VW T-Roc.
+> - **Concorrência EV (secção 6):** a tabela antiga (concorrente "único" para BMW e Audi; "Stellantis" para Citroën) não corresponde aos dados; substituída pela lista real.
+> - **Erro Setúbal/Beja/Guarda:** eliminado — todas as secções usam agora a lista fixa e correcta de 6 distritos MatosCar.
+> - **Secção 10.1 (pico dos eléctricos):** corrigida — os picos são dispersos entre março e junho, não um pico único de fevereiro/março.
 >
-> Secções 10.1 e 10.2 (pesquisa externa sobre incentivos fiscais e produção do C3) não dependem dos números do Trends e continuam válidas.
+> Secções 1, 2 e 10.2 já tinham sido reconciliadas em 07/07/2026 e mantêm-se.
 
 ---
 
@@ -82,100 +85,115 @@ Ordenando as 5 marcas por este critério:
 
 ---
 
-## 3. O padrão "marca > modelo": efeito de agregação quase universal
+## 3. "Marca > modelo": o efeito de agregação é real mas NÃO universal — CORRIGIDO EM 07/07/2026
 
-Em **4 das 5 marcas** (BMW, Audi, Volkswagen, BYD), a query do modelo mais vendido/popular mostrou alcance geográfico **menor** do que a query da marca nos distritos MatosCar:
+> **Nota metodológica:** a versão anterior afirmava que a query do modelo tinha alcance geográfico menor em "4 das 5 marcas" e que "a Citroën C3 manteve Portalegre em 1º lugar nacional absoluto". Nenhuma das duas se confirma nos dados de 07/07/2026 (verificados contra os CSVs).
 
-- **Audi A3** vs. Audi marca: distritos MatosCar descem de posições 9-17 para 12-17.
-- **VW T-Roc** vs. VW marca: Portalegre desaparece completamente dos dados; só Santarém mantém força.
-- **BYD Atto 3** vs. BYD marca: Portalegre desaparece; os restantes 4 distritos mantêm-se fortes mas mais baixos.
-- (BMW Série 1 não foi comparado diretamente com a mesma granularidade nesta síntese, mas o padrão de queda de visibilidade ao nível do distrito foi consistente nas restantes.)
+Número de distritos MatosCar (de 6) com dados (índice ≠ 0) na query da marca vs. na query do modelo:
 
-**A Citroën é a única exceção a este padrão.** O Citroën C3 manteve Portalegre em 1º lugar nacional absoluto, com índice idêntico ao da marca (100). Isto é singular no módulo inteiro e sugere uma relação muito específica e não apenas residual entre o distrito de Portalegre e este modelo — vale a pena investigar a causa concreta no Módulo 2/3 (presença de concessionário forte, campanha local, ou perfil demográfico particularmente afinado com o segmento do C3).
+| Marca | Modelo | Distritos c/ dados: marca → modelo | Efeito |
+|---|---|---|---|
+| Audi | A3 | 6 → 6 | sem perda de cobertura |
+| Citroën | C3 | 6 → 6 | sem perda de cobertura |
+| BMW | Série 1 | 6 → 4 | perde Beja e Guarda |
+| BYD | Atto 3 | 6 → 4 | perde Portalegre e Guarda |
+| Volkswagen | T-Roc | 6 → 1 | só sobra Santarém |
 
----
+O estreitamento geográfico ao passar de marca para modelo existe, mas só em três marcas — severo na VW, moderado em BMW e BYD. Na Audi e na Citroën o modelo mantém a cobertura completa dos 6 distritos. **Não é universal.**
 
-## 4. Padrão universal: "preço" domina a intenção de pesquisa
+Dois resultados de modelo destacam-se, ambos em Portalegre e em sentido contrário à ideia de "perda":
 
-Em todas as marcas onde houve consulta relacionada de modelo específico, o termo "preço" (ou variantes "[modelo] + preço") liderou ou esteve muito próximo do topo das consultas principais:
-
-- Audi A3: "audi a3 tdi" no topo, mas o padrão geral da query é dominado por termos de geração/motorização.
-- VW T-Roc: "volkswagen t-roc preço" lidera com índice 100, mais do dobro do segundo lugar.
-- BYD Atto 3: "byd atto 3 preço" lidera com índice 100.
-- Citroën C3: "citroën c3 preço" surge na 5ª posição das consultas principais.
-
-**Implicação:** o consumidor português em fase de pesquisa de modelo específico está predominantemente em funil de compra ativo e sensível a preço, não em fase de descoberta genérica. Isto reforça a importância de conteúdo com preços claros e atualizados nas páginas de produto da MatosCar.
+- **BMW Série 1 em Portalegre: 2º lugar nacional (índice 94)** — o resultado de modelo mais forte de qualquer distrito MatosCar no módulo. É um outlier a investigar no Módulo 2/3 (concessionário forte, campanha local, ou artefacto de amostra pequena).
+- **Citroën C3:** o distrito MatosCar mais forte é agora **Santarém** (2º nacional, índice 89), com Portalegre em 4º (índice 80) — forte, mas já não o "1º lugar absoluto" que a versão anterior reportava.
 
 ---
 
-## 5. Veículos elétricos: padrão estrutural residual, sem exceção
+## 4. Intenção transacional ao nível do modelo — mas a alavanca varia por marca — CORRIGIDO EM 07/07/2026
 
-Em todas as 5 marcas, a query "[marca] eléctrico" mostrou:
+> **Nota metodológica:** a versão anterior afirmava que "preço domina" de forma universal. Nos dados de 07/07/2026, "preço" só lidera claramente numa marca (VW). Nas outras, a consulta dominante ao nível do modelo é outra.
 
-- Volume de pesquisa muito mais baixo e mais irregular (picos pontuais, não procura contínua) do que a query da marca.
-- Geografia muito mais restrita: entre 5 e 12 sub-regiões com dados (de 20 possíveis), nunca as 20 completas.
-- Setúbal — que não é distrito de operação MatosCar, mas serve de comparativo ligado à hipótese "efeito Autoeuropa" testada em volkswagen.md — foi a sub-região mais consistentemente presente nestas queries (aparece em BMW, Audi, VW, Citroën eléctrico). Entre os distritos MatosCar reais, Santarém foi o mais presente.
+Consulta relacionada no topo de cada query de modelo:
 
-| Marca | Sub-regiões com dados (eléctrico) | Distrito(s) com dados — MatosCar e comparativos |
+- **VW T-Roc:** "volkswagen t-roc preço" — índice 100, a consulta dominante. Único caso onde "preço" lidera claramente.
+- **BMW Série 1:** dominado por "bmw serie 1" / "serie 1"; "bmw série 1 preço" em 3º (67) e "bmw série 1 usado" (32) — intenção mista preço/usado.
+- **Audi A3:** dominado por geração/motorização ("audi a3 tdi" 100, "8l", "8p"); "audi a3 2025 preço" apenas como termo em ascensão (+250%).
+- **BYD Atto 3:** dominado por geografia / afirmação de marca ("byd atto 3 portugal" 100, "byd portugal" 96); "byd atto 3 price" em 8º (40).
+- **Citroën C3:** dominado pela variante e pelo ano-modelo ("citroen c3 aircross" 100, "citroen c3 2025", "citroen c3 2026" +4 650%) — "preço" não aparece no topo.
+
+**Implicação:** ao nível do modelo a pesquisa é transacional (variantes concretas, anos-modelo, preço, "usado"), mas a alavanca dominante muda por marca — preço na VW, variante/novidade na Citroën, geração/usado na Audi e BMW, afirmação de marca na BYD. O conteúdo de produto da MatosCar deve responder à alavanca dominante de cada marca, não assumir "preço" para todas.
+
+---
+
+## 5. Veículos elétricos: procura residual, geografia restrita, ancorada em Santarém — CORRIGIDO EM 07/07/2026
+
+Em todas as 5 marcas, a query "[marca] eléctrico" mostrou volume muito mais baixo e irregular do que a query da marca, e geografia restrita. Contagens verificadas contra os CSVs:
+
+| Marca | Sub-regiões com dados (de 20) | Distrito(s) MatosCar com dados |
 |---|---|---|
-| BMW | 6 | Apenas Santarém |
-| Audi | 6 | Setúbal e Lisboa |
-| Volkswagen | 5 (a mais residual) | Apenas Setúbal |
-| BYD | 12 (a mais ampla) | Évora, Santarém, Setúbal |
-| Citroën | 6 | Santarém (forte, índice 92), Setúbal |
+| Audi | 13 | Castelo Branco (90), Santarém (38) |
+| BMW | 11 | Santarém (51) |
+| BYD | 11 | Santarém (63) |
+| Citroën | 11 | Santarém (71) |
+| Volkswagen | 5 (a mais residual) | nenhum distrito MatosCar |
 
-*Nota: Setúbal e Lisboa não são distritos MatosCar — surgem aqui como pontos de comparação (Setúbal ligado à hipótese "efeito Autoeuropa", testada em volkswagen.md e não confirmada como padrão geral; Lisboa como referência de área metropolitana).*
+**Santarém é o único distrito MatosCar presente de forma consistente** nas queries de eléctrico (4 das 5 marcas; ausente só na VW). Castelo Branco surge com força pontual na Audi (índice 90, 2º nacional). **Setúbal — que NÃO é distrito MatosCar — está presente nas 5 queries de eléctrico** (índices 34-69), o comparativo mais consistente; é contexto de mercado (zona industrial, hipótese "efeito Autoeuropa" testada e não confirmada como padrão geral em volkswagen.md), não prioridade de investimento MatosCar.
 
-**Achado metodológico importante (BYD eléctrico vs. BYD marca):** confirmou-se que a query "[marca] eléctrico" capta um público distinto da query da marca, mesmo numa marca 100% eléctrica como a BYD. A query "BYD eléctrico" foi dominada por termos genéricos ("carro elétrico") e por uma lista de concorrência muito mais ampla (8+ fabricantes) do que a query "BYD", que captou um público mais fiel e decidido pela marca. **Implicação para SEO/conteúdo:** páginas otimizadas para o nome da marca captam intenção de compra mais decidida; páginas otimizadas para "carro elétrico" competem por um público mais amplo mas menos qualificado, exigindo estratégias de conteúdo diferentes.
-
----
-
-## 6. Concorrência percebida nos eléctricos: amplitude crescente por marca
-
-A lista de fabricantes concorrentes associados nas queries de eléctrico cresceu de forma consistente ao longo do módulo:
-
-| Marca | Concorrência associada (eléctrico) |
-|---|---|
-| BMW | BYD (único) |
-| Audi | Tesla (único) |
-| Volkswagen | 9 fabricantes (Tesla, BYD, Nissan, Hyundai, Kia, Jeep, Volvo, Mercedes-Benz, Renault, Peugeot) |
-| BYD | 8+ fabricantes nos primeiros 10 tópicos (VW, Nissan, Fiat, Tesla, Honda, Leapmotor, Ford) |
-| Citroën | Peugeot e Fiat — único caso de concorrência "de grupo industrial" (Stellantis), distinta da lógica inter-marcas das restantes |
-
-**Padrão geral:** marcas premium alemãs (BMW, Audi) têm concorrência percebida estreita e específica; marcas generalistas (VW, BYD) competem num espaço muito mais disputado; a Citroën tem uma dinâmica própria, ligada à partilha de plataforma com outras marcas do mesmo grupo.
-
-A **BYD** é a marca chinesa mais recorrente como concorrente associado em todo o módulo — apareceu nas queries de BMW, Audi (via Tesla, indiretamente), Volkswagen e Citroën, sendo a referência chinesa mais consistente do mercado português atual.
+**Achado metodológico (mantém-se):** a query "[marca] eléctrico" capta um público distinto e menos qualificado do que a query da marca — dominada por termos genéricos ("carro elétrico" lidera as consultas em Audi, BMW e BYD eléctrico). **Implicação SEO:** páginas otimizadas para o nome da marca captam intenção mais decidida; páginas otimizadas para "carro elétrico" competem por público mais amplo mas menos qualificado, exigindo estratégias de conteúdo diferentes.
 
 ---
 
-## 7. "[Marca] concessionário": ausência de procura nas 5 marcas testadas
+## 6. Concorrência percebida nos eléctricos — o padrão anterior não se confirma — CORRIGIDO EM 07/07/2026
 
-Em todas as 5 marcas, a query "[marca] concessionário" não teve volume relevante de pesquisa em nenhum distrito do país, incluindo os 6 distritos MatosCar. O padrão repetiu-se de forma idêntica mesmo na Citroën, apesar do seu desempenho forte nas restantes 3 queries.
+> **Nota metodológica:** a tabela anterior (BMW "BYD único"; Audi "Tesla único"; Citroën "Peugeot/Fiat — Stellantis") não corresponde aos dados de 07/07/2026. As queries de eléctrico da Audi e da BMW mostram uma lista ampla, não um concorrente único; as da VW e da Citroën não devolveram entidades relacionadas suficientes para qualquer lista de concorrência.
+
+O que os dados de 07/07/2026 mostram (entidades/consultas relacionadas das queries de eléctrico):
+
+- **BMW eléctrico:** Mercedes (recorrente), Porsche, e BYD em ascensão (+50%) — vários, não um.
+- **Audi eléctrico:** Mercedes, BMW, Tesla, Cupra, Porsche, Fiat — cross-shopping premium amplo.
+- **BYD eléctrico / Atto 3:** a lista mais ampla de todas — Tesla, Renault, Volvo, Hyundai, Cupra, MG4, Kia EV6, Leapmotor, XPeng, Changan, Jaecoo. Cross-shopping de EV de valor / chineses.
+- **VW eléctrico:** demasiado residual — só "volkswagen elétrico id 4 preço". Sem lista de concorrência.
+- **Citroën eléctrico:** sem entidades relacionadas na exportação. Sem lista de concorrência.
+
+**Padrão que se sustenta:** as marcas premium (Audi, BMW) fazem cross-shopping com outras premium/EV (Mercedes, Tesla, Porsche), **mas a BYD já intrude nessa consideração premium** (aparece em BMW eléctrico e em Audi A3 em ascensão, +160%). A BYD é a referência chinesa mais recorrente do módulo. **O que NÃO se confirma** é a leitura "amplitude crescente marca a marca" nem a concorrência Stellantis específica da Citroën — não há dados que a sustentem nesta recolha.
+
+---
+
+## 7. "[Marca] concessionário": ausência de procura nas 5 marcas testadas — CONFIRMADO EM 07/07/2026
+
+Em todas as 5 marcas, a query "[marca] concessionário" não teve volume relevante de pesquisa em nenhum dos 6 distritos MatosCar. A nível nacional, a procura é quase inexistente: a série temporal de Audi, BMW, Citroën e VW tem apenas 1 a 2 semanas com valor não-nulo (um pico isolado normalizado a 100, tudo o resto a zero), e o `geoMap` devolve valor apenas em uma ou duas sub-regiões (nenhuma delas distrito MatosCar). O padrão repetiu-se de forma idêntica mesmo na Citroën, apesar do seu desempenho forte nas restantes 3 queries. O caso mais extremo é a **BYD concessionário**, cujo `multiTimeline.csv` não devolveu sequer uma série temporal — nem o pico isolado das outras quatro — volume insuficiente para qualquer dado.
 
 **Leitura metodológica (5 réplicas independentes, mesma recolha):** nas 5 marcas testadas, o Google Trends não devolveu volume mensurável para "concessionário", independentemente da marca, da maturidade da rede de distribuição ou do volume geral de procura pela marca. Cinco resultados nulos consistentes é um indício razoavelmente forte de que este termo não é como os portugueses procuram pontos de venda — mas continua a ser uma inferência a partir de 5 marcas e uma recolha, não uma prova sobre o Google Trends em geral. Esta dimensão **deve ser medida no Módulo 3** (SEO local, Google Business Profile, auditoria de presença digital directa), que é onde os dados directos e replicáveis existem.
 
 ---
 
-## 8. Sinais de mercado de usados e manutenção
+## 8. Sinais de usados/manutenção vs. novidade de gama — AMPLIADO EM 07/07/2026
 
-Dois padrões distintos emergiram nas consultas relacionadas:
+Dois modelos de entrada de marcas estabelecidas mostram forte sinal de **usado/manutenção**:
 
-- **Audi A3:** 6 das 10 consultas principais referiam-se a gerações antigas (8L, 8P) e motorizações descontinuadas (1.9 TDI) — sinal de que a procura por "Audi A3" em Portugal é maioritariamente sobre usado/manutenção, não compra de novo.
-- **Citroën C3:** motor PureTech aparece como consulta técnica própria, possivelmente ligado a queixas mediáticas conhecidas sobre este motor; mas "usado" e "novo" aparecem em posições próximas e equilibradas, sem o domínio de uma geração específica.
-- **BYD:** Standvirtual (plataforma de usados) surge como tópico em ascensão tanto na query da marca como no Atto 3 — sinal de mercado secundário já ativo para uma marca jovem, distinto do padrão de "gerações antigas" das marcas estabelecidas.
+- **Audi A3:** consultas dominadas por gerações antigas (8L, 8P) e motorizações descontinuadas (1.9 TDI, 2.0, 1.6); entidade "Bomba injetora". Procura maioritariamente sobre usado/manutenção, não compra de novo.
+- **BMW Série 1 (novo nesta correcção):** "bmw série 1 usado" no topo (32) e entidades de peças / gerações antigas — E46, Capô, Embraiagem, Volante, "used". É o mesmo sinal de usado/manutenção da Audi, que a versão anterior não tinha identificado na BMW.
 
-**Implicação:** a MatosCar deve considerar conteúdo e oferta diferenciados consoante a marca — para a Audi, há sinal forte de procura por peças/manutenção de gerações antigas; para a BYD, há oportunidade emergente em retoma e usados de uma marca ainda recente.
+O pólo oposto é a **novidade de gama**:
+
+- **Citroën C3:** dominado pelo novo C3 / C3 Aircross e anos-modelo 2025-2026 ("citroen c3 2026" +4 650% em ascensão) — sinal de lançamento recente, não de mercado de usados. (A consulta técnica "citroën c3 puretech" e a entidade "Motores PureTech" +120% também surgem, mais abaixo — interesse técnico/fiabilidade do motor, coerente com queixas mediáticas conhecidas, mas não domina.)
+- **BYD Atto 3:** interesse em variante / ano novo (Evo, 2026). "Standvirtual" aparece de forma modesta (25º nas consultas do Atto 3; entidade em ascensão na query da marca) — sinal incipiente de mercado secundário para uma marca jovem, mas não um padrão como o das gerações antigas alemãs.
+
+**Implicação:** conteúdo diferenciado por marca — peças/manutenção e oferta de usado para os modelos de entrada Audi e BMW; informação de gama nova para Citroën e BYD.
 
 ---
 
-## 9. Distritos MatosCar: desempenho cruzado entre marcas
+## 9. Distritos MatosCar: leitura cruzada entre marcas — CORRIGIDO EM 07/07/2026
 
-Sintetizando o comportamento de cada distrito ao longo de todas as marcas analisadas:
+Sintetizando o comportamento de cada distrito ao longo de todas as marcas (posições nacionais verificadas contra os CSVs):
 
-- **Portalegre:** o distrito mais instável entre marcas — vai de 1º lugar nacional absoluto (Citroën, em duas queries) a posições muito baixas ou ausência de dados noutras (BMW, VW T-Roc, BYD Atto 3). O resultado mais espetacular do módulo está aqui, mas não é um padrão consistente — é específico da Citroën.
-- **Santarém:** o distrito mais consistentemente forte — aparece bem posicionado em VW (8º na marca, 3º no T-Roc), BYD (11º na marca, 7º no Atto 3) e Citroën (3º na marca, 3º no C3, 2º no eléctrico). Candidato a prioridade transversal de investimento.
-- **Setúbal (comparativo, não distrito MatosCar):** presente em todas as queries de eléctrico das 5 marcas — sinal de procura real e sustentada por elétricos nesta zona industrial, consistente com a hipótese "efeito Autoeuropa" testada (e não confirmada como padrão generalizado) em volkswagen.md. Mantido aqui como contexto de mercado, não como prioridade de investimento MatosCar.
-- **Évora e Castelo Branco:** os mais frequentemente nas posições mais baixas quando têm dados, e os mais propensos a não ter dados de todo nas queries de menor volume (eléctrico, modelo isolado).
+- **Santarém:** o distrito mais consistentemente forte. Bem posicionado em Citroën (5º na marca, 2º no C3, 3º no eléctrico), presente em BYD (10º na marca e no Atto 3) e em VW (10º na marca, e o **único** distrito com dados no T-Roc e no eléctrico VW). É o âncora de eléctricos do grupo. Candidato a prioridade transversal de investimento.
+- **Guarda:** o resultado individual mais forte de todo o módulo — **Audi marca em 2º lugar nacional (índice 96)**, e Audi A3 em 4º. É a excepção que puxa a Audi para cima; fora da Audi, é mediano. Stronghold específico da Audi.
+- **Portalegre:** o mais volátil. Vai do topo (VW marca 3º; **BMW Série 1 2º, índice 94**) à ausência total de dados (VW T-Roc, BYD Atto 3). Não há um padrão de distrito — há resultados pontuais fortes por combinação marca/modelo.
+- **Évora:** fraco no premium (Audi marca 17º, BMW 19º), mas é o **melhor distrito MatosCar da BYD** (9º na marca, 6º no Atto 3).
+- **Castelo Branco:** geralmente baixo, com uma excepção clara — **Audi eléctrico (2º nacional, índice 90)**.
+- **Setúbal (comparativo, não distrito MatosCar):** presente nas 5 queries de eléctrico — procura real e sustentada por elétricos nesta zona industrial (hipótese "efeito Autoeuropa" testada e não confirmada como padrão geral em volkswagen.md). Contexto de mercado, não prioridade de investimento MatosCar.
+
+**Leitura global:** a força de cada distrito depende mais da combinação marca×distrito do que do distrito em si. Santarém (Citroën / eléctricos) e Guarda (Audi) são os dois pontos fortes mais claros; Portalegre é forte mas imprevisível. Isto reforça a implicação da secção 2: as decisões de visibilidade local precisam de ser por marca **e** por distrito.
 
 ---
 
@@ -183,13 +201,27 @@ Sintetizando o comportamento de cada distrito ao longo de todas as marcas analis
 
 Das 4 perguntas levantadas, 2 têm resposta factual confirmável por pesquisa externa; as outras 2 exigem dados internos da MatosCar ou trabalho de campo do Módulo 3, não pesquisa documental.
 
-### 10.1 — RESPONDIDA: o pico de fevereiro/março 2026 nos elétricos
+### 10.1 — PARCIALMENTE RESPONDIDA, COM CORREÇÃO (07/07/2026): os picos nos elétricos e a relação com os incentivos fiscais
 
-**Confirmado.** O pico de procura por "[marca] eléctrico" observado em fevereiro/março 2026, transversal às 5 marcas, coincide com uma janela real de incentivo fiscal do Estado português. O Fundo Ambiental abriu candidaturas ao Incentivo à Aquisição de Veículos de Emissões Nulas entre 29 de dezembro de 2025 e 12 de fevereiro de 2026, com um apoio direto de 4.000€ por veículo para particulares e dotação de 17,6 milhões de euros — esgotada rapidamente, à semelhança de fases anteriores do mesmo programa. Não é coincidência: é o efeito direto e esperado de um incentivo de compra com prazo definido e verba limitada, que gera pico de procura concentrado na janela de candidatura.
+> **Correcção metodológica:** a versão anterior desta secção afirmava um "pico de fevereiro/março 2026, transversal às 5 marcas", e ligava-o directamente à 1ª fase do incentivo (candidaturas 29/12/2025–12/02/2026). Ao cruzar essa afirmação com as séries temporais dos próprios CSVs (`multiTimeline.csv` de cada query `[marca] eléctrico`), verifica-se que **não há um pico único em fev/mar comum às cinco marcas**. Os picos reais estão dispersos e, na maioria, ocorrem *depois* de a 1ª fase fechar:
+>
+> | Query | Semana de pico | Índice de pico | Melhor valor em fev–mar |
+> |---|---|---|---|
+> | BMW eléctrico | 22/03/2026 | 100 | 100 (o único que pica perto da janela) |
+> | BYD eléctrico | 05/04/2026 | 100 | 55 |
+> | Audi eléctrico | 12/04/2026 | 100 | 77 |
+> | Citroën eléctrico | 24/05/2026 | 100 | 55 |
+> | Volkswagen eléctrico | 28/06/2026 | 100 | **0** (sem procura mensurável em fev–mar) |
+>
+> Só a **BMW** pica dentro/perto da janela da 1ª fase. As restantes quatro picam entre abril e junho, e a **VW eléctrico está a zero em todo o fevereiro–março**. Portanto, a leitura "pico transversal de fev/mar causado pela 1ª fase do incentivo" **não é sustentada pelos dados**.
 
-*Fonte: Fundo Ambiental / Standvirtual Diário Automóvel, ABANCA, SAPO/24notícias, consultadas em 30/06/2026.*
+**O que se confirma (e o que não).** O incentivo é real e as suas datas estão verificadas: a 1ª fase do Incentivo à Aquisição de Veículos de Emissões Nulas (Fundo Ambiental) esteve aberta a candidaturas entre **29 de dezembro de 2025 e 12 de fevereiro de 2026**, com **4.000€ por veículo para pessoas singulares** (mediante abate, para veículos novos até 38.500€). Uma **2ª fase** abriu a **12 de junho de 2026** (candidaturas até 27/07/2026), também com 4.000€ por veículo. *Os montantes globais de dotação citados na versão anterior (17,6 M€ na 1ª fase; ~20 M€ na 2ª) não foram confirmados nas fontes consultadas em 07/07/2026 — as fontes apontam ~10 M€ para a fase de junho de 2026 e não confirmam os 17,6 M€. Tratar os valores de dotação como não confirmados até verificação directa.*
 
-**Implicação para o relatório final:** picos de procura por elétricos não devem ser lidos como sinal de tendência orgânica de mercado sem cruzar com o calendário de incentivos fiscais. Há, aliás, um novo concurso de 20 milhões de euros anunciado para abrir entre maio e junho de 2026 — vale a pena monitorizar se gera um pico equivalente nos dados mais recentes do Trends, quando disponíveis.
+**Leitura corrigida da relação picos ↔ incentivos.** Cruzando as duas fases com os picos observados, o padrão mais plausível é o **inverso** do que a versão anterior sugeria: os picos tardios (Citroën em maio, VW em junho) alinham-se melhor com a **antecipação/abertura da 2ª fase (junho)** do que com a 1ª fase (que fechou em fevereiro); e o pico da BMW (março) surge já *depois* do fecho da 1ª fase, sugerindo um efeito de cauda, não de janela. Em nenhuma marca o pico coincide com o *interior* da janela de candidaturas da 1ª fase (dez–fev). Ou seja: há provavelmente uma relação entre procura por elétricos e o calendário de incentivos, mas ela é dispersa, desfasada e específica por marca — não um pico único e sincronizado.
+
+*Fontes: Fundo Ambiental (Mobilidade Verde Passageiros 2025/2026, 1ª e 2ª fase); ECO/SAPO (11/06/2026), consultadas em 07/07/2026. Séries temporais: CSVs `multiTimeline.csv` das 5 queries `[marca] eléctrico` do próprio Módulo 1.*
+
+**Implicação para o relatório final (mantida, reforçada):** a cautela original continua correcta e agora está melhor fundamentada — picos de procura por elétricos **não** devem ser lidos como tendência orgânica de mercado sem cruzar com o calendário de incentivos. Mas o relatório deve descrever os picos como **dispersos entre março e junho de 2026, específicos por marca**, e não como um pico único de fevereiro/março. Se for necessário afirmar causalidade com um incentivo concreto, isso exige alinhar a semana de pico de cada marca com a fase de incentivo activa nessa data — não uma atribuição global.
 
 ### 10.2 — PARCIALMENTE RESPONDIDA, COM CORREÇÃO: a queda de produção do C3
 
@@ -201,9 +233,16 @@ Isto é coerente com o que observámos no Trends: a query da marca e do C3 mostr
 
 **Implicação para o relatório final:** ao mencionar este episódio ao cliente, é importante apresentá-lo como uma fase já ultrapassada e seguida de recuperação forte, não como uma fragilidade atual da marca — caso contrário a leitura fica desatualizada e desalinhada com os próprios dados de procura que o módulo recolheu.
 
-### 10.3 — NÃO RESPONDÍVEL POR PESQUISA EXTERNA: Portalegre + Citroën
+### 10.3 — NÃO RESPONDÍVEL POR PESQUISA EXTERNA: os anómalos de Portalegre (reformulado em 07/07/2026)
 
-Esta continua a ser a pergunta mais importante e mais inexplicada do módulo. Não existe informação pública (notícias, dados de mercado, relatórios setoriais) que explique por que Portalegre lidera o ranking nacional de procura por Citroën e pelo C3 especificamente. As hipóteses plausíveis — força de concessionário local, campanha de marketing regional, perfil demográfico do distrito particularmente afinado com o segmento do C3 — não são verificáveis por pesquisa documental. **Esta pergunta só pode ser respondida com dados internos da MatosCar ou trabalho de campo do Módulo 3** (ex: verificar se existe e qual a posição de mercado do concessionário Citroën em Portalegre, se houve campanha publicitária recente na região, dados INE de perfil socioeconómico do distrito).
+> **Nota:** a versão anterior desta pergunta assentava na premissa "Portalegre lidera o ranking nacional para Citroën e para o C3", que **não se confirma** nos dados de 07/07/2026 (Portalegre está em 7º na marca e 4º no C3). A pergunta foi reformulada em torno dos anómalos que os dados corrigidos realmente mostram.
+
+Portalegre continua a ser o distrito mais imprevisível do módulo, mas os resultados que pedem explicação mudaram:
+
+- **BMW Série 1 em Portalegre — 2º lugar nacional (índice 94):** o resultado de modelo mais forte de qualquer distrito MatosCar, e num modelo/marca onde Portalegre é fraco ao nível da marca (12º). É o anómalo mais nítido a explicar.
+- **Homogeneidade da Citroën:** a Citroën marca tem o conjunto de distritos MatosCar mais uniforme de todas as marcas (todos entre índice 84-95, posições 4-12) — força consistente, não um pico isolado.
+
+As hipóteses plausíveis — concessionário local forte, campanha regional recente, perfil demográfico do distrito — não são verificáveis por pesquisa documental. **Só podem ser respondidas com dados internos da MatosCar ou trabalho de campo do Módulo 2/3** (posição do concessionário local, histórico de campanhas na região, dados INE de perfil socioeconómico).
 
 ### 10.4 — NÃO RESPONDÍVEL POR PESQUISA EXTERNA: desalinhamento Golf/T-Roc
 
@@ -211,4 +250,4 @@ Já está confirmado, com fonte direta da SIVA, que o T-Roc é o modelo mais ven
 
 ---
 
-*Fontes: Google Trends (Portugal, últimos 12 meses, recolhido entre 29/06/2026 e 30/06/2026), complementado com pesquisa de mercado pontual para confirmação de modelos mais vendidos (ACAP, Razão Automóvel, SIVA, Auto.pt, fontes citadas nos ficheiros de marca individuais).*
+*Fontes: Google Trends (Portugal, últimos 12 meses, recolha de 07/07/2026 — substitui a de 29-30/06/2026), com valores verificados contra os CSVs originais de cada query. Complementado com pesquisa de mercado pontual para confirmação de modelos mais vendidos (ACAP, Razão Automóvel, SIVA, Auto.pt) e de incentivos fiscais (Fundo Ambiental, ECO/SAPO), fontes citadas nos ficheiros de marca individuais e na secção 10.*
