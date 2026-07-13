@@ -3,7 +3,8 @@
 Junta os snapshots datados e calcula o PROXY de rotação por veículo.
 
 USO:  python merge_snapshots.py
-LÊ :  data/stock-snapshots/snapshot-AAAA-MM-DD.csv  (>= 2 para haver rotação)
+LÊ :  data/stock-snapshots/snapshot-AAAA-MM-DD_HHMMSS.csv  (>= 2 datas p/ rotação;
+      várias capturas no mesmo dia -> usa a mais recente desse dia)
 GERA: data/stock-snapshots/_rotacao.csv           (por veículo)
       data/stock-snapshots/_rotacao-por-distrito-marca.csv (resumo)
 
@@ -25,16 +26,41 @@ from collections import defaultdict
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 SNAPDIR = os.path.join(ROOT, "data", "stock-snapshots")
 
+# Fracao do maior snapshot abaixo da qual uma captura e tratada como partida e
+# ignorada (mesma logica do gate do README: "se der zero ou metade, parar").
+# Evita que uma recolha incompleta injete uma data falsa e contamine a rotacao.
+MIN_SNAPSHOT_FRACTION = 0.5
+
 def load_snapshots():
     files = sorted(glob.glob(os.path.join(SNAPDIR, "snapshot-*.csv")))
     files = [f for f in files if "SAMPLE" not in f.upper()]
-    snaps = []
+    loaded = []
     for f in files:
-        date = os.path.basename(f).replace("snapshot-", "").replace(".csv", "")
+        stamp = os.path.basename(f).replace("snapshot-", "").replace(".csv", "")
+        date = stamp[:10]  # AAAA-MM-DD (o resto do nome, se existir, e a hora)
         with open(f, encoding="utf-8") as fh:
             rows = list(csv.DictReader(fh))
-        snaps.append((date, rows))
-    return snaps
+        loaded.append((date, stamp, rows))
+    # Guarda de sanidade: descartar capturas com contagem implausivelmente baixa
+    # (< metade da maior recolha), para uma captura partida nao poluir a rotacao.
+    if loaded:
+        max_rows = max(len(rows) for _, _, rows in loaded)
+        kept = []
+        for date, stamp, rows in loaded:
+            if max_rows and len(rows) < MIN_SNAPSHOT_FRACTION * max_rows:
+                print("  [aviso] captura %s ignorada: %d linhas (< %d%% da maior "
+                      "recolha, %d) - provavelmente incompleta." %
+                      (stamp, len(rows), int(MIN_SNAPSHOT_FRACTION * 100), max_rows))
+            else:
+                kept.append((date, stamp, rows))
+        loaded = kept
+    # Cada recolha e um ficheiro proprio; se houver varias no mesmo dia, a rotacao
+    # usa a mais recente desse dia (o maior timestamp no nome do ficheiro).
+    by_date = {}
+    for date, stamp, rows in loaded:
+        if date not in by_date or stamp > by_date[date][0]:
+            by_date[date] = (stamp, rows)
+    return [(date, rows) for date, (stamp, rows) in sorted(by_date.items())]
 
 def key(row):
     return (row.get("matricula") or "").strip() or ("id:" + (row.get("id") or "").strip())

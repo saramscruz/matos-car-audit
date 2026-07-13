@@ -22,7 +22,9 @@ SITEMAP_USED = BASE + "/coches-ocasion-sitemap.xml"
 # Politesse — o robots.txt pede Crawl-delay de 10 segundos. Não baixar disto.
 CRAWL_DELAY_SECONDS = 10
 REQUEST_TIMEOUT = 30
-MAX_RETRIES = 3
+# 5 tentativas (era 3) para aguentar melhor soluços de rede/DNS em corridas
+# nao-vigiadas (ex.: Wi-Fi a perder pacotes). Cada tentativa espera CRAWL_DELAY.
+MAX_RETRIES = 5
 # User-agent identificável, com contacto (boa prática; é o site do cliente).
 USER_AGENT = "MatosCar-StockRadar/1.0 (analista: Sara Cruz; contacto: saramscruz@gmail.com)"
 

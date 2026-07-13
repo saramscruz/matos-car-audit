@@ -98,6 +98,8 @@ Uma página de decisão por trimestre, com quatro blocos:
 
 Formato: uma página acionável; o detalhe fica em anexo para quem quiser.
 
+**Cadência — recolha ≠ entrega (nota metodológica).** A folha é **trimestral** porque é essa a cadência de *decisão* do cliente. A **recolha** dos snapshots, porém, deve ser mais frequente — **semanal ou quinzenal**, pelo menos nos primeiros dois meses. A razão é de medição: a resolução do "dias-listado" está limitada pela frequência de amostragem. Com snapshots só de 90 em 90 dias, um carro que entra *e* sai dentro do mesmo trimestre fica **invisível à rotação**, e para os restantes o dias-listado carrega uma incerteza de até ±90 dias. Recolher com densidade (o scraper é barato, no site do próprio cliente e agendável) e **agregar** os resultados na folha trimestral dá uma rotação precisa sem aumentar a carga para o cliente. A frequência "definitiva" fica por fixar até a 1ª/2ª recolha revelar a **mediana real de dias-listado** — só então se calibra (regra prática: amostrar 3-4 vezes dentro do tempo típico de rotação; se a mediana for ~60 dias, snapshots a cada 10-15 dias chegam). O piloto de visibilidade (6-8 semanas) e a história de Abrantes (set/dez) mantêm a sua própria cadência, independente da densidade de snapshots.
+
 ---
 
 ## 9. O que preciso do cliente (e o que NÃO preciso)

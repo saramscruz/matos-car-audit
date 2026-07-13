@@ -46,7 +46,7 @@ pip install requests beautifulsoup4
 ```bash
 # 1) Capturar o snapshot de hoje (listagem + fichas; respeita o crawl-delay de 10s)
 python scrape_stock.py
-#    -> data/stock-snapshots/snapshot-AAAA-MM-DD.csv
+#    -> data/stock-snapshots/snapshot-AAAA-MM-DD_HHMMSS.csv  (nome com hora: nunca sobrescreve)
 
 # variantes:
 python scrape_stock.py --lite        # só inventário do sitemap, sem localização (rápido)
@@ -78,7 +78,7 @@ Só depois destes três passos os números entram num relatório.
 
 ---
 
-## Esquema do snapshot (`snapshot-AAAA-MM-DD.csv`)
+## Esquema do snapshot (`snapshot-AAAA-MM-DD_HHMMSS.csv`)
 
 `snapshot_date, id, matricula, marca, modelo_versao, ano, combustivel, km,
 preco_eur, potencia_cv, transmissao, stand_marca, stand_cidade, distrito,

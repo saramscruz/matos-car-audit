@@ -8,7 +8,7 @@ USO:
     python scrape_stock.py --max-pages 3  # limitar páginas (teste)
 
 SAÍDA:
-    data/stock-snapshots/snapshot-AAAA-MM-DD.csv
+    data/stock-snapshots/snapshot-AAAA-MM-DD_HHMMSS.csv  (nome com hora: nunca sobrescreve)
 
 DEPENDÊNCIAS:  pip install requests beautifulsoup4
 
@@ -182,10 +182,15 @@ def main():
     args = ap.parse_args()
 
     today = _dt.date.today().isoformat()
+    # Timestamp completo (data + hora) no nome do ficheiro: cada recolha e um
+    # ficheiro NOVO e nunca sobrescreve outra, mesmo que corra varias vezes no
+    # mesmo dia. A coluna snapshot_date mantem-se a data (AAAA-MM-DD), que e o
+    # que a rotacao usa; o merge extrai a data dos primeiros 10 caracteres.
+    stamp = _dt.datetime.now().strftime("%Y-%m-%d_%H%M%S")
     root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
     outdir = os.path.join(root, C.SNAPSHOT_DIR)
     os.makedirs(outdir, exist_ok=True)
-    outpath = os.path.join(outdir, "snapshot-%s.csv" % today)
+    outpath = os.path.join(outdir, "snapshot-%s.csv" % stamp)
 
     print("A recolher inventário do sitemap %s ..." % C.SITEMAP_USED)
     inv = crawl_inventory(limit=args.limit)

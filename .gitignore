@@ -13,3 +13,6 @@ api-key.txt
 
 __pycache__/
 *.pyc
+
+data/stock-snapshots/_logs/
+data/stock-snapshots/_rotacao*.csv
