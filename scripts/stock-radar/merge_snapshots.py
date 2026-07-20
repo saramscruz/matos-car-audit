@@ -11,6 +11,7 @@ GERA: _rotacao.csv                    presença e duração por veículo
       _precos-historico.csv           preço por veículo x data  [FACTO]
       _precos-alteracoes.csv          só os veículos que mudaram de preço  [FACTO]
       _sobrevivencia.csv              Kaplan-Meier (só quando houver eventos que cheguem)
+      _cadencia.csv                   intervalo entre recolhas consecutivas
 
 --------------------------------------------------------------------------
 DEFINIÇÕES — declarar sempre no relatório
@@ -245,6 +246,7 @@ def main():
     _resumo_grupo(out)
     _precos(hist, dates)
     _kaplan_meier(out)
+    _cadencia(dates, out)
 
     print("Veiculos acompanhados: %d (%d recolhas: %s)"
           % (len(out), len(dates), ", ".join(dates)))
@@ -358,6 +360,42 @@ def _precos(hist, dates):
         if desc:
             med = statistics.median([abs(a["variacao_eur"]) for a in desc])
             print("  descida mediana: %d EUR" % med)
+
+
+def _cadencia(dates, out):
+    """Regista o intervalo entre recolhas consecutivas.
+
+    A cadencia nao e uniforme por desenho (dias uteis: 1 dia de 2a a 6a, 3 dias
+    no salto de 6a para 2a) nem ao longo do tempo (a serie comecou semanal).
+    A largura do intervalo E a resolucao com que qualquer duracao pode ser
+    medida nesse periodo, por isso tem de sair dos dados e nao da memoria: e o
+    que permite escrever a nota metodologica e decidir se periodos com cadencias
+    diferentes sao comparaveis.
+
+    Imprime tambem a fraccao de spells curtos, que e o numero necessario para
+    decidir mais tarde se e seguro reduzir a frequencia: se uma fatia relevante
+    das viaturas roda abaixo de N dias, amostrar de N em N dias torna-as
+    invisiveis e enviesa tudo para o lado lento.
+    """
+    linhas = []
+    for ant, act in zip(dates, dates[1:]):
+        linhas.append({"data_anterior": ant, "data": act,
+                       "intervalo_dias": (_d(act) - _d(ant)).days})
+    _escrever(os.path.join(SNAPDIR, "_cadencia.csv"), linhas)
+    if not linhas:
+        return
+    ints = [l["intervalo_dias"] for l in linhas]
+    print("Cadencia: %d intervalo(s), min %d / mediana %.1f / max %d dias"
+          % (len(ints), min(ints), statistics.median(ints), max(ints)))
+
+    completos = [o for o in out if o["duracao_completa"]]
+    if not completos:
+        print("  (fraccao de rotacao rapida: por medir - ainda nao ha spells completos)")
+        return
+    for limiar in (2, 4, 7):
+        r = sum(1 for o in completos if int(o["dias_listado_max"]) <= limiar)
+        print("  spells completos com duracao <= %d dias: %d/%d (%.0f%%)"
+              % (limiar, r, len(completos), 100.0 * r / len(completos)))
 
 
 def _kaplan_meier(out):
