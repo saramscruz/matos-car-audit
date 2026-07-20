@@ -15,4 +15,6 @@ __pycache__/
 *.pyc
 
 data/stock-snapshots/_logs/
-data/stock-snapshots/_rotacao*.csv
+# Derivados do radar: regeneraveis a partir dos snapshots, que esses sim
+# sao versionados. Cobre _rotacao*, _precos*, _sobrevivencia.
+data/stock-snapshots/_*.csv

@@ -173,7 +173,8 @@ def crawl_inventory(limit=None):
 
 FIELDS = ["snapshot_date", "id", "matricula", "marca", "modelo_versao", "ano",
           "combustivel", "km", "preco_eur", "potencia_cv", "transmissao",
-          "stand_marca", "stand_cidade", "distrito", "data_matricula", "url"]
+          "stand_marca", "stand_cidade", "distrito", "data_matricula", "url",
+          "registo_completo"]
 
 def main():
     ap = argparse.ArgumentParser()
@@ -197,15 +198,28 @@ def main():
     print("Inventário: %d anúncios." % len(inv))
 
     rows = []
+    falhadas = 0
     enrich = C.ENRICH_DETAIL and not args.lite
     for i, (vid, url) in enumerate(inv, 1):
         rec = {"snapshot_date": today, "id": vid, "url": url}
+        # registo_completo=0 marca a ficha que nao descarregou. A linha e escrita
+        # na mesma (a PRESENCA no sitemap e um facto observado), mas fica
+        # assinalada: sem isto, uma falha de rede apaga a matricula e o merge
+        # via uma saida falsa. O merge_snapshots.py usa o id para a presenca e
+        # exclui estas linhas da identidade por matricula.
+        rec["registo_completo"] = 1
         if enrich:
             html = _get(url)
             time.sleep(C.CRAWL_DELAY_SECONDS)
             if html:
                 rec.update(parse_detail_html(html))
                 rec["snapshot_date"], rec["id"] = today, vid
+                mat = (rec.get("matricula") or "").strip()
+                rec["registo_completo"] = 1 if mat else 0
+            else:
+                rec["registo_completo"] = 0
+            if not rec["registo_completo"]:
+                falhadas += 1
             if i % 10 == 0:
                 print("  fichas: %d/%d" % (i, len(inv)))
         rows.append({k: rec.get(k) for k in FIELDS})
@@ -215,6 +229,13 @@ def main():
         w.writeheader()
         w.writerows(rows)
     print("Snapshot guardado: %s (%d linhas)" % (outpath, len(rows)))
+    if falhadas:
+        pct = 100.0 * falhadas / len(rows) if rows else 0.0
+        print("  [AVISO] %d ficha(s) sem matricula (%.1f%%) - marcadas com "
+              "registo_completo=0 e fora da identidade por matricula." % (falhadas, pct))
+        if pct > 5:
+            print("  [AVISO] acima de 5%% de falhas: recolha pouco fiavel; "
+                  "considerar repetir antes de a usar para rotacao.")
     print("Lembrete: 'preço' e 'presença' são factos; 'rotação' sai de merge_snapshots.py e é PROXY.")
 
 if __name__ == "__main__":

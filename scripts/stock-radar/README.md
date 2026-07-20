@@ -54,7 +54,11 @@ python scrape_stock.py --limit 3     # teste rápido: só 3 viaturas (visita 3 f
 
 # 2) Só quando houver >= 2 snapshots (ex.: um agora, outro daqui a 4-6 semanas):
 python merge_snapshots.py
-#    -> _rotacao.csv  +  _rotacao-por-distrito-marca.csv
+#    -> _rotacao.csv                     presença/duração por veículo
+#    -> _rotacao-por-distrito-marca.csv  resumo (mediana suprimida se n < 5)
+#    -> _precos-historico.csv            preço por veículo x data      [FACTO]
+#    -> _precos-alteracoes.csv           só quem mudou de preço        [FACTO]
+#    -> _sobrevivencia.csv               Kaplan-Meier (só com >= 30 eventos)
 ```
 
 **Tempo de execução:** com crawl-delay de 10s e ~191 fichas, um snapshot completo
@@ -82,9 +86,21 @@ Só depois destes três passos os números entram num relatório.
 
 `snapshot_date, id, matricula, marca, modelo_versao, ano, combustivel, km,
 preco_eur, potencia_cv, transmissao, stand_marca, stand_cidade, distrito,
-data_matricula, url`
+data_matricula, url, registo_completo`
 
-Chave estável do veículo = **matrícula** (a ficha expõe-na); se faltar, usa-se o `id` do anúncio.
+`registo_completo=0` marca a ficha que **não descarregou**. A linha é escrita na mesma
+(a presença no sitemap é um facto), mas fica assinalada.
+
+**Identidade em dois níveis** — sem isto, uma falha de rede gera eventos falsos:
+
+| Nível | Campo | Sempre disponível? | Serve para |
+|---|---|---|---|
+| Anúncio | `id` (do sitemap) | **Sim**, mesmo com ficha falhada | **Presença** |
+| Veículo | `matricula` (da ficha) | Só se a ficha descarregar | **Identidade**, sobrevive a reanúncio |
+
+A presença vem do `id`; a identidade vem da matrícula; `id`s que partilham matrícula são
+colapsados num único veículo (reanúncio). Um `id` cuja ficha nunca descarregou fica como
+veículo próprio, com `identidade_incerta=1`.
 
 ## Estado desta entrega (honesto)
 
@@ -101,7 +117,20 @@ Chave estável do veículo = **matrícula** (a ficha expõe-na); se faltar, usa-
 ## Limitações a declarar sempre
 
 - **Proxy ≠ venda.** Saída do stock pode ser venda, devolução, re-anúncio ou erro.
-- **`dias_listado_min` é limite inferior** — o carro pode ter entrado antes do 1º snapshot.
+- **A duração de listagem é censurada nos dois extremos.** `first_seen` é a 1ª recolha em
+  que o carro aparece, **não** a data de entrada no stand (censura à esquerda);
+  `last_seen` é a última vez que foi visto, **não** a data de saída (censura à direita).
+  A duração verdadeira está dentro de `[dias_listado_min, dias_listado_max]` — e a
+  largura desse intervalo é a cadência de recolha. Com recolha semanal, ±7 dias.
+- **Só `duracao_completa=1` tem duração medida.** Exige entrada **e** saída observadas.
+  Qualquer mediana calculada fora desse conjunto está enviesada duas vezes: pela censura
+  à esquerda e pela sobrevivência (os carros lentos ainda não saíram, logo não contam).
+  Por isso `_rotacao-por-distrito-marca.csv` **suprime a mediana** abaixo de n=5.
+- **Estado em 20/07/2026: 0 durações completas** em 214 veículos acompanhados
+  (21 com entrada observada, 6 com saída observada, nenhum com ambas).
+  **Nenhuma duração de listagem é hoje reportável.** O sinal utilizável é o preço.
+- **O preço é facto, não proxy.** `_precos-alteracoes.csv` não sofre censura nenhuma e
+  está utilizável desde a 2ª recolha. Um corte de preço antecede tipicamente a saída.
 - **Catchment** vem do campo "A MatosCar | Cidade" da ficha (com ou sem marca antes).
   Confirmado em 08/07/2026 para Beja, Guarda, Portalegre, Évora e Castelo Branco;
   distrito preenchido em ~100% do stock. Abrantes/Santarém = 0 viaturas.
