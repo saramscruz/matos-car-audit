@@ -23,6 +23,8 @@ def main():
     rows = list(csv.DictReader(io.StringIO(raw)))
     n = len(rows)
     print("Ficheiro: %s  |  %d viaturas\n" % (os.path.basename(files[-1]), n))
+    if n == 0:
+        print("Snapshot vazio (recolha falhada): nada a diagnosticar."); return
 
     print("=== COMPLETUDE POR CAMPO ===")
     for c in ["matricula","marca","modelo_versao","ano","combustivel","km","preco_eur","stand_cidade","distrito","data_matricula"]:

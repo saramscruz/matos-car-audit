@@ -25,6 +25,10 @@ REQUEST_TIMEOUT = 30
 # 5 tentativas (era 3) para aguentar melhor soluços de rede/DNS em corridas
 # nao-vigiadas (ex.: Wi-Fi a perder pacotes). Cada tentativa espera CRAWL_DELAY.
 MAX_RETRIES = 5
+# Indisponibilidade longa (20/10/2026: ~3 min de timeouts seguidos deitaram fora
+# o dia). Se o sitemap falhar, repete a ronda inteira depois de uma pausa longa.
+SITEMAP_RETRY_ROUNDS = 4
+SITEMAP_RETRY_WAIT_SECONDS = 600
 # User-agent identificável, com contacto (boa prática; é o site do cliente).
 USER_AGENT = "MatosCar-StockRadar/1.0 (analista: Sara Cruz; contacto: saramscruz@gmail.com)"
 

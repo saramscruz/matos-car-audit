@@ -159,6 +159,13 @@ def crawl_inventory(limit=None):
     que é enganosa (/carros-usados/2 devolve a mesma página 1).
     """
     xml = _get(C.SITEMAP_USED)
+    for ronda in range(1, C.SITEMAP_RETRY_ROUNDS + 1):
+        if xml:
+            break
+        print("  [aviso] sitemap indisponivel; nova ronda %d/%d daqui a %d s"
+              % (ronda, C.SITEMAP_RETRY_ROUNDS, C.SITEMAP_RETRY_WAIT_SECONDS), file=sys.stderr)
+        time.sleep(C.SITEMAP_RETRY_WAIT_SECONDS)
+        xml = _get(C.SITEMAP_USED)
     time.sleep(C.CRAWL_DELAY_SECONDS)
     if not xml:
         print("  [erro] não consegui obter o sitemap %s" % C.SITEMAP_USED, file=sys.stderr)
@@ -196,6 +203,9 @@ def main():
     print("A recolher inventário do sitemap %s ..." % C.SITEMAP_USED)
     inv = crawl_inventory(limit=args.limit)
     print("Inventário: %d anúncios." % len(inv))
+    if not inv:
+        print("[ERRO] inventário vazio: snapshot NÃO gravado (dia sem recolha).", file=sys.stderr)
+        sys.exit(1)
 
     rows = []
     falhadas = 0
